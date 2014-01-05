@@ -1,0 +1,39 @@
+<div id="contents">
+  <header>
+    <div class="container">
+      <open-external class="left" ng-attr-url="http://kutx.org/">
+        <img src="img/icon-web.png" width="16" height="16" alt="Web">Web
+      </open-external>
+      <div class="logo"><img src="img/kut-logo.png" width="61" height="37" alt="KUT logo" ></div>
+      <open-external class="right" ng-attr-url="http://kut.org/support-kut/">
+        <img src="img/icon-support.png" width="16" height="16" alt="Support">Support
+      </open-external>
+    </div>
+  </header>
+  <!-- <div class="station text-center">
+    <div class="container"> On Air: <strong>Evening Music</strong> </div>
+  </div> -->
+  <div class="logotype text-center">
+    <div class="container"> <img src="img/kutx-logo.png" width="201" height="105" alt="KUTX logo"> </div>
+  </div>
+  <div class="bottom">
+    <div class="song-artist text-center slider-animation" ng-show="showNotification" notification-console>
+      <div class="container"> 
+        <div class="error">{{ notification }}</div>
+      </div>
+    </div>
+    <div class="player">
+      <div class="container">
+        <!--<div class="player-inside"> <img src="img/icon-volume.png" width="20" height="20" alt="Volume" class="volume">
+					<slider floor="0" ceiling="100" step="1" ng-model="volume"></slider>
+           <div class="volume-bg">
+            <div class="volume-mark"> </div>
+            <div class="volume-button">
+              <div class="volume-button-detail"> </div>
+            </div>
+          </div>
+        </div> -->
+        <button class="button-player play" ng-disabled="!canplay" ng-click="player.playPause()" play-pause></button> </div>
+    </div>
+  </div>
+</div>

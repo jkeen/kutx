@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='utf-8'?>
+<widget id="edu.utexas.kut" version="0.0.1" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+    <name>KUTX 98.9</name>
+    <description>
+        KUTX Music 98.9 - Austin Music Experience
+    </description>
+    <author email="jp@tipit.net" href="http://www.tipit.net">
+        Tipit LLC
+    </author>
+    <content src="index.html" />
+    <access origin="*" />
+    <preference name="AutoHideSplashScreen" value="false" />
+    <preference name="DisallowOverscroll" value="true" />
+    <preference name="fullscreen" value="true" />
+    <preference name="webviewbounce" value="true" />
+</widget>
