@@ -51,6 +51,31 @@ angular.module('kutPlayer.services', []).
       })
     };
   }])
+  .factory('playlistService', ['$rootScope', '$http', function($rootScope, $http) {
+    return {
+      fetch: function() {
+        $rootScope.shows = [];
+        $http.get('https://api.composer.nprstations.org/v1/widget/50ef24ebe1c8a1369593d032/now?format=json')
+         .success(function(result) {
+            $rootScope.currentShow = result.onNow.program.name;
+            $rootScope.onNow = result.onNow;
+            $rootScope.nextUp = result.nextUp;
+            $http.get("https://api.composer.nprstations.org/v1/widget/50ef24ebe1c8a1369593d032/day?date=" + result.onNow.date + "&format=json")
+               .success(function(result) {
+                 var shows = []
+                 var foundNow = false;
+                 _.each(result.onToday, function(show) {
+                   if (!foundNow) 
+                   shows.push(show);
+                   if (show._id == $rootScope.onNow._id) foundNow = true;
+                 })
+                 
+                   $rootScope.shows = shows;
+                });
+            });
+        }
+      }
+    }])
   .factory('audioService', function () {
 
     var params = {

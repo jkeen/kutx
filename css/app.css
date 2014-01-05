@@ -33,7 +33,10 @@ header {
 	padding:3px 10px;
 	border-bottom:1px solid #363636;
 	box-shadow:0 1px 2px rgba(0, 0, 0, 0.7);
-	position:relative;
+	position:fixed;
+  top:0;
+  left:0;
+  right:0;
 }
 header .logo {
 	text-align:center;
@@ -51,6 +54,7 @@ header .right {
 /* Contents
 ---------------------------------------------------------- */
 #contents {
+  margin-top:50px;
 	background:url(../img/kutx-pattern.png) repeat;
 	background-size:313px 323px;
 }
@@ -67,7 +71,6 @@ header .right {
 }
 #contents .logotype {
 	min-height:138px;
-	padding-top:36px;
 }
 #contents .song-artist {
 	font-size:16px;
@@ -142,6 +145,124 @@ header .right {
 	background:#3b3b3c;
 	border-radius:90px;
 	box-shadow:inset 0 1px 0 rgba(0, 0, 0, 0.08), 0 1px 0 rgba(255, 255, 255, 0.24);
+}
+
+/* Tracks
+---------------------------------------------------------- */
+
+#contents .track {
+  text-align:left;
+  padding:10px 5px 15px 5px;
+  background-color:#FFF;
+  color: #3B3B3C;
+  font-family: "Helvetica Neue", Helvetica sans-serif;
+  font-size: 17px;
+  min-height:50px;
+  border-top:1px dotted #F6F6F6;
+  position:relative;
+}
+
+#contents .track .time {
+  position: absolute;
+  right: 4px;
+  top: -14px;
+  padding: 3px;
+  font-size: 10px;
+  color: #CCC;
+  background-color: #FFF;
+}
+
+#contents .artwork-container {
+  display:table-cell;
+  padding:5px 10px 5px 0px;
+  vertical-align:top;
+}
+#contents .info {
+  padding:5px 0;
+  display:table-cell;
+  vertical-align:top;
+}
+
+#contents .artwork {
+  display:block;
+  width:60px;
+  height:60px;
+  background-size:60px 60px;
+  background-position:top center;
+  background-repeat:no-repeat;
+  text-align:center;
+  position:relative;
+  vertical-align:middle;
+  border:1px solid #EEE;
+}
+
+#contents .artwork span.initials {
+  text-align:center;
+  margin-top: 21px;
+  display: inline-block;
+  font-size: 53px;
+  color: #FFF;
+  text-shadow: 0 0px 1px #DDD;
+}
+
+#contents .hasartwork .artwork span.initials {display:none;}
+
+#contents .show-playlist {
+  padding-top: 14px;
+  background-color: #FFF;
+}
+#contents .show-playlist.notracks {
+  display:none;
+}
+
+#contents .show {
+  text-align:left;
+  padding:15px 5px;
+  background-color:rgba(0,0,0,0.4);
+  color: #FFF;
+  font-family: "Helvetica Neue",Helvetica,sans-serif;
+  font-size: 17px;
+  min-height:70px;
+  background-size:cover;
+  border-bottom:1px solid #CCC;
+  
+}
+#contents .show .name {
+  font-size: 24px;
+  text-shadow:0 0 4px #111;
+  line-height:26px;
+  text-overflow: ellipsis;
+  font-weight: bold;
+  font-family: "futura-bold";
+  text-transform: uppercase;
+}
+#contents .show .time {
+  text-shadow:0 0 2px #333;
+  font-size:14px;
+}
+
+#contents .show.onair {
+  background-color:red;
+}
+#contents .show.onair:after {
+  content:"ON AIR";
+}
+
+#contents .track .name {
+  font-size: 15px;
+  text-overflow: ellipsis;
+  font-weight:bold;
+}
+
+#contents .track .desc {
+  font-size: 15px;
+  text-overflow: ellipsis;
+}
+
+#contents .track .collection {
+  font-style: italic;
+  color: rgb(154, 154, 154);
+  font-size: 12px;
 }
 
 /* Splash
@@ -297,7 +418,7 @@ html, body {
 	height: 100%;
 }
 
-.slider-animation.ng-hide-add,
+.slider-animation.e,
 .slider-animation.ng-hide-remove {
 	-webkit-transition:0.3s linear all;
 	-moz-transition:0.3s linear all;

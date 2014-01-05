@@ -10,11 +10,34 @@
       </open-external>
     </div>
   </header>
-  <!-- <div class="station text-center">
-    <div class="container"> On Air: <strong>Evening Music</strong> </div>
-  </div> -->
   <div class="logotype text-center">
-    <div class="container"> <img src="img/kutx-logo.png" width="201" height="105" alt="KUTX logo"> </div>
+    <div class="container" ng-controller="PlaylistCtrl">
+      <div class="playlist">
+        <div ng-repeat="show in shows | reverse" class="program" ng-class="{onair: show.__onAir}">
+          <div class="show" style="background-image: url({{ show | showBannerUrl }})">
+            <span class="name">{{ show.program.name }}</span>
+            <div class="time">{{show.start | amDateFormat:'dddd, MM/DD/YY, h:mm a'}}-{{show.end | amDateFormat:'h:mm a'}}</div>
+          </div>
+          <div class="show-playlist" ng-class="{notracks: !show.playlist}">
+            <div ng-repeat="track in show.playlist | reverse" class="track" ng-class="{hasartwork: !!track.artworkUrl60}">
+                <div class="time">{{track._start_time | amDateFormat:'h:mm a'}}</div>
+                <div class="artwork-container">
+                  <div class="artwork" style="background-image: url({{ track.artworkUrl60 }})">
+                    <span class="initials">{{track.artistName | initials}}</span>
+                  </div>
+                </div>
+                <div class="info">
+                  <div class="name">{{track.trackName}}</div>
+                  <div class="desc">{{track.artistName}}</div>
+                  <div class="collection">{{track.collectionName}}</div>
+                </div>
+            </div>
+          </div>
+          
+        </div>
+      </div>
+    
+    </div>
   </div>
   <div class="bottom">
     <div class="song-artist text-center slider-animation" ng-show="showNotification" notification-console>
@@ -24,16 +47,7 @@
     </div>
     <div class="player">
       <div class="container">
-        <!--<div class="player-inside"> <img src="img/icon-volume.png" width="20" height="20" alt="Volume" class="volume">
-					<slider floor="0" ceiling="100" step="1" ng-model="volume"></slider>
-           <div class="volume-bg">
-            <div class="volume-mark"> </div>
-            <div class="volume-button">
-              <div class="volume-button-detail"> </div>
-            </div>
-          </div>
-        </div> -->
         <button class="button-player play" ng-disabled="!canplay" ng-click="player.playPause()" play-pause></button> </div>
-    </div>
+      </div>
   </div>
 </div>

@@ -10,8 +10,13 @@ angular.module('kutPlayer.controllers', []).
         $location.path('/player');
       }, 1000);
     });
-  }])
-  .controller('PlayerCtrl', ['$scope', '$http', '$templateCache', '$timeout', 'notificationService', 'audioService', function ($scope, $http, $templateCache, $timeout, notificationService, audioService) {
+                                  }])
+    .controller('PlaylistCtrl', ['$scope', 'playlistService', function($scope, playlistService) {
+        $scope.playlist = playlistService;
+        $scope.playlist.fetch();
+    }])
+    
+    .controller('PlayerCtrl', ['$scope', '$http', '$templateCache', '$timeout', 'notificationService', 'audioService', function ($scope, $http, $templateCache, $timeout, notificationService, audioService) {
 
     $scope.canplay = false;
     $scope.player = audioService;
