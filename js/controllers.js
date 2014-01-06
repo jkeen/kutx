@@ -10,14 +10,18 @@ angular.module('kutPlayer.controllers', []).
         $location.path('/player');
       }, 1000);
     });
-                                  }])
-    .controller('PlaylistCtrl', ['$scope', 'playlistService', function($scope, playlistService) {
-        $scope.playlist = playlistService;
-        $scope.playlist.fetch();
-    }])
-    
-    .controller('PlayerCtrl', ['$scope', '$http', '$templateCache', '$timeout', 'notificationService', 'audioService', function ($scope, $http, $templateCache, $timeout, notificationService, audioService) {
+  }])
+  .controller('PlaylistCtrl', ['$scope', 'playlistService', function($scope, playlistService) {
+      $scope.playlist = playlistService;
 
+      $scope.playlist.fetch();
+  }])
+  
+  .controller('NavBarCtrl', ['$scope', function($scope) {
+    $scope.isCollapsed = true;
+  }])
+  
+  .controller('PlayerCtrl', ['$scope', '$http', '$templateCache', '$timeout', 'notificationService', 'audioService', function ($scope, $http, $templateCache, $timeout, notificationService, audioService) {
     $scope.canplay = false;
     $scope.player = audioService;
 
@@ -49,10 +53,11 @@ angular.module('kutPlayer.controllers', []).
     }, false);
 
 
-    $scope.player.on('pause', function () {
+    $scope.player.on('play', function () {
       console.log('play');
       $scope.$apply();
     });
+    
     $scope.player.on('canplay', function () {
       console.log('canplay');
       $scope.$apply(function() {
@@ -126,3 +131,15 @@ angular.module('kutPlayer.controllers', []).
       }
     });
   }]);
+  
+  // Hack to open links in external web browser instead of flaky internal one
+  $(document).on('click','a[rel=external]', function(e) {
+     e.preventDefault();
+     e.stopPropagation();
+     var elem = $(this);
+     var url = elem.attr('href');
+     if (url.indexOf('http://') !== -1) {
+         window.open(url, '_system');
+     }
+     return false;
+ });

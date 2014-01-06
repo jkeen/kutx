@@ -32,13 +32,13 @@ angular.module('kutPlayer.filters', []).
         return !!show.program.name.match(new RegExp(name, "i"))
       })
       
-      if (name) return ("../img/hosts/" + hostImages[name]);
+      if (name) return ("img/hosts/" + hostImages[name]);
        
       var defaults = ["soundboard.jpg", "antonesKUTXCrop.jpg", "awhq.jpg", "guitarfingers.png", "mirror.jpg", "notes.jpg", "radio.jpg"]
        
       var lastTwoOfId = parseInt(show.program.program_id.slice(-2), 10);
        
-      return ("../img/banners/" + defaults[lastTwoOfId % defaults.length]);
+      return ("img/banners/" + defaults[lastTwoOfId % defaults.length]);
     }
   })
   
@@ -157,8 +157,7 @@ angular.module('kutPlayer.filters', []).
 				value = new Date(parseInt(value, 10));
 			}
 			// else assume the given value is already a date
-
-			return $window.moment(value).format(format);
+			return $window.moment(Date.parse(value.replace(/-/g, '/'))).format(format);
 		};
 	}])
 	.filter('amDurationFormat', ['$window', function ($window) {

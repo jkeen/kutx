@@ -54,28 +54,41 @@ angular.module('kutPlayer.services', []).
   .factory('playlistService', ['$rootScope', '$http', function($rootScope, $http) {
     return {
       fetch: function() {
+        var _this = this;
         $rootScope.shows = [];
         $http.get('https://api.composer.nprstations.org/v1/widget/50ef24ebe1c8a1369593d032/now?format=json')
          .success(function(result) {
             $rootScope.currentShow = result.onNow.program.name;
             $rootScope.onNow = result.onNow;
             $rootScope.nextUp = result.nextUp;
-            $http.get("https://api.composer.nprstations.org/v1/widget/50ef24ebe1c8a1369593d032/day?date=" + result.onNow.date + "&format=json")
-               .success(function(result) {
-                 var shows = []
-                 var foundNow = false;
-                 _.each(result.onToday, function(show) {
-                   if (!foundNow) 
-                   shows.push(show);
-                   if (show._id == $rootScope.onNow._id) foundNow = true;
+            $rootScope.shows = [];
+            
+            _this.fetchByDate(result.onNow.date, function(dateResult) {
+              var shows = [];
+              var foundNow = false;
+              _.each(dateResult.onToday, function(show) {
+                if (!foundNow) shows.push(show);
+                if (show._id == $rootScope.onNow._id) foundNow = true;
+              })
+              
+              if (shows.length == 1) {
+                  var yesterday = new Date(new Date(result.onNow.date) - (24 * 60 * 60 * 100)).toJSON().slice(0,10)
+                
+                 _this.fetchByDate(yesterday, function(r) {
+                   $rootScope.shows = r.onToday.concat(shows);
                  })
-                 
-                   $rootScope.shows = shows;
-                });
-            });
-        }
+              }
+              else {
+                $rootScope.shows = shows;
+              }
+            })
+        })
+      },
+      fetchByDate: function(date, onSuccess) {
+        $http.get("https://api.composer.nprstations.org/v1/widget/50ef24ebe1c8a1369593d032/day?date=" + date + "&format=json").success(onSuccess);
       }
-    }])
+    }
+  }])
   .factory('audioService', function () {
 
     var params = {
