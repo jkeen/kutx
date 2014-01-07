@@ -13,8 +13,12 @@ angular.module('kutPlayer.controllers', []).
   }])
   .controller('PlaylistCtrl', ['$scope', 'playlistService', function($scope, playlistService) {
       $scope.playlist = playlistService;
+      $scope.addMoreItems = function() {
+        playlistService.addMoreItems.apply(playlistService)
+      }
 
       $scope.playlist.fetch();
+      // $scope.playlist.watch();
   }])
   
   .controller('NavBarCtrl', ['$scope', function($scope) {

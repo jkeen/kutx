@@ -34,7 +34,7 @@ angular.module('kutPlayer.filters', []).
       
       if (name) return ("img/hosts/" + hostImages[name]);
        
-      var defaults = ["soundboard.jpg", "antonesKUTXCrop.jpg", "awhq.jpg", "guitarfingers.png", "mirror.jpg", "notes.jpg", "radio.jpg"]
+      var defaults = ["radio.jpg", "soundboard.jpg", "guitarfingers.png", "antonesKUTXCrop.jpg", "awhq.jpg", "mirror.jpg", "notes.jpg", ]
        
       var lastTwoOfId = parseInt(show.program.program_id.slice(-2), 10);
        

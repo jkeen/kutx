@@ -18,11 +18,11 @@ body {
 h1, h2, h3, h4, h5, h6 {
 	color:#fff;
 }
-a {
-	color: #a3238e;
+header a {
+	color: #FFF;
 	text-decoration: none;
 }
-a:hover, a:focus {
+header a:hover, header a:focus {
 	color: #c92fb0;
 	text-decoration: underline;
 }
@@ -35,6 +35,11 @@ header .navbar{
 }
 header .navbar-brand {
   padding:0 10px;
+  margin-top:-3px;
+}
+
+header .navbar-header {
+  padding-top:3px;
 }
 
 header .navbar-brand img {
@@ -152,6 +157,17 @@ header .button-player {
 	background:url(../img/kutx-pattern.png) repeat;
 	background-size:313px 323px;
 }
+
+#contents .playlist {
+  position:fixed;
+  top:60px;
+  bottom:0;
+  left:0;
+  right:0;
+  overflow: scroll;
+  -webkit-overflow-scrolling: touch;
+}
+
 #contents .station {
 	font-size:16px;
 	color:#d9d9cb;
@@ -184,7 +200,7 @@ header .button-player {
 
 #contents .track {
   text-align:left;
-  padding:10px 5px 15px 5px;
+  padding:10px 5px 15px 8px;
   background-color:#FFF;
   color: #3B3B3C;
   font-family: "Helvetica Neue", Helvetica sans-serif;
@@ -197,7 +213,7 @@ header .button-player {
 #contents .track .time {
   position: absolute;
   right: 4px;
-  top: -14px;
+  top: -11px;
   padding: 3px;
   font-size: 10px;
   color: #CCC;
@@ -229,12 +245,13 @@ header .button-player {
 }
 
 #contents .artwork span.initials {
-  text-align:center;
+  text-align: center;
   margin-top: -10px;
   display: inline-block;
   font-size: 53px;
   color: #FFF;
   text-shadow: 0 0px 1px #DDD;
+  font-weight: bold;
 }
 
 #contents .hasartwork .artwork span.initials {display:none;}
@@ -257,7 +274,7 @@ header .button-player {
   border-bottom:1px solid #CCC; 
 }
 #contents .show .darken {
-  padding:15px 5px;
+  padding:15px 5px 15px 10px;
   background-color:rgba(0,0,0,0.3);
 }
 #contents .show .name {

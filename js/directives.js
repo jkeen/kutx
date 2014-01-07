@@ -9,6 +9,19 @@ angular.module('kutPlayer.directives', []).
       elm.text(version);
     };
   }])
+  
+  .directive('whenScrolled', function() {
+      return function(scope, elm, attr) {
+          var raw = elm[0];
+        
+          elm.bind('scroll', function() {
+              if (raw.scrollTop + raw.offsetHeight + 100 >= raw.scrollHeight) {
+                  scope.$apply(attr.whenScrolled);
+              }
+          });
+      };
+  })
+  
   // .directive("openExternal", ['$window', function ($window) {
   //   return{
   //     restrict: 'A',

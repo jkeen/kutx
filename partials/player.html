@@ -44,8 +44,8 @@
   </header>
   <div class="logotype text-center">
     <div class="container" ng-controller="PlaylistCtrl">
-      <div class="playlist">
-        <div ng-repeat="show in shows | reverse" class="program">
+      <div class="playlist" when-scrolled="addMoreItems()">
+        <div ng-repeat="show in pagedShows" class="program">
           <div class="show" style="background-image: url('{{ show | showBannerUrl }}');" ng-class="{onair: !!(show.program.start === onNow.start) }">
             <div class="darken">
               <span class="name">{{ show.program.name }}</span>
