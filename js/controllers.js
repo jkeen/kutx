@@ -11,14 +11,26 @@ angular.module('kutPlayer.controllers', []).
       }, 1000);
     });
   }])
-  .controller('PlaylistCtrl', ['$scope', 'playlistService', function($scope, playlistService) {
-      $scope.playlist = playlistService;
-      $scope.addMoreItems = function() {
-        playlistService.addMoreItems.apply(playlistService)
-      }
-
-      $scope.playlist.fetch();
-      // $scope.playlist.watch();
+  
+  .controller('PlaylistCtrl', ['$scope', '$timeout', 'playlistService', function($scope, $timeout, playlistService) {
+    $scope.playlist = playlistService;
+    $scope.addMoreItems = function() {
+      playlistService.loadMoreItems.call(playlistService, 3)
+    }
+    $scope.playlist.fetchItems();
+      
+      
+    // Function to replicate setInterval using $timeout service.
+    var _this = this;
+    $scope.intervalFunction = function(){
+      $timeout(function() {
+        $scope.playlist.fetchItems().then($scope.playlist.loadMoreItems);
+        $scope.intervalFunction();
+      }, 5000)
+    };
+      
+    // Kick off the interval
+    $scope.intervalFunction();
   }])
   
   .controller('NavBarCtrl', ['$scope', function($scope) {
