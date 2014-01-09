@@ -53,6 +53,7 @@ angular.module('kutPlayer.directives', []).
       }
     };
   }])
+  
   .directive('playPause', [function() {
     return {
       link: function(scope, element, attrs) {

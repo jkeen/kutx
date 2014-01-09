@@ -14,21 +14,22 @@ angular.module('kutPlayer.controllers', []).
   
   .controller('PlaylistCtrl', ['$scope', '$timeout', 'playlistService', function($scope, $timeout, playlistService) {
     $scope.playlist = playlistService;
-    $scope.addMoreItems = function() {
-      playlistService.loadMoreItems.call(playlistService, 3)
+    $scope.onScroll = function() {
+       _.bind(playlistService.loadMoreItems, playlistService)(3)
     }
-    $scope.playlist.fetchItems();
-      
+    $scope.playlist.fetchItems(true);
       
     // Function to replicate setInterval using $timeout service.
     var _this = this;
     $scope.intervalFunction = function(){
       $timeout(function() {
-        $scope.playlist.fetchItems().then($scope.playlist.loadMoreItems);
-        $scope.intervalFunction();
-      }, 5000)
+        $scope.playlist.fetchItems(true).then(function load(status) {
+          $scope.intervalFunction();
+          
+        });
+      }, 15000)
     };
-      
+    
     // Kick off the interval
     $scope.intervalFunction();
   }])

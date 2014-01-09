@@ -101,7 +101,7 @@ angular.module('kutPlayer.filters', []).
 				}
 				// else assume the given value is already a date
 
-				currentValue = value;
+				currentValue = Date.parse(value.replace(/-/g, '/'));
 				updateMoment();
 			});
 			

@@ -55,18 +55,19 @@ angular.module('kutPlayer.services', []).
     return {
       _friendlyDate: function(date) {
         //return new Date(date)
-        return new Date(date.replace('T', ' ').replace("-", "/"))
+        return new Date(date.replace('T', ' ').replace("-", "/"));
       },
       _oldestDate: function() {
-        return _.sortBy(Object.keys($rootScope.dates), function(d) { return new Date(d) })[0];
+        var _this = this;
+        return _.sortBy(Object.keys($rootScope.dates), function(d) { return new Date(_this._friendlyDate(d)); })[0];
       },
       _allShowsSortedByDate: function() {
         var shows = []
         _.each(Object.keys($rootScope.dates), function(date) {
-          shows = shows.concat($rootScope.dates[date].onToday)
+          shows = shows.concat($rootScope.dates[date].onToday);
         });
         
-        return _.sortBy(shows, function(show) { return new Date(show.start_utc) }).reverse();
+        return _.sortBy(shows, function(show) { return new Date(show.start_utc); }).reverse();
       },
       _nowIndex: function(nowPlaying, shows) {
         var index = 0;
@@ -82,41 +83,70 @@ angular.module('kutPlayer.services', []).
         return foundIndex;
       },
       loadMoreItems: function(itemCount) {
+        console.log("load more items = " + itemCount);
         var shows = this._allShowsSortedByDate();
         var nowIndex = this._nowIndex($rootScope.onNow, shows)
-
+       
         if (!itemCount) itemCount = 0;
-        if (!$rootScope.pagedShows) $rootScope.pagedShows = shows.slice(nowIndex, nowIndex + 3)
-        else {
-          $rootScope.pagedShows = $rootScope.pagedShows = shows.slice(nowIndex, nowIndex + $rootScope.pagedShows.length + itemCount)
+
+        if (!$rootScope.pagedShows) {
+          $rootScope.pagedShows = shows.slice(nowIndex, nowIndex + 3);
+          return;
+        }
+        
+        var currentShows = shows.slice(nowIndex, nowIndex + $rootScope.pagedShows.length + itemCount);
           
-          if (shows.length - $rootScope.pagedShows.length < 2) {
-            this.fetchByDate(this.yesterday(this._oldestDate())).then(this.loadMoreItems)
-          }
+        // Let's try not to touch the pagedShows object too much so it doesn't refresh everything.
+          
+        for (var i = 0; i < currentShows.length; i++) {
+          console.log("checking show " + i + " / " + currentShows.length);
+          if (($rootScope.pagedShows[i]) && (currentShows[i].start_utc == $rootScope.pagedShows[i].start_utc)) {
+            
+            var currentPlaylist = currentShows[i].playlist;
+            var visiblePlaylist = $rootScope.pagedShows[i].playlist;
+            // check if tracks are the same
+            if (currentPlaylist && currentPlaylist.length != visiblePlaylist.length)
+              for (var j = 0; j < currentPlaylist.length; j++) {
+                console.log("checking playlist " + j + " / " + currentShows.length)
+                
+                if (visiblePlaylist[j]._start_time != currentPlaylist[j]._start_time) {
+                  visiblePlaylist.splice(j, 0, currentPlaylist[j]);
+                }
+              }
+            }
+            else {
+              $rootScope.pagedShows.splice(i, 0, currentShows[i]);
+            }
+        }
+        
+        if (currentShows.length - $rootScope.pagedShows.length < 2) {
+          var _this = this;
+          this.fetchByDate(this.yesterday(this._oldestDate())); //.then( function(response) { _this.loadMoreItems(3) } );
         }
       },
-      fetchItems: function() {
+      fetchItems: function(loadList) {
         var _this = this;
         var promise = $http.get('https://api.composer.nprstations.org/v1/widget/50ef24ebe1c8a1369593d032/now?format=json')
         
         promise.success(function(result) {
             $rootScope.onNow = result.onNow;
             $rootScope.nextUp = result.nextUp;
-            $rootScope.dates = {}
-            _this.fetchByDate(result.onNow.date);
+            _this.fetchByDate(result.onNow.date, loadList);
         });
         
         return promise;
       },
-      fetchByDate: function(date) {
+      fetchByDate: function(date, loadList) {
         var _this = this;
-        $http.get("https://api.composer.nprstations.org/v1/widget/50ef24ebe1c8a1369593d032/day?date=" + date + "&format=json").success(function(dateResult) {
+        return $http.get("https://api.composer.nprstations.org/v1/widget/50ef24ebe1c8a1369593d032/day?date=" + date + "&format=json").success(function(dateResult) {
+          if (!$rootScope.dates) $rootScope.dates = {};
           $rootScope.dates[date] = dateResult;
-          _this.loadMoreItems();
+          
+          if (loadList) _this.loadMoreItems();
         });
       },
       yesterday: function(date) {
-        return new Date(new Date(date) - (24 * 60 * 60 * 100)).toJSON().slice(0,10)
+        return new Date(new Date(date) - (24 * 60 * 60 * 100)).toJSON().slice(0,10);
       }
     }
   }])

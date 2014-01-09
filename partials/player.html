@@ -44,7 +44,7 @@
   </header>
   <div class="logotype text-center">
     <div class="container" ng-controller="PlaylistCtrl">
-      <div class="playlist" when-scrolled="addMoreItems()">
+      <div class="playlist" when-scrolled="onScroll()">
         <div ng-repeat="show in pagedShows" class="program">
           <div class="show" style="background-image: url('{{ show | showBannerUrl }}');" ng-class="{onair: !!(show.program.start === onNow.start) }">
             <div class="darken">
