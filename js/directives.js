@@ -21,24 +21,6 @@ angular.module('kutPlayer.directives', []).
           });
       };
   })
-  
-  // .directive("openExternal", ['$window', function ($window) {
-  //   return{
-  //     restrict: 'A',
-  //     scope: {
-  //       exit: "&",
-  //       loadStart: "&",
-  //       loadStop: "&",
-  //       loadError: "&"
-  //     },
-  //     controller: function ($scope, $element, $attrs) {
-  //       inAppBrowser = $window.open($attrs.href, '_blank', 'location=yes');
-  //       if ($scope.exit instanceof Function) {
-  //         inAppBrowser.addEventListener('exit', wrappedFunction($scope.exit));
-  //       }
-  //     }
-  //   };
-  // }])
   .directive('notificationConsole', ['$timeout', function($timeout) {
     return {
       link: function(scope, element, attrs) {

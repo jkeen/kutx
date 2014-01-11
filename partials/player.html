@@ -1,6 +1,11 @@
 <div id="contents">
   <header class="container">
       <div class="navbar navbar-inverted navbar-fixed-top" role="navigation"  ng-controller="NavBarCtrl">
+        <div class="slider-animation" ng-show="showNotification" notification-console>
+          <div class="container"> 
+            <div class="error">{{ notification }}</div>
+          </div>
+        </div>
         <div class="navbar-header">
           <button type="button" class="navbar-toggle" ng-click="isCollapsed = !isCollapsed">
             <span class="sr-only">Toggle navigation</span>
@@ -49,7 +54,9 @@
           <div class="show" style="background-image: url('{{ show | showBannerUrl }}');" ng-class="{onair: !!(show.program.start === onNow.start) }">
             <div class="darken">
               <span class="name">{{ show.program.name }}</span>
-              <div class="time">{{ show.start | amDateFormat:'dddd, MM/DD/YY, h:mm a'}}-{{ show.end | amDateFormat:'h:mm a'}}</div>
+              <div class="time">{{ show.start | amDateFormat:'dddd, M/D/YY'}}</div>
+              <div class="time">{{ show.start | amDateFormat:'h:mm a'}}-{{ show.end | amDateFormat:'h:mm a'}}</div>
+              
             </div>
           </div>
           <div class="show-playlist" ng-class="{notracks: !show.playlist}">

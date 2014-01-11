@@ -241,7 +241,7 @@ header .button-player {
   text-align:center;
   position:relative;
   vertical-align:middle;
-  border:1px solid #EEE;
+  border:1px solid #DDD;
 }
 
 #contents .artwork span.initials {
@@ -250,8 +250,8 @@ header .button-player {
   display: inline-block;
   font-size: 53px;
   color: #FFF;
-  text-shadow: 0 0px 1px #DDD;
-  font-weight: bold;
+  text-shadow: 0 0px 1px #CCC;
+  font-weight: normal;
 }
 
 #contents .hasartwork .artwork span.initials {display:none;}
@@ -269,18 +269,20 @@ header .button-player {
   color: #FFF;
   font-family: "Helvetica Neue",Helvetica,sans-serif;
   font-size: 17px;
-  min-height:70px;
-  background-size:cover;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top center;
   border-bottom:1px solid #CCC; 
 }
 #contents .show .darken {
+  min-height:120px;
   padding:15px 5px 15px 10px;
   background-color:rgba(0,0,0,0.3);
 }
 #contents .show .name {
-  font-size: 24px;
+  font-size: 26px;
   text-shadow:0 0 4px #111;
-  line-height:26px;
+  line-height:28px;
   text-overflow: ellipsis;
   font-weight: bold;
   font-family: "futura-bold";
@@ -288,7 +290,7 @@ header .button-player {
 }
 #contents .show .time {
   text-shadow:0 0 2px #333;
-  font-size:14px;
+  font-size:16px;
 }
 
 #contents .show.onair {
@@ -318,8 +320,12 @@ header .button-player {
 /* Splash
 ---------------------------------------------------------- */
 .splash {
-	position:relative;    
+	position:relative;
 }
+.splash .background {
+	width:100%;
+}
+
 .splash .logo {
 	position:absolute;
 	top:44px;

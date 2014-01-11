@@ -48,7 +48,7 @@ angular.module('kutPlayer.controllers', []).
     $scope.sourceFetch = function() {
       $http({method: $scope.method, url: $scope.url, cache: $templateCache}).
         success(function(data, status) {
-          $scope.source = data.source;
+          $scope.source = "http://pubint.ic.llnwd.net/stream/pubint_kut2"; //data.source;
         }).
         error(function(data, status, headers, config) {
           $scope.source = 'http://pubint.ic.llnwd.net/stream/pubint_kut2';
@@ -98,12 +98,12 @@ angular.module('kutPlayer.controllers', []).
 
       if ($scope.online) {
         $scope.notification = 'Playback ended. Reconnecting to stream.';
-        //notificationService.alert('Playback has been stopped. Retrying...', 'Connection problems', 'Okey', null);
+        notificationService.alert('Playback has been stopped. Retrying...', 'Connection problems', 'Okey', null);
 
         $scope.player.load($scope.source);
-        $scope.player.play();
+        // $scope.player.play();
       } else {
-        //notificationService.alert('Playback has been stopped. Please retry.', 'Connection problems', 'Okey', null);
+        notificationService.alert('Playback has been stopped. Please retry.', 'Connection problems', 'Okey', null);
   
         $scope.canplay = false;
       }

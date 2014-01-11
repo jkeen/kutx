@@ -27,18 +27,99 @@ angular.module('kutPlayer.filters', []).
         "Laurie Gallardo": "lauriegallardo.jpg",
         "Jay Trachtenberg": "jaytrachtenberg.jpg"
       }
-       
-      var name = _.find(Object.keys(hostImages), function(name) {
-        return !!show.program.name.match(new RegExp(name, "i"))
-      })
       
-      if (name) return ("img/hosts/" + hostImages[name]);
-       
-      var defaults = ["radio.jpg", "soundboard.jpg", "guitarfingers.png", "antonesKUTXCrop.jpg", "awhq.jpg", "mirror.jpg", "notes.jpg", ]
-       
-      var lastTwoOfId = parseInt(show.program.program_id.slice(-2), 10);
-       
-      return ("img/banners/" + defaults[lastTwoOfId % defaults.length]);
+      var bannerImage;
+      
+      switch(show.program_id) {
+      case "50ef24f0e1c8a1369593d04b":  //  Conversations WC
+        bannerImage = "img/banners/radio.jpg";
+        break;
+      case "50ef24eee1c8a1369593d037":  //  Across the Water with Ed Miller
+        bannerImage = "img/banners/guitarfingers.jpg";
+        break;
+      case "50ef24f0e1c8a1369593d048":  //  Art Levy
+        bannerImage = "img/banners/radio.jpg";
+        break;
+      case "50ef24efe1c8a1369593d03e":  //  Audrey Morton
+        break;
+      case "523c5fb9a392b2d97000029c":  //  Austin Music Experience
+        bannerImage = "img/banners/austin1970s.jpg"
+        break;
+      case "50ef24efe1c8a1369593d038":  //  Eklektikos with Jody Denberg
+        bannerImage = "img/banners/mirror.jpg";
+        break;
+      case "50ef24f0e1c8a1369593d046":  //  Eklektikos with John Aielli
+        bannerImage = "img/hosts/johnaielli.jpg";
+        break;
+      case "50ef24efe1c8a1369593d039":  //  Folkways
+        bannerImage = "img/banners/notes.jpg";
+        break;
+      case "50ef24eee1c8a1369593d035":  //  Global Grooves with Michael Crockett
+        bannerImage = "img/banners/notes.jpg";
+        break;
+      case "50ef24efe1c8a1369593d03f":  //  Horizontes
+        bannerImage = "img/banners/notes.jpg";
+        break;
+      case "50ef24efe1c8a1369593d040":  //  Jay Trachtenberg
+        bannerImage = "img/hosts/jaytrachtenberg.jpg";
+        break;
+      case "50ef24f0e1c8a1369593d04a":  //  Jazz with Jay Trachtenberg
+        bannerImage = "img/hosts/jaytrachtenberg.jpg";
+        break;
+      case "50ef24efe1c8a1369593d041":  //  Jody Denberg
+        break;
+      case "50ef24efe1c8a1369593d03c":  //  John Parsons
+        break;
+      case "50ef24f0e1c8a1369593d051":  //  Kevin Connor
+        bannerImage = "img/banners/austin1970s.jpg";
+        break;
+      case "50ef24efe1c8a1369593d043":  //  KUTX Music Mix
+        bannerImage = "img/banners/antones.jpg";
+        break;
+      case "5217765eab64de9d5f000001":  //  KUTX Music Mix
+        bannerImage = "img/banners/antones.jpg";
+        break;
+      case "50ef24efe1c8a1369593d03d":  //  Left of the Dial
+        bannerImage = "img/banners/radio.jpg";
+        break;
+      case "50ef24eee1c8a1369593d033":  //  Matt Reilly
+        bannerImage = "img/banners/austin1970s.jpg";
+        break;
+      case "50ef24f0e1c8a1369593d04f":  //  Music Specials
+        bannerImage = "img/banners/tubas.jpg";
+        break;
+      case "51dc48acf0086c39430001f3":  //  Old School Dance Party w/ John E. Dee
+        bannerImage = "img/banners/awhq.jpg";
+        break;
+      case "50ef24f0e1c8a1369593d04d":  //  Rick McNulty
+        break;
+      case "50ef24efe1c8a1369593d03a":  //  Sound Opinions
+        bannerImage = "img/banners/soundboard.jpg";
+        break;
+      case "50ef24efe1c8a1369593d045":  //  Susan Castle
+        bannerImage = "img/hosts/susancastle.jpg";
+        break;
+      case "50ef24f0e1c8a1369593d049":  //  The KUTX Sunday Mix with Jody Denberg
+        break;
+      case "50ef24efe1c8a1369593d03b":  //  The Laurie Show
+        bannerImage = "img/hosts/lauriegallardo.jpg";
+        break;
+      case "50ef24f0e1c8a1369593d050":  //  Trina Quinn
+        break;
+      case "50ef24f0e1c8a1369593d04e":  //  Twine Time with Paul Ray
+        bannerImage = "img/hosts/paulray.jpg";
+        break;
+      case "50ef24efe1c8a1369593d042":  //  Undercurrents
+        break;
+      case "50ef24efe1c8a1369593d044":  //  World Cafe
+        break;
+      case "50ef24eee1c8a1369593d036":  //  World Music with Hayes McCauley
+        break;
+      }
+      
+      if (bannerImage) return bannerImage;
+      
+      return ("img/banners/shelf.png");
     }
   })
   
