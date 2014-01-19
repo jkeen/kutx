@@ -241,7 +241,7 @@ header .button-player {
   text-align:center;
   position:relative;
   vertical-align:middle;
-  border:1px solid #DDD;
+  border:1px solid #EEE;
 }
 
 #contents .artwork span.initials {
@@ -249,9 +249,9 @@ header .button-player {
   margin-top: -10px;
   display: inline-block;
   font-size: 53px;
-  color: #FFF;
+  color: #FDFDFD;
   text-shadow: 0 0px 1px #CCC;
-  font-weight: normal;
+  font-weight: bold;
 }
 
 #contents .hasartwork .artwork span.initials {display:none;}

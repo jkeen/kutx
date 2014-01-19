@@ -70,6 +70,15 @@ angular.module('kutPlayer.controllers', []).
     }, false);
 
 
+    $scope.playPause = function() {
+      if (!$scope.player.hasplayed) {
+        $scope.player.load($scope.source);
+        $scope.player.play();
+        $scope.player.hasplayed = true;
+      }
+      $scope.player.playPause();
+    }
+
     $scope.player.on('play', function () {
       console.log('play');
       $scope.$apply();
@@ -100,7 +109,7 @@ angular.module('kutPlayer.controllers', []).
         $scope.notification = 'Playback ended. Reconnecting to stream.';
         notificationService.alert('Playback has been stopped. Retrying...', 'Connection problems', 'Okey', null);
 
-        $scope.player.load($scope.source);
+        // $scope.player.load($scope.source);
         // $scope.player.play();
       } else {
         notificationService.alert('Playback has been stopped. Please retry.', 'Connection problems', 'Okey', null);
@@ -111,7 +120,7 @@ angular.module('kutPlayer.controllers', []).
     });
     $scope.player.on('error', function (error) {
       if ($scope.online) {
-        $scope.player.load($scope.source);
+        // $scope.player.load($scope.source);
       } else {
         $scope.canplay = false;
       }
@@ -126,7 +135,7 @@ angular.module('kutPlayer.controllers', []).
 
           $scope.notification = 'Device online. Reconnecting to stream.';
 
-          $scope.player.load($scope.source);
+          // $scope.player.load($scope.source);
           $scope.player.play();
         }
       } else {
@@ -143,7 +152,7 @@ angular.module('kutPlayer.controllers', []).
     $scope.$watch('source', function (new_value, old_value) {
       if (new_value) {
         console.log('source: '+new_value);
-        $scope.player.load(new_value);
+        // $scope.player.load(new_value);
         $scope.canplay = true;
       }
     });
