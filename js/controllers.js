@@ -17,21 +17,32 @@ angular.module('kutPlayer.controllers', []).
     $scope.onScroll = function() {
        _.bind(playlistService.loadMoreItems, playlistService)(3)
     }
-    $scope.playlist.fetchItems(true);
-      
-    // Function to replicate setInterval using $timeout service.
-    var _this = this;
-    $scope.intervalFunction = function(){
-      $timeout(function() {
-        $scope.playlist.fetchItems(true).then(function load(status) {
-          $scope.intervalFunction();
-          
-        });
-      }, 15000)
-    };
     
-    // Kick off the interval
-    $scope.intervalFunction();
+    $scope.fetchAndLoad = function() {
+      console.log('hello from fetch and load')
+      $scope.playlist.fetchItems(true).then(function load(status) {
+        $timeout($scope.fetchAndLoad, 10000);
+        $scope.playlist.loadMoreItems(0);
+      });
+    }
+    
+    $scope.fetchAndLoad();
+    
+    // var _this = this;
+    // $scope.intervalFunction = function(){
+    //   $timeout(fetchAndLoad, 10000);
+    // };
+    // 
+    
+
+    
+    // Function to replicate setInterval using $timeout service.
+
+    document.addEventListener("resume", function() {
+      $timeout.flush();
+      $scope.fetchAndLoad(); 
+    });
+    
   }])
   
   .controller('NavBarCtrl', ['$scope', function($scope) {
@@ -55,7 +66,6 @@ angular.module('kutPlayer.controllers', []).
         });
     }
     $scope.sourceFetch();
-
 
     $scope.online = navigator.onLine;
     document.addEventListener('offline', function () {
@@ -135,7 +145,7 @@ angular.module('kutPlayer.controllers', []).
 
           $scope.notification = 'Device online. Reconnecting to stream.';
 
-          // $scope.player.load($scope.source);
+          $scope.player.load($scope.source);
           $scope.player.play();
         }
       } else {

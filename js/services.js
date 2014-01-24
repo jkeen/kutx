@@ -62,12 +62,36 @@ angular.module('kutPlayer.services', []).
         return _.sortBy(Object.keys($rootScope.dates), function(d) { return new Date(_this._friendlyDate(d)); })[0];
       },
       _allShowsSortedByDate: function() {
-        var shows = []
+        var shows = [], today;
+                
         _.each(Object.keys($rootScope.dates), function(date) {
-          shows = shows.concat($rootScope.dates[date].onToday);
+          today = $rootScope.dates[date].onToday;
+          shows = shows.concat(today);
         });
         
-        return _.sortBy(shows, function(show) { return new Date(show.start_utc); }).reverse();
+        var sorted = _.sortBy(shows, function(show) { return new Date(show.start_utc); }).reverse();
+        var combined = [];
+        
+        for(var i = 0; i < sorted.length; i ++) {
+          if (sorted[i+1] && sorted[i].program_id === sorted[i+1].program_id) {
+            // adjacent shows
+            var playlist = sorted[i].playlist
+
+            if (sorted[i+1].playlist) {
+              sorted[i+1].playlist.concat(playlist);
+            }
+            else {
+              sorted[i+1].playlist = playlist
+            }
+            sorted[i+1].end = sorted[i].end;
+            
+          }
+          else {
+            combined.push(sorted[i]);
+          }
+        }
+        
+        return combined;
       },
       _nowIndex: function(nowPlaying, shows) {
         var index = 0;
@@ -84,6 +108,8 @@ angular.module('kutPlayer.services', []).
       },
       loadMoreItems: function(itemCount) {
         console.log("load more items = " + itemCount);
+        
+        if (!$rootScope.dates) return;
         var shows = this._allShowsSortedByDate();
         var nowIndex = this._nowIndex($rootScope.onNow, shows)
        
@@ -109,7 +135,7 @@ angular.module('kutPlayer.services', []).
               for (var j = 0; j < currentPlaylist.length; j++) {
                 console.log("checking playlist " + j + " / " + currentShows.length)
                 
-                if (visiblePlaylist[j]._start_time != currentPlaylist[j]._start_time) {
+                if (!visiblePlaylist[j] && currentPlaylist[j]) {
                   visiblePlaylist.splice(j, 0, currentPlaylist[j]);
                 }
               }
@@ -119,7 +145,7 @@ angular.module('kutPlayer.services', []).
             }
         }
         
-        if (currentShows.length - $rootScope.pagedShows.length < 2) {
+        if (currentShows.length - $rootScope.pagedShows.length < 2 && itemCount > 0) {
           var _this = this;
           this.fetchByDate(this.yesterday(this._oldestDate())); //.then( function(response) { _this.loadMoreItems(3) } );
         }
@@ -137,6 +163,7 @@ angular.module('kutPlayer.services', []).
         return promise;
       },
       fetchByDate: function(date, loadList) {
+        console.log("fetching date " + date);
         var _this = this;
         return $http.get("https://api.composer.nprstations.org/v1/widget/50ef24ebe1c8a1369593d032/day?date=" + date + "&format=json").success(function(dateResult) {
           if (!$rootScope.dates) $rootScope.dates = {};

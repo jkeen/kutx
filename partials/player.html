@@ -26,37 +26,24 @@
             <li>
               <a rel="external" ng-click="isCollapsed = true" target="_system" href="http://kutx.org/">Visit kutx.org</a>
             </li>
-            <!-- <li class="dropdown">
-              <a href="#" class="dropdown-toggle" data-toggle="dropdown">Dropdown <b class="caret"></b></a>
-              <ul class="dropdown-menu">
-                <li><a href="#">Action</a></li>
-                <li><a href="#">Another action</a></li>
-                <li><a href="#">Something else here</a></li>
-                <li class="divider"></li>
-                <li class="dropdown-header">Nav header</li>
-                <li><a href="#">Separated link</a></li>
-                <li><a href="#">One more separated link</a></li>
-              </ul>
-            </li>
-          </ul>
-          <ul class="nav navbar-nav navbar-right">
-            <li class="active"><a href="./">Default</a></li>
-            <li><a href="../navbar-static-top/">Static top</a></li>
-            <li><a href="../navbar-fixed-top/">Fixed top</a></li>
-          </ul> -->
-        </div><!--/.nav-collapse -->
+        </div>
       </div>
   </header>
-  <div class="logotype text-center">
+  <div class="text-center">
     <div class="container" ng-controller="PlaylistCtrl">
       <div class="playlist" when-scrolled="onScroll()">
+        
+        <div ng-hide="pagedShows.length > 0" class="loading-container">
+          <div class="loading">
+            <h2>Loading</h2>
+          </div>
+        </div>
         <div ng-repeat="show in pagedShows" class="program">
           <div class="show" style="background-image: url('{{ show | showBannerUrl }}');" ng-class="{onair: !!(show.program.start === onNow.start) }">
             <div class="darken">
               <span class="name">{{ show.program.name }}</span>
               <div class="time">{{ show.start | amDateFormat:'dddd, M/D/YY'}}</div>
               <div class="time">{{ show.start | amDateFormat:'h:mm a'}}-{{ show.end | amDateFormat:'h:mm a'}}</div>
-              
             </div>
           </div>
           <div class="show-playlist" ng-class="{notracks: !show.playlist}">

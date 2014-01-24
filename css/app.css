@@ -241,6 +241,7 @@ header .button-player {
   text-align:center;
   position:relative;
   vertical-align:middle;
+  background-color: #F5F5F5;
   border:1px solid #EEE;
 }
 
@@ -249,9 +250,10 @@ header .button-player {
   margin-top: -10px;
   display: inline-block;
   font-size: 53px;
-  color: #FDFDFD;
+  color: #FFF;
   text-shadow: 0 0px 1px #CCC;
   font-weight: bold;
+  text-transform:uppercase;
 }
 
 #contents .hasartwork .artwork span.initials {display:none;}
@@ -262,6 +264,36 @@ header .button-player {
 }
 #contents .show-playlist.notracks {
   display:none;
+}
+
+#contents .loading-container {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  text-align: center;
+  height: 100%;
+}
+
+#contents .loading-container:before {
+  content: '';
+  display: inline-block;
+  height: 100%;
+  vertical-align: middle;
+}
+
+#contents .loading {
+  display: inline-block;
+  vertical-align: middle;
+  text-align: left;
+}
+
+#contents .loading h2 {
+  font-size:30px;
+  margin:0;
+  font-family: "futura-bold";
+  text-transform: uppercase;
 }
 
 #contents .show {
