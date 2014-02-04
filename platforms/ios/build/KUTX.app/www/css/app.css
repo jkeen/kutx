@@ -1,0 +1,484 @@
+/* General styles
+---------------------------------------------------------- */
+* {
+   -moz-user-select: -moz-none;
+   -khtml-user-select: none;
+   -webkit-user-select: none;
+   -ms-user-select: none;
+   user-select: none;
+}
+
+html {
+	-webkit-font-smoothing: antialiased;
+	-webkit-tap-highlight-color:rgba(0,0,0,0);
+}
+body {
+	background-color: #2f2f30;
+}
+h1, h2, h3, h4, h5, h6 {
+	color:#fff;
+}
+header a {
+	color: #FFF;
+	text-decoration: none;
+}
+header a:hover, header a:focus {
+	color: #c92fb0;
+	text-decoration: underline;
+}
+/* Header
+---------------------------------------------------------- */
+
+
+header .navbar{
+	background:#2f2f30;
+	border-bottom:1px solid #363636;
+	box-shadow:0 1px 2px rgba(0, 0, 0, 0.7);
+}
+header .navbar-brand {
+  padding:0 10px;
+  margin-top:-3px;
+}
+
+header .navbar-header {
+  padding-top:3px;
+}
+
+header .navbar-brand img {
+  width:100px;
+}
+header .navbar {
+  padding: 10px 0;
+}
+
+header .navbar button {
+  border-radius:0;
+  text-transform: uppercase;
+  font-family: "futura-bold";
+}
+
+header .navbar .icon-bar {
+  display: block;
+  width: 22px;
+  height: 2px;
+  border-radius: 1px;
+  background-color:#FFF;
+}
+
+header .navbar-collapse {
+  box-shadow:none;
+}
+
+header .navbar-collapse ul {
+  border-top:1px dotted #CCC;
+}
+
+header .navbar-collapse ul a {
+  padding-left:10px;
+}
+
+header .btn {
+  padding:4px 12px
+}
+
+header .navbar-toggle {
+  margin:0px;
+  padding:10px;
+}
+
+header .left {
+	position:absolute;
+	left:10px;
+	top:7px;
+}
+header .right {
+	position:absolute;
+	right:10px;
+	top:7px;
+}
+
+/* Player buttons
+---------------------------------------------------------- */
+header .button-player {
+  float:right;
+}
+
+.button-player {
+  background: #a3238e;
+  border: 1px solid #510945;
+  text-transform: uppercase;
+  font-family: "futura-bold";
+  display: inline-block;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 18px;
+  padding-left:28px!important;
+  color: #FFF;
+  background-size:14px!important;
+  width:102px;
+}
+.button-player:hover {
+	background:#bf22a5;
+  color:#FFF;
+}
+.button-player.pause {
+  color:#FFF;
+	background:#a3238e url(../img/icon-pause.png) no-repeat 10px 9px;
+}
+.button-player.pause:disabled {
+	background:#666666 url(../img/icon-pause-disabled.png) no-repeat 10px 9px;
+	border:1px solid #333333;
+}
+.button-player.play {
+  color:#FFF;
+	background:#a3238e url(../img/icon-play.png) no-repeat 10px 9px;
+}
+.button-player.play:disabled {
+	background:#666666 url(../img/icon-play-disabled.png) no-repeat 10px 9px;
+	border:1px solid #333333;
+}
+.button-player.loading {
+  color:#FFF;
+	background:#a3238e url(../img/icon-loading.gif) no-repeat 10px 9px;
+}
+.button-player.loading:disabled {
+	background:#666666 url(../img/icon-play-disabled.png) no-repeat 10px 9px;
+	border:1px solid #333333;
+}
+
+
+/* Contents
+---------------------------------------------------------- */
+.container {
+  padding-left:0;
+  padding-right:0;
+}
+
+#contents {
+  margin-top:60px;
+	background:url(../img/kutx-pattern.png) repeat;
+	background-size:313px 323px;
+}
+
+#contents .playlist {
+  position:fixed;
+  top:60px;
+  bottom:0;
+  left:0;
+  right:0;
+  overflow: scroll;
+  -webkit-overflow-scrolling: touch;
+}
+
+#contents .station {
+	font-size:16px;
+	color:#d9d9cb;
+	background:rgba(0, 0, 0, 0.35);
+	min-height:44px;
+	line-height:44px;
+}
+#contents .station strong {
+	color:#fff;
+	text-transform:uppercase;
+}
+#contents .song-artist {
+	font-size:16px;
+	color:#fff;
+	background:rgba(0, 0, 0, 0.35);
+	min-height:62px;
+	padding-top:26px;
+}
+#contents .song-artist .song {
+	font-weight:bold;
+}
+#contents .error {
+	font-size:16px;
+	color:#fff;
+	padding-top:10px;
+}
+
+/* Tracks
+---------------------------------------------------------- */
+
+#contents .track {
+  text-align:left;
+  padding:10px 5px 15px 8px;
+  background-color:#FFF;
+  color: #3B3B3C;
+  font-family: "Helvetica Neue", Helvetica sans-serif;
+  font-size: 17px;
+  min-height:50px;
+  border-top:1px dotted #F6F6F6;
+  position:relative;
+}
+
+#contents .track .time {
+  position: absolute;
+  right: 4px;
+  top: -11px;
+  padding: 3px;
+  font-size: 10px;
+  color: #CCC;
+  background-color: #FFF;
+}
+
+#contents .artwork-container {
+  display:table-cell;
+  padding:5px 10px 5px 0px;
+  vertical-align:top;
+}
+#contents .info {
+  padding:5px 0;
+  display:table-cell;
+  vertical-align:top;
+}
+
+#contents .artwork {
+  display:block;
+  width:60px;
+  height:60px;
+  background-size:60px 60px;
+  background-position:top center;
+  background-repeat:no-repeat;
+  text-align:center;
+  position:relative;
+  vertical-align:middle;
+  background-color: #F5F5F5;
+  border:1px solid #EEE;
+}
+
+#contents .artwork span.initials {
+  text-align: center;
+  margin-top: -10px;
+  display: inline-block;
+  font-size: 53px;
+  color: #FFF;
+  text-shadow: 0 0px 1px #CCC;
+  font-weight: bold;
+  text-transform:uppercase;
+}
+
+#contents .hasartwork .artwork span.initials {display:none;}
+
+#contents .show-playlist {
+  padding-top: 14px;
+  background-color: #FFF;
+}
+#contents .show-playlist.notracks {
+  display:none;
+}
+
+#contents .loading-container {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  text-align: center;
+  height: 100%;
+}
+
+#contents .loading-container:before {
+  content: '';
+  display: inline-block;
+  height: 100%;
+  vertical-align: middle;
+}
+
+#contents .loading {
+  display: inline-block;
+  vertical-align: middle;
+  text-align: left;
+}
+
+#contents .loading h2 {
+  font-size:30px;
+  margin:0;
+  font-family: "futura-bold";
+  text-transform: uppercase;
+}
+
+#contents .show {
+  text-align:left;
+  color: #FFF;
+  font-family: "Helvetica Neue",Helvetica,sans-serif;
+  font-size: 17px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top center;
+  border-bottom:1px solid #CCC; 
+}
+#contents .show .darken {
+/*  min-height:120px;*/
+  padding:15px 5px 15px 10px;
+  background-color:rgba(0,0,0,0.3);
+}
+#contents .show .name {
+  font-size: 26px;
+  text-shadow:0 0 4px #111;
+  line-height:28px;
+  text-overflow: ellipsis;
+  font-weight: bold;
+  font-family: "futura-bold";
+  letter-spacing: -1px;
+  text-transform: uppercase;
+}
+#contents .show .time {
+  text-shadow:0 0 2px #333;
+  font-size:16px;
+}
+
+#contents .show.onair {
+  background-color:red;
+}
+#contents .show.onair:after {
+  content:"ON AIR";
+}
+
+#contents .track .name {
+  font-size: 15px;
+  text-overflow: ellipsis;
+  font-weight:bold;
+}
+
+#contents .track .desc {
+  font-size: 15px;
+  text-overflow: ellipsis;
+}
+
+#contents .track .collection {
+  font-style: italic;
+  color: rgb(154, 154, 154);
+  font-size: 12px;
+}
+
+/* Splash
+---------------------------------------------------------- */
+.splash {
+	position:relative;
+}
+.splash .background {
+	width:100%;
+}
+
+.splash .logo {
+	position:absolute;
+	top:44px;
+	left:0;
+}
+
+/* Ad
+---------------------------------------------------------- */
+.ad {
+	height:50px;
+	background:#e1e1ec;
+	line-height:50px;
+}
+/* Bottom
+---------------------------------------------------------- */
+
+html, body {
+   height:100%;
+}
+#contents {
+   min-height:100%;
+   position:relative;
+}
+.bottom {
+   position:absolute;
+   bottom:0;
+   width:100%;
+}
+
+/* Queries
+---------------------------------------------------------- */
+@media (max-width: 767px) {
+	body {
+		padding-right: 0px;
+		padding-left: 0px;
+	}
+}
+
+
+.fader-animation {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+}
+
+.fader-animation.ng-enter,
+.fader-animation.ng-leave {
+	transform: translate3d(0,0,0);
+	-webkit-transform: translate3d(0,0,0);
+	-webkit-perspective: 1000;
+	-webkit-backface-visibility: hidden;
+    -webkit-transition: all ease-in-out 0.5s;
+    -moz-transition: all ease-in-out 0.5s;
+    -o-transition: all ease-in-out 0.5s;
+    transition: all ease-in-out 0.5s;
+}
+
+.fader-animation.ng-enter {
+    -ms-opacity: 0;
+    opacity: 0;
+}
+
+.fader-animation.ng-enter.ng-enter-active {
+    -ms-opacity: 1;
+    opacity: 1;
+}
+
+.fader-animation.ng-leave {
+    -ms-opacity: 1;
+    opacity: 1;
+}
+.fader-animation.ng-leave.ng-leave-active {
+    -ms-opacity: 0;
+    opacity: 0;
+}
+
+ 
+.slider-animation {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+}
+
+.slider-animation.e,
+.slider-animation.ng-hide-remove {
+	-webkit-transition:0.3s linear all;
+	-moz-transition:0.3s linear all;
+	-o-transition:0.3s linear all;
+	transition:0.3s linear all;
+}
+
+/* When hiding an element */
+.slider-animation.ng-hide-add {
+	transform: translate3d(0,-88px,0);
+	-webkit-transform: translate3d(0,-88px,0);
+}
+.slider-animation.ng-hide-add.ng-hide-add-active {
+	transform: translate3d(0,0,0);
+	-webkit-transform: translate3d(0,0,0);
+}
+
+/* When showing an element */
+.slider-animation.ng-hide-remove {
+	transform: translate3d(0,0,0);
+	-webkit-transform: translate3d(0,0,0);
+
+	/* this needs to be here to make it visible during the animation
+	   since the .ng-hide class is already on the element rendering
+	   it as hidden. */
+	display:block!important;
+}
+.slider-animation,
+.slider-animation.ng-hide-remove.ng-hide-remove-active {
+	transform: translate3d(0,-88px,0);
+	-webkit-transform: translate3d(0,-88px,0);
+	-webkit-perspective: 1000;
+	-webkit-backface-visibility: hidden;
+}
+
+/*____  Preload Images  ____*/
+body:after{content:url(../img/splash.png) url(../img/splash-logo.png) url(../img/kutx-pattern.png) url(../img/icon-web.png) url(../img/icon-support.png) url(../img/icon-play.png) url(../img/icon-loading.gif) url(../img/icon-play.png); display:none;}

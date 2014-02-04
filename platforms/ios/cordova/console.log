@@ -1,0 +1,472 @@
+2014-01-19 10:43:24.710 KUTX[3157:80b] Multi-tasking -> Device: YES, App: YES
+2014-01-19 10:43:24.872 KUTX[3157:80b] Resetting plugins due to page load.
+2014-01-19 10:43:25.048 KUTX[3157:80b] Finished load of: file:///Users/jeff/Library/Application%20Support/iPhone%20Simulator/7.0.3-64/Applications/125F84D5-56D0-44C6-8CC6-5B9F3969121E/KUTX.app/www/index.html#/splash
+2014-01-19 11:08:37.911 KUTX[8425:80b] Multi-tasking -> Device: YES, App: YES
+2014-01-19 11:08:38.764 KUTX[8425:80b] [CDVTimer][splashscreen] 551.001966ms
+2014-01-19 11:08:38.765 KUTX[8425:80b] [CDVTimer][TotalPluginStartup] 551.429987ms
+2014-01-19 11:08:38.878 KUTX[8425:80b] Resetting plugins due to page load.
+2014-01-19 11:08:40.229 KUTX[8425:80b] Finished load of: file:///Users/jeff/Library/Application%20Support/iPhone%20Simulator/7.0.3/Applications/1B903E19-87F8-48F4-9D05-35B6DAC3726E/KUTX.app/www/index.html#/splash
+2014-01-24 15:39:12.312 KUTX[51904:80b] Multi-tasking -> Device: YES, App: YES
+2014-01-24 15:39:12.347 KUTX[51904:80b] [CDVTimer][splashscreen] 9.137988ms
+2014-01-24 15:39:12.347 KUTX[51904:80b] [CDVTimer][TotalPluginStartup] 9.930015ms
+2014-01-24 15:39:12.515 KUTX[51904:80b] Resetting plugins due to page load.
+2014-01-24 15:39:12.821 KUTX[51904:80b] Finished load of: file:///Users/jeff/Library/Application%20Support/iPhone%20Simulator/7.0.3/Applications/1B903E19-87F8-48F4-9D05-35B6DAC3726E/KUTX.app/www/index.html#/splash
+2014-01-24 15:39:13.801 KUTX[51904:80b] hello from fetch and load
+2014-01-24 15:39:13.840 KUTX[51904:80b] online
+2014-01-24 15:39:14.066 KUTX[51904:80b] source: http://pubint.ic.llnwd.net/stream/pubint_kut2
+2014-01-24 15:39:14.157 KUTX[51904:80b] fetching date 2014-01-24
+2014-01-24 15:39:14.157 KUTX[51904:80b] load more items = 0
+2014-01-24 15:39:14.433 KUTX[51904:80b] load more items = undefined
+2014-01-24 15:45:20.961 KUTX[54376:80b] Multi-tasking -> Device: YES, App: YES
+2014-01-24 15:45:20.993 KUTX[54376:80b] [CDVTimer][splashscreen] 8.028030ms
+2014-01-24 15:45:20.994 KUTX[54376:80b] [CDVTimer][TotalPluginStartup] 8.557022ms
+2014-01-24 15:45:21.112 KUTX[54376:80b] Resetting plugins due to page load.
+2014-01-24 15:45:21.351 KUTX[54376:80b] Finished load of: file:///Users/jeff/Library/Application%20Support/iPhone%20Simulator/7.0.3/Applications/1B903E19-87F8-48F4-9D05-35B6DAC3726E/KUTX.app/www/index.html#/splash
+2014-01-24 15:45:22.328 KUTX[54376:80b] hello from fetch and load
+2014-01-24 15:45:22.355 KUTX[54376:80b] online
+2014-01-24 15:45:23.067 KUTX[54376:80b] source: http://pubint.ic.llnwd.net/stream/pubint_kut2
+2014-01-24 15:45:23.190 KUTX[54376:80b] fetching date 2014-01-24
+2014-01-24 15:45:23.191 KUTX[54376:80b] load more items = 0
+2014-01-24 15:45:23.429 KUTX[54376:80b] load more items = undefined
+2014-01-24 15:45:33.194 KUTX[54376:80b] hello from fetch and load
+2014-01-24 15:45:33.256 KUTX[54376:80b] fetching date 2014-01-24
+2014-01-24 15:45:33.256 KUTX[54376:80b] load more items = 0
+2014-01-24 15:45:33.256 KUTX[54376:80b] checking show 0 / 3
+2014-01-24 15:45:33.256 KUTX[54376:80b] checking show 1 / 3
+2014-01-24 15:45:33.256 KUTX[54376:80b] checking show 2 / 3
+2014-01-24 15:45:33.337 KUTX[54376:80b] load more items = undefined
+2014-01-24 15:45:33.337 KUTX[54376:80b] checking show 0 / 3
+2014-01-24 15:45:33.338 KUTX[54376:80b] checking show 1 / 3
+2014-01-24 15:45:33.338 KUTX[54376:80b] checking show 2 / 3
+2014-01-24 15:45:43.257 KUTX[54376:80b] hello from fetch and load
+2014-01-24 15:45:43.329 KUTX[54376:80b] fetching date 2014-01-24
+2014-01-24 15:45:43.329 KUTX[54376:80b] load more items = 0
+2014-01-24 15:45:43.329 KUTX[54376:80b] checking show 0 / 3
+2014-01-24 15:45:43.329 KUTX[54376:80b] checking show 1 / 3
+2014-01-24 15:45:43.330 KUTX[54376:80b] checking show 2 / 3
+2014-01-24 15:45:43.411 KUTX[54376:80b] load more items = undefined
+2014-01-24 15:45:43.411 KUTX[54376:80b] checking show 0 / 3
+2014-01-24 15:45:43.412 KUTX[54376:80b] checking show 1 / 3
+2014-01-24 15:45:43.412 KUTX[54376:80b] checking show 2 / 3
+2014-01-24 15:45:53.330 KUTX[54376:80b] hello from fetch and load
+2014-01-24 15:45:53.398 KUTX[54376:80b] fetching date 2014-01-24
+2014-01-24 15:45:53.399 KUTX[54376:80b] load more items = 0
+2014-01-24 15:45:53.399 KUTX[54376:80b] checking show 0 / 3
+2014-01-24 15:45:53.399 KUTX[54376:80b] checking show 1 / 3
+2014-01-24 15:45:53.399 KUTX[54376:80b] checking show 2 / 3
+2014-01-24 15:45:53.469 KUTX[54376:80b] load more items = undefined
+2014-01-24 15:45:53.469 KUTX[54376:80b] checking show 0 / 3
+2014-01-24 15:45:53.469 KUTX[54376:80b] checking show 1 / 3
+2014-01-24 15:45:53.469 KUTX[54376:80b] checking show 2 / 3
+2014-01-24 15:46:03.399 KUTX[54376:80b] hello from fetch and load
+2014-01-24 15:46:03.491 KUTX[54376:80b] fetching date 2014-01-24
+2014-01-24 15:46:03.491 KUTX[54376:80b] load more items = 0
+2014-01-24 15:46:03.491 KUTX[54376:80b] checking show 0 / 3
+2014-01-24 15:46:03.492 KUTX[54376:80b] checking show 1 / 3
+2014-01-24 15:46:03.492 KUTX[54376:80b] checking show 2 / 3
+2014-01-24 15:46:03.556 KUTX[54376:80b] load more items = undefined
+2014-01-24 15:46:03.557 KUTX[54376:80b] checking show 0 / 3
+2014-01-24 15:46:03.557 KUTX[54376:80b] checking show 1 / 3
+2014-01-24 15:46:03.557 KUTX[54376:80b] checking show 2 / 3
+2014-01-24 15:46:13.492 KUTX[54376:80b] hello from fetch and load
+2014-01-24 15:46:13.600 KUTX[54376:80b] fetching date 2014-01-24
+2014-01-24 15:46:13.600 KUTX[54376:80b] load more items = 0
+2014-01-24 15:46:13.600 KUTX[54376:80b] checking show 0 / 3
+2014-01-24 15:46:13.601 KUTX[54376:80b] checking show 1 / 3
+2014-01-24 15:46:13.601 KUTX[54376:80b] checking show 2 / 3
+2014-01-24 15:46:13.678 KUTX[54376:80b] load more items = undefined
+2014-01-24 15:46:13.679 KUTX[54376:80b] checking show 0 / 3
+2014-01-24 15:46:13.679 KUTX[54376:80b] checking show 1 / 3
+2014-01-24 15:46:13.679 KUTX[54376:80b] checking show 2 / 3
+2014-01-24 15:46:23.602 KUTX[54376:80b] hello from fetch and load
+2014-01-24 15:46:23.669 KUTX[54376:80b] fetching date 2014-01-24
+2014-01-24 15:46:23.670 KUTX[54376:80b] load more items = 0
+2014-01-24 15:46:23.670 KUTX[54376:80b] checking show 0 / 3
+2014-01-24 15:46:23.670 KUTX[54376:80b] checking show 1 / 3
+2014-01-24 15:46:23.671 KUTX[54376:80b] checking show 2 / 3
+2014-01-24 15:46:23.754 KUTX[54376:80b] load more items = undefined
+2014-01-24 15:46:23.754 KUTX[54376:80b] checking show 0 / 3
+2014-01-24 15:46:23.754 KUTX[54376:80b] checking show 1 / 3
+2014-01-24 15:46:23.754 KUTX[54376:80b] checking show 2 / 3
+2014-01-24 15:46:33.671 KUTX[54376:80b] hello from fetch and load
+2014-01-24 15:46:34.178 KUTX[54376:80b] fetching date 2014-01-24
+2014-01-24 15:46:34.178 KUTX[54376:80b] load more items = 0
+2014-01-24 15:46:34.178 KUTX[54376:80b] checking show 0 / 3
+2014-01-24 15:46:34.179 KUTX[54376:80b] checking show 1 / 3
+2014-01-24 15:46:34.179 KUTX[54376:80b] checking show 2 / 3
+2014-01-24 15:46:34.682 KUTX[54376:80b] load more items = undefined
+2014-01-24 15:46:34.682 KUTX[54376:80b] checking show 0 / 3
+2014-01-24 15:46:34.682 KUTX[54376:80b] checking show 1 / 3
+2014-01-24 15:46:34.683 KUTX[54376:80b] checking show 2 / 3
+2014-01-24 15:46:53.969 KUTX[55016:80b] Multi-tasking -> Device: YES, App: YES
+2014-01-24 15:46:54.007 KUTX[55016:80b] [CDVTimer][splashscreen] 11.107981ms
+2014-01-24 15:46:54.007 KUTX[55016:80b] [CDVTimer][TotalPluginStartup] 11.798024ms
+2014-01-24 15:46:54.206 KUTX[55016:80b] Resetting plugins due to page load.
+2014-01-24 15:46:54.420 KUTX[55016:80b] Finished load of: file:///Users/jeff/Library/Application%20Support/iPhone%20Simulator/7.0.3/Applications/1B903E19-87F8-48F4-9D05-35B6DAC3726E/KUTX.app/www/index.html#/splash
+2014-01-24 15:46:55.390 KUTX[55016:80b] hello from fetch and load
+2014-01-24 15:46:55.415 KUTX[55016:80b] online
+2014-01-24 15:46:55.522 KUTX[55016:80b] source: http://pubint.ic.llnwd.net/stream/pubint_kut2
+2014-01-24 15:46:55.714 KUTX[55016:80b] fetching date 2014-01-24
+2014-01-24 15:46:55.714 KUTX[55016:80b] load more items = 0
+2014-01-24 15:46:55.934 KUTX[55016:80b] load more items = undefined
+2014-01-24 15:47:05.716 KUTX[55016:80b] hello from fetch and load
+2014-01-24 15:47:05.786 KUTX[55016:80b] fetching date 2014-01-24
+2014-01-24 15:47:05.786 KUTX[55016:80b] load more items = 0
+2014-01-24 15:47:05.786 KUTX[55016:80b] checking show 0 / 3
+2014-01-24 15:47:05.786 KUTX[55016:80b] checking show 1 / 3
+2014-01-24 15:47:05.787 KUTX[55016:80b] checking show 2 / 3
+2014-01-24 15:47:05.867 KUTX[55016:80b] load more items = undefined
+2014-01-24 15:47:05.867 KUTX[55016:80b] checking show 0 / 3
+2014-01-24 15:47:05.867 KUTX[55016:80b] checking show 1 / 3
+2014-01-24 15:47:05.868 KUTX[55016:80b] checking show 2 / 3
+2014-01-24 15:48:29.886 KUTX[55368:80b] Multi-tasking -> Device: YES, App: YES
+2014-01-24 15:48:29.918 KUTX[55368:80b] [CDVTimer][splashscreen] 9.491980ms
+2014-01-24 15:48:29.918 KUTX[55368:80b] [CDVTimer][TotalPluginStartup] 9.952009ms
+2014-01-24 15:48:30.025 KUTX[55368:80b] Resetting plugins due to page load.
+2014-01-24 15:48:30.265 KUTX[55368:80b] Finished load of: file:///Users/jeff/Library/Application%20Support/iPhone%20Simulator/7.0.3/Applications/1B903E19-87F8-48F4-9D05-35B6DAC3726E/KUTX.app/www/index.html#/splash
+2014-01-24 15:48:31.223 KUTX[55368:80b] hello from fetch and load
+2014-01-24 15:48:31.248 KUTX[55368:80b] online
+2014-01-24 15:48:31.570 KUTX[55368:80b] fetching date 2014-01-24
+2014-01-24 15:48:31.570 KUTX[55368:80b] load more items = 0
+2014-01-24 15:48:31.655 KUTX[55368:80b] source: http://pubint.ic.llnwd.net/stream/pubint_kut2
+2014-01-24 15:48:31.787 KUTX[55368:80b] load more items = undefined
+2014-01-24 15:49:08.890 KUTX[55732:80b] Multi-tasking -> Device: YES, App: YES
+2014-01-24 15:49:08.920 KUTX[55732:80b] [CDVTimer][splashscreen] 8.775055ms
+2014-01-24 15:49:08.921 KUTX[55732:80b] [CDVTimer][TotalPluginStartup] 9.227037ms
+2014-01-24 15:49:09.104 KUTX[55732:80b] Resetting plugins due to page load.
+2014-01-24 15:49:09.301 KUTX[55732:80b] Finished load of: file:///Users/jeff/Library/Application%20Support/iPhone%20Simulator/7.0.3/Applications/1B903E19-87F8-48F4-9D05-35B6DAC3726E/KUTX.app/www/index.html#/splash
+2014-01-24 15:49:10.274 KUTX[55732:80b] hello from fetch and load
+2014-01-24 15:49:10.300 KUTX[55732:80b] online
+2014-01-24 15:49:10.957 KUTX[55732:80b] source: http://pubint.ic.llnwd.net/stream/pubint_kut2
+2014-01-24 15:49:11.051 KUTX[55732:80b] fetching date 2014-01-24
+2014-01-24 15:49:11.051 KUTX[55732:80b] load more items = 0
+2014-01-24 15:49:11.246 KUTX[55732:80b] load more items = undefined
+2014-01-24 15:49:21.054 KUTX[55732:80b] hello from fetch and load
+2014-01-24 15:49:21.150 KUTX[55732:80b] fetching date 2014-01-24
+2014-01-24 15:49:21.151 KUTX[55732:80b] load more items = 0
+2014-01-24 15:49:21.151 KUTX[55732:80b] checking show 0 / 3
+2014-01-24 15:49:21.151 KUTX[55732:80b] checking show 1 / 3
+2014-01-24 15:49:21.151 KUTX[55732:80b] checking show 2 / 3
+2014-01-24 15:49:21.215 KUTX[55732:80b] load more items = undefined
+2014-01-24 15:49:21.215 KUTX[55732:80b] checking show 0 / 3
+2014-01-24 15:49:21.216 KUTX[55732:80b] checking show 1 / 3
+2014-01-24 15:49:21.216 KUTX[55732:80b] checking show 2 / 3
+2014-01-24 15:49:31.152 KUTX[55732:80b] hello from fetch and load
+2014-01-24 15:49:31.429 KUTX[55732:80b] fetching date 2014-01-24
+2014-01-24 15:49:31.429 KUTX[55732:80b] load more items = 0
+2014-01-24 15:49:31.429 KUTX[55732:80b] checking show 0 / 3
+2014-01-24 15:49:31.429 KUTX[55732:80b] checking show 1 / 3
+2014-01-24 15:49:31.430 KUTX[55732:80b] checking show 2 / 3
+2014-01-24 15:49:31.503 KUTX[55732:80b] load more items = undefined
+2014-01-24 15:49:31.503 KUTX[55732:80b] checking show 0 / 3
+2014-01-24 15:49:31.504 KUTX[55732:80b] checking show 1 / 3
+2014-01-24 15:49:31.504 KUTX[55732:80b] checking show 2 / 3
+2014-01-24 15:49:41.430 KUTX[55732:80b] hello from fetch and load
+2014-01-24 15:49:41.764 KUTX[55732:80b] fetching date 2014-01-24
+2014-01-24 15:49:41.764 KUTX[55732:80b] load more items = 0
+2014-01-24 15:49:41.764 KUTX[55732:80b] checking show 0 / 3
+2014-01-24 15:49:41.764 KUTX[55732:80b] checking show 1 / 3
+2014-01-24 15:49:41.765 KUTX[55732:80b] checking show 2 / 3
+2014-01-24 15:49:41.830 KUTX[55732:80b] load more items = undefined
+2014-01-24 15:49:41.831 KUTX[55732:80b] checking show 0 / 3
+2014-01-24 15:49:41.831 KUTX[55732:80b] checking show 1 / 3
+2014-01-24 15:49:41.831 KUTX[55732:80b] checking show 2 / 3
+2014-01-24 15:49:51.766 KUTX[55732:80b] hello from fetch and load
+2014-01-24 15:49:51.887 KUTX[55732:80b] fetching date 2014-01-24
+2014-01-24 15:49:51.888 KUTX[55732:80b] load more items = 0
+2014-01-24 15:49:51.888 KUTX[55732:80b] checking show 0 / 3
+2014-01-24 15:49:51.888 KUTX[55732:80b] checking show 1 / 3
+2014-01-24 15:49:51.888 KUTX[55732:80b] checking show 2 / 3
+2014-01-24 15:49:52.184 KUTX[55732:80b] load more items = undefined
+2014-01-24 15:49:52.184 KUTX[55732:80b] checking show 0 / 3
+2014-01-24 15:49:52.184 KUTX[55732:80b] checking show 1 / 3
+2014-01-24 15:49:52.184 KUTX[55732:80b] checking show 2 / 3
+2014-01-24 15:50:01.889 KUTX[55732:80b] hello from fetch and load
+2014-01-24 15:50:02.212 KUTX[55732:80b] fetching date 2014-01-24
+2014-01-24 15:50:02.212 KUTX[55732:80b] load more items = 0
+2014-01-24 15:50:02.212 KUTX[55732:80b] checking show 0 / 3
+2014-01-24 15:50:02.212 KUTX[55732:80b] checking show 1 / 3
+2014-01-24 15:50:02.213 KUTX[55732:80b] checking show 2 / 3
+2014-01-24 15:50:02.646 KUTX[55732:80b] load more items = undefined
+2014-01-24 15:50:02.646 KUTX[55732:80b] checking show 0 / 3
+2014-01-24 15:50:02.646 KUTX[55732:80b] checking show 1 / 3
+2014-01-24 15:50:02.646 KUTX[55732:80b] checking show 2 / 3
+2014-01-24 15:50:12.214 KUTX[55732:80b] hello from fetch and load
+2014-01-24 15:50:12.438 KUTX[55732:80b] fetching date 2014-01-24
+2014-01-24 15:50:12.438 KUTX[55732:80b] load more items = 0
+2014-01-24 15:50:12.438 KUTX[55732:80b] checking show 0 / 3
+2014-01-24 15:50:12.439 KUTX[55732:80b] checking show 1 / 3
+2014-01-24 15:50:12.439 KUTX[55732:80b] checking show 2 / 3
+2014-01-24 15:50:12.509 KUTX[55732:80b] load more items = undefined
+2014-01-24 15:50:12.509 KUTX[55732:80b] checking show 0 / 3
+2014-01-24 15:50:12.509 KUTX[55732:80b] checking show 1 / 3
+2014-01-24 15:50:12.509 KUTX[55732:80b] checking show 2 / 3
+2014-01-24 15:50:22.439 KUTX[55732:80b] hello from fetch and load
+2014-01-24 15:50:22.499 KUTX[55732:80b] fetching date 2014-01-24
+2014-01-24 15:50:22.499 KUTX[55732:80b] load more items = 0
+2014-01-24 15:50:22.499 KUTX[55732:80b] checking show 0 / 3
+2014-01-24 15:50:22.499 KUTX[55732:80b] checking show 1 / 3
+2014-01-24 15:50:22.500 KUTX[55732:80b] checking show 2 / 3
+2014-01-24 15:50:22.571 KUTX[55732:80b] load more items = undefined
+2014-01-24 15:50:22.571 KUTX[55732:80b] checking show 0 / 3
+2014-01-24 15:50:22.571 KUTX[55732:80b] checking show 1 / 3
+2014-01-24 15:50:22.571 KUTX[55732:80b] checking show 2 / 3
+2014-01-24 15:50:32.500 KUTX[55732:80b] hello from fetch and load
+2014-01-24 15:50:32.751 KUTX[55732:80b] fetching date 2014-01-24
+2014-01-24 15:50:32.752 KUTX[55732:80b] load more items = 0
+2014-01-24 15:50:32.752 KUTX[55732:80b] checking show 0 / 3
+2014-01-24 15:50:32.752 KUTX[55732:80b] checking show 1 / 3
+2014-01-24 15:50:32.752 KUTX[55732:80b] checking show 2 / 3
+2014-01-24 15:50:32.817 KUTX[55732:80b] load more items = undefined
+2014-01-24 15:50:32.817 KUTX[55732:80b] checking show 0 / 3
+2014-01-24 15:50:32.817 KUTX[55732:80b] checking show 1 / 3
+2014-01-24 15:50:32.817 KUTX[55732:80b] checking show 2 / 3
+2014-01-24 15:50:42.752 KUTX[55732:80b] hello from fetch and load
+2014-01-24 15:50:42.847 KUTX[55732:80b] fetching date 2014-01-24
+2014-01-24 15:50:42.847 KUTX[55732:80b] load more items = 0
+2014-01-24 15:50:42.847 KUTX[55732:80b] checking show 0 / 3
+2014-01-24 15:50:42.847 KUTX[55732:80b] checking show 1 / 3
+2014-01-24 15:50:42.848 KUTX[55732:80b] checking show 2 / 3
+2014-01-24 15:50:42.935 KUTX[55732:80b] load more items = undefined
+2014-01-24 15:50:42.935 KUTX[55732:80b] checking show 0 / 3
+2014-01-24 15:50:42.935 KUTX[55732:80b] checking show 1 / 3
+2014-01-24 15:50:42.936 KUTX[55732:80b] checking show 2 / 3
+2014-01-24 15:50:52.848 KUTX[55732:80b] hello from fetch and load
+2014-01-24 15:50:52.920 KUTX[55732:80b] fetching date 2014-01-24
+2014-01-24 15:50:52.920 KUTX[55732:80b] load more items = 0
+2014-01-24 15:50:52.920 KUTX[55732:80b] checking show 0 / 3
+2014-01-24 15:50:52.920 KUTX[55732:80b] checking show 1 / 3
+2014-01-24 15:50:52.920 KUTX[55732:80b] checking show 2 / 3
+2014-01-24 15:50:53.005 KUTX[55732:80b] load more items = undefined
+2014-01-24 15:50:53.005 KUTX[55732:80b] checking show 0 / 3
+2014-01-24 15:50:53.005 KUTX[55732:80b] checking show 1 / 3
+2014-01-24 15:50:53.005 KUTX[55732:80b] checking show 2 / 3
+2014-01-24 15:51:02.921 KUTX[55732:80b] hello from fetch and load
+2014-01-24 15:51:02.997 KUTX[55732:80b] fetching date 2014-01-24
+2014-01-24 15:51:02.997 KUTX[55732:80b] load more items = 0
+2014-01-24 15:51:02.997 KUTX[55732:80b] checking show 0 / 3
+2014-01-24 15:51:02.997 KUTX[55732:80b] checking show 1 / 3
+2014-01-24 15:51:02.997 KUTX[55732:80b] checking show 2 / 3
+2014-01-24 15:51:03.060 KUTX[55732:80b] load more items = undefined
+2014-01-24 15:51:03.060 KUTX[55732:80b] checking show 0 / 3
+2014-01-24 15:51:03.061 KUTX[55732:80b] checking show 1 / 3
+2014-01-24 15:51:03.061 KUTX[55732:80b] checking show 2 / 3
+2014-01-24 15:51:12.998 KUTX[55732:80b] hello from fetch and load
+2014-01-24 15:51:13.067 KUTX[55732:80b] fetching date 2014-01-24
+2014-01-24 15:51:13.067 KUTX[55732:80b] load more items = 0
+2014-01-24 15:51:13.067 KUTX[55732:80b] checking show 0 / 3
+2014-01-24 15:51:13.067 KUTX[55732:80b] checking show 1 / 3
+2014-01-24 15:51:13.067 KUTX[55732:80b] checking show 2 / 3
+2014-01-24 15:51:13.142 KUTX[55732:80b] load more items = undefined
+2014-01-24 15:51:13.142 KUTX[55732:80b] checking show 0 / 3
+2014-01-24 15:51:13.142 KUTX[55732:80b] checking show 1 / 3
+2014-01-24 15:51:13.142 KUTX[55732:80b] checking show 2 / 3
+2014-01-24 15:51:23.069 KUTX[55732:80b] hello from fetch and load
+2014-01-24 15:51:23.143 KUTX[55732:80b] fetching date 2014-01-24
+2014-01-24 15:51:23.143 KUTX[55732:80b] load more items = 0
+2014-01-24 15:51:23.143 KUTX[55732:80b] checking show 0 / 3
+2014-01-24 15:51:23.143 KUTX[55732:80b] checking show 1 / 3
+2014-01-24 15:51:23.144 KUTX[55732:80b] checking show 2 / 3
+2014-01-24 15:51:23.213 KUTX[55732:80b] load more items = undefined
+2014-01-24 15:51:23.214 KUTX[55732:80b] checking show 0 / 3
+2014-01-24 15:51:23.214 KUTX[55732:80b] checking show 1 / 3
+2014-01-24 15:51:23.214 KUTX[55732:80b] checking show 2 / 3
+2014-01-24 15:51:33.145 KUTX[55732:80b] hello from fetch and load
+2014-01-24 15:51:33.215 KUTX[55732:80b] fetching date 2014-01-24
+2014-01-24 15:51:33.215 KUTX[55732:80b] load more items = 0
+2014-01-24 15:51:33.216 KUTX[55732:80b] checking show 0 / 3
+2014-01-24 15:51:33.216 KUTX[55732:80b] checking show 1 / 3
+2014-01-24 15:51:33.216 KUTX[55732:80b] checking show 2 / 3
+2014-01-24 15:51:33.424 KUTX[55732:80b] load more items = undefined
+2014-01-24 15:51:33.424 KUTX[55732:80b] checking show 0 / 3
+2014-01-24 15:51:33.424 KUTX[55732:80b] checking playlist 0 / 3
+2014-01-24 15:51:33.425 KUTX[55732:80b] checking playlist 1 / 3
+2014-01-24 15:51:33.425 KUTX[55732:80b] checking playlist 2 / 3
+2014-01-24 15:51:33.425 KUTX[55732:80b] checking playlist 3 / 3
+2014-01-24 15:51:33.425 KUTX[55732:80b] checking playlist 4 / 3
+2014-01-24 15:51:33.425 KUTX[55732:80b] checking playlist 5 / 3
+2014-01-24 15:51:33.425 KUTX[55732:80b] checking playlist 6 / 3
+2014-01-24 15:51:33.425 KUTX[55732:80b] checking playlist 7 / 3
+2014-01-24 15:51:33.426 KUTX[55732:80b] checking playlist 8 / 3
+2014-01-24 15:51:33.426 KUTX[55732:80b] checking playlist 9 / 3
+2014-01-24 15:51:33.426 KUTX[55732:80b] checking playlist 10 / 3
+2014-01-24 15:51:33.426 KUTX[55732:80b] checking playlist 11 / 3
+2014-01-24 15:51:33.426 KUTX[55732:80b] checking playlist 12 / 3
+2014-01-24 15:51:33.426 KUTX[55732:80b] checking playlist 13 / 3
+2014-01-24 15:51:33.427 KUTX[55732:80b] checking playlist 14 / 3
+2014-01-24 15:51:33.427 KUTX[55732:80b] checking playlist 15 / 3
+2014-01-24 15:51:33.427 KUTX[55732:80b] checking playlist 16 / 3
+2014-01-24 15:51:33.427 KUTX[55732:80b] checking playlist 17 / 3
+2014-01-24 15:51:33.427 KUTX[55732:80b] checking playlist 18 / 3
+2014-01-24 15:51:33.427 KUTX[55732:80b] checking playlist 19 / 3
+2014-01-24 15:51:33.427 KUTX[55732:80b] checking playlist 20 / 3
+2014-01-24 15:51:33.428 KUTX[55732:80b] checking playlist 21 / 3
+2014-01-24 15:51:33.428 KUTX[55732:80b] checking playlist 22 / 3
+2014-01-24 15:51:33.428 KUTX[55732:80b] checking playlist 23 / 3
+2014-01-24 15:51:33.428 KUTX[55732:80b] checking playlist 24 / 3
+2014-01-24 15:51:33.428 KUTX[55732:80b] checking playlist 25 / 3
+2014-01-24 15:51:33.428 KUTX[55732:80b] checking playlist 26 / 3
+2014-01-24 15:51:33.429 KUTX[55732:80b] checking playlist 27 / 3
+2014-01-24 15:51:33.429 KUTX[55732:80b] checking playlist 28 / 3
+2014-01-24 15:51:33.429 KUTX[55732:80b] checking playlist 29 / 3
+2014-01-24 15:51:33.429 KUTX[55732:80b] checking playlist 30 / 3
+2014-01-24 15:51:33.429 KUTX[55732:80b] checking playlist 31 / 3
+2014-01-24 15:51:33.429 KUTX[55732:80b] checking playlist 32 / 3
+2014-01-24 15:51:33.429 KUTX[55732:80b] checking playlist 33 / 3
+2014-01-24 15:51:33.430 KUTX[55732:80b] checking playlist 34 / 3
+2014-01-24 15:51:33.430 KUTX[55732:80b] checking playlist 35 / 3
+2014-01-24 15:51:33.430 KUTX[55732:80b] checking playlist 36 / 3
+2014-01-24 15:51:33.430 KUTX[55732:80b] checking playlist 37 / 3
+2014-01-24 15:51:33.430 KUTX[55732:80b] checking show 1 / 3
+2014-01-24 15:51:33.430 KUTX[55732:80b] checking show 2 / 3
+2014-01-24 15:51:43.217 KUTX[55732:80b] hello from fetch and load
+2014-01-24 15:51:43.290 KUTX[55732:80b] fetching date 2014-01-24
+2014-01-24 15:51:43.291 KUTX[55732:80b] load more items = 0
+2014-01-24 15:51:43.291 KUTX[55732:80b] checking show 0 / 3
+2014-01-24 15:51:43.291 KUTX[55732:80b] checking show 1 / 3
+2014-01-24 15:51:43.291 KUTX[55732:80b] checking show 2 / 3
+2014-01-24 15:51:43.437 KUTX[55732:80b] load more items = undefined
+2014-01-24 15:51:43.437 KUTX[55732:80b] checking show 0 / 3
+2014-01-24 15:51:43.437 KUTX[55732:80b] checking playlist 0 / 3
+2014-01-24 15:51:43.438 KUTX[55732:80b] checking playlist 1 / 3
+2014-01-24 15:51:43.438 KUTX[55732:80b] checking playlist 2 / 3
+2014-01-24 15:51:43.438 KUTX[55732:80b] checking playlist 3 / 3
+2014-01-24 15:51:43.438 KUTX[55732:80b] checking playlist 4 / 3
+2014-01-24 15:51:43.439 KUTX[55732:80b] checking playlist 5 / 3
+2014-01-24 15:51:43.439 KUTX[55732:80b] checking playlist 6 / 3
+2014-01-24 15:51:43.439 KUTX[55732:80b] checking playlist 7 / 3
+2014-01-24 15:51:43.439 KUTX[55732:80b] checking playlist 8 / 3
+2014-01-24 15:51:43.440 KUTX[55732:80b] checking playlist 9 / 3
+2014-01-24 15:51:43.440 KUTX[55732:80b] checking playlist 10 / 3
+2014-01-24 15:51:43.440 KUTX[55732:80b] checking playlist 11 / 3
+2014-01-24 15:51:43.440 KUTX[55732:80b] checking playlist 12 / 3
+2014-01-24 15:51:43.441 KUTX[55732:80b] checking playlist 13 / 3
+2014-01-24 15:51:43.441 KUTX[55732:80b] checking playlist 14 / 3
+2014-01-24 15:51:43.441 KUTX[55732:80b] checking playlist 15 / 3
+2014-01-24 15:51:43.442 KUTX[55732:80b] checking playlist 16 / 3
+2014-01-24 15:51:43.442 KUTX[55732:80b] checking playlist 17 / 3
+2014-01-24 15:51:43.442 KUTX[55732:80b] checking playlist 18 / 3
+2014-01-24 15:51:43.442 KUTX[55732:80b] checking playlist 19 / 3
+2014-01-24 15:51:43.443 KUTX[55732:80b] checking playlist 20 / 3
+2014-01-24 15:51:43.443 KUTX[55732:80b] checking playlist 21 / 3
+2014-01-24 15:51:43.443 KUTX[55732:80b] checking playlist 22 / 3
+2014-01-24 15:51:43.443 KUTX[55732:80b] checking playlist 23 / 3
+2014-01-24 15:51:43.444 KUTX[55732:80b] checking playlist 24 / 3
+2014-01-24 15:51:43.444 KUTX[55732:80b] checking playlist 25 / 3
+2014-01-24 15:51:43.444 KUTX[55732:80b] checking playlist 26 / 3
+2014-01-24 15:51:43.444 KUTX[55732:80b] checking playlist 27 / 3
+2014-01-24 15:51:43.445 KUTX[55732:80b] checking playlist 28 / 3
+2014-01-24 15:51:43.445 KUTX[55732:80b] checking playlist 29 / 3
+2014-01-24 15:51:43.445 KUTX[55732:80b] checking playlist 30 / 3
+2014-01-24 15:51:43.445 KUTX[55732:80b] checking playlist 31 / 3
+2014-01-24 15:51:43.446 KUTX[55732:80b] checking playlist 32 / 3
+2014-01-24 15:51:43.446 KUTX[55732:80b] checking playlist 33 / 3
+2014-01-24 15:51:43.446 KUTX[55732:80b] checking playlist 34 / 3
+2014-01-24 15:51:43.446 KUTX[55732:80b] checking playlist 35 / 3
+2014-01-24 15:51:43.447 KUTX[55732:80b] checking playlist 36 / 3
+2014-01-24 15:51:43.447 KUTX[55732:80b] checking show 1 / 3
+2014-01-24 15:51:43.447 KUTX[55732:80b] checking show 2 / 3
+2014-01-24 15:51:53.292 KUTX[55732:80b] hello from fetch and load
+2014-01-24 15:51:53.356 KUTX[55732:80b] fetching date 2014-01-24
+2014-01-24 15:51:53.356 KUTX[55732:80b] load more items = 0
+2014-01-24 15:51:53.357 KUTX[55732:80b] checking show 0 / 3
+2014-01-24 15:51:53.357 KUTX[55732:80b] checking playlist 0 / 3
+2014-01-24 15:51:53.357 KUTX[55732:80b] checking playlist 1 / 3
+2014-01-24 15:51:53.357 KUTX[55732:80b] checking playlist 2 / 3
+2014-01-24 15:51:53.358 KUTX[55732:80b] checking playlist 3 / 3
+2014-01-24 15:51:53.358 KUTX[55732:80b] checking playlist 4 / 3
+2014-01-24 15:51:53.358 KUTX[55732:80b] checking playlist 5 / 3
+2014-01-24 15:51:53.359 KUTX[55732:80b] checking playlist 6 / 3
+2014-01-24 15:51:53.359 KUTX[55732:80b] checking playlist 7 / 3
+2014-01-24 15:51:53.359 KUTX[55732:80b] checking playlist 8 / 3
+2014-01-24 15:51:53.359 KUTX[55732:80b] checking playlist 9 / 3
+2014-01-24 15:51:53.360 KUTX[55732:80b] checking playlist 10 / 3
+2014-01-24 15:51:53.360 KUTX[55732:80b] checking playlist 11 / 3
+2014-01-24 15:51:53.360 KUTX[55732:80b] checking playlist 12 / 3
+2014-01-24 15:51:53.360 KUTX[55732:80b] checking playlist 13 / 3
+2014-01-24 15:51:53.361 KUTX[55732:80b] checking playlist 14 / 3
+2014-01-24 15:51:53.361 KUTX[55732:80b] checking playlist 15 / 3
+2014-01-24 15:51:53.361 KUTX[55732:80b] checking playlist 16 / 3
+2014-01-24 15:51:53.361 KUTX[55732:80b] checking playlist 17 / 3
+2014-01-24 15:51:53.362 KUTX[55732:80b] checking playlist 18 / 3
+2014-01-24 15:51:53.362 KUTX[55732:80b] checking playlist 19 / 3
+2014-01-24 15:51:53.362 KUTX[55732:80b] checking playlist 20 / 3
+2014-01-24 15:51:53.362 KUTX[55732:80b] checking playlist 21 / 3
+2014-01-24 15:51:53.363 KUTX[55732:80b] checking playlist 22 / 3
+2014-01-24 15:51:53.363 KUTX[55732:80b] checking playlist 23 / 3
+2014-01-24 15:51:53.363 KUTX[55732:80b] checking playlist 24 / 3
+2014-01-24 15:51:53.363 KUTX[55732:80b] checking playlist 25 / 3
+2014-01-24 15:51:53.364 KUTX[55732:80b] checking playlist 26 / 3
+2014-01-24 15:51:53.364 KUTX[55732:80b] checking playlist 27 / 3
+2014-01-24 15:51:53.364 KUTX[55732:80b] checking playlist 28 / 3
+2014-01-24 15:51:53.364 KUTX[55732:80b] checking playlist 29 / 3
+2014-01-24 15:51:53.365 KUTX[55732:80b] checking playlist 30 / 3
+2014-01-24 15:51:53.365 KUTX[55732:80b] checking playlist 31 / 3
+2014-01-24 15:51:53.365 KUTX[55732:80b] checking playlist 32 / 3
+2014-01-24 15:51:53.365 KUTX[55732:80b] checking playlist 33 / 3
+2014-01-24 15:51:53.365 KUTX[55732:80b] checking playlist 34 / 3
+2014-01-24 15:51:53.365 KUTX[55732:80b] checking playlist 35 / 3
+2014-01-24 15:51:53.365 KUTX[55732:80b] checking playlist 36 / 3
+2014-01-24 15:51:53.366 KUTX[55732:80b] checking show 1 / 3
+2014-01-24 15:51:53.366 KUTX[55732:80b] checking show 2 / 3
+2014-01-24 15:51:53.500 KUTX[55732:80b] load more items = undefined
+2014-01-24 15:51:53.500 KUTX[55732:80b] checking show 0 / 3
+2014-01-24 15:51:53.501 KUTX[55732:80b] checking show 1 / 3
+2014-01-24 15:51:53.501 KUTX[55732:80b] checking show 2 / 3
+2014-01-24 15:52:03.357 KUTX[55732:80b] hello from fetch and load
+2014-01-24 15:52:03.423 KUTX[55732:80b] fetching date 2014-01-24
+2014-01-24 15:52:03.423 KUTX[55732:80b] load more items = 0
+2014-01-24 15:52:03.423 KUTX[55732:80b] checking show 0 / 3
+2014-01-24 15:52:03.424 KUTX[55732:80b] checking show 1 / 3
+2014-01-24 15:52:03.424 KUTX[55732:80b] checking show 2 / 3
+2014-01-24 15:52:03.489 KUTX[55732:80b] load more items = undefined
+2014-01-24 15:52:03.489 KUTX[55732:80b] checking show 0 / 3
+2014-01-24 15:52:03.489 KUTX[55732:80b] checking show 1 / 3
+2014-01-24 15:52:03.490 KUTX[55732:80b] checking show 2 / 3
+2014-01-24 15:52:11.695 KUTX[56125:80b] Multi-tasking -> Device: YES, App: YES
+2014-01-24 15:52:11.727 KUTX[56125:80b] [CDVTimer][splashscreen] 8.917034ms
+2014-01-24 15:52:11.728 KUTX[56125:80b] [CDVTimer][TotalPluginStartup] 9.458005ms
+2014-01-24 15:52:11.931 KUTX[56125:80b] Resetting plugins due to page load.
+2014-01-24 15:52:12.075 KUTX[56125:80b] Finished load of: file:///Users/jeff/Library/Application%20Support/iPhone%20Simulator/7.0.3/Applications/1B903E19-87F8-48F4-9D05-35B6DAC3726E/KUTX.app/www/index.html
+2014-01-24 15:52:52.619 KUTX[56463:80b] Multi-tasking -> Device: YES, App: YES
+2014-01-24 15:52:52.651 KUTX[56463:80b] [CDVTimer][splashscreen] 9.696007ms
+2014-01-24 15:52:52.652 KUTX[56463:80b] [CDVTimer][TotalPluginStartup] 10.193050ms
+2014-01-24 15:52:52.783 KUTX[56463:80b] Resetting plugins due to page load.
+2014-01-24 15:52:52.977 KUTX[56463:80b] Finished load of: file:///Users/jeff/Library/Application%20Support/iPhone%20Simulator/7.0.3/Applications/1B903E19-87F8-48F4-9D05-35B6DAC3726E/KUTX.app/www/index.html#/splash
+2014-01-24 15:52:53.957 KUTX[56463:80b] hello from fetch and load
+2014-01-24 15:52:53.983 KUTX[56463:80b] online
+2014-01-24 15:52:54.423 KUTX[56463:80b] source: http://pubint.ic.llnwd.net/stream/pubint_kut2
+2014-01-24 15:52:55.236 KUTX[56463:80b] fetching date 2014-01-24
+2014-01-24 15:52:55.236 KUTX[56463:80b] load more items = 0
+2014-01-24 15:52:55.807 KUTX[56463:80b] load more items = undefined
+2014-01-29 15:20:40.830 KUTX[79216:80b] Multi-tasking -> Device: YES, App: YES
+2014-01-29 15:20:41.206 KUTX[79216:80b] [CDVTimer][splashscreen] 81.811011ms
+2014-01-29 15:20:41.206 KUTX[79216:80b] [CDVTimer][TotalPluginStartup] 82.426012ms
+2014-01-29 15:20:41.377 KUTX[79216:80b] Resetting plugins due to page load.
+2014-01-29 15:20:41.680 KUTX[79216:80b] Finished load of: file:///Users/jeff/Library/Application%20Support/iPhone%20Simulator/7.0.3/Applications/1B903E19-87F8-48F4-9D05-35B6DAC3726E/KUTX.app/www/index.html#/splash
+2014-01-29 15:20:42.665 KUTX[79216:80b] hello from fetch and load
+2014-01-29 15:20:42.718 KUTX[79216:80b] online
+2014-01-29 15:20:43.034 KUTX[79216:80b] fetching date 2014-01-29
+2014-01-29 15:20:43.034 KUTX[79216:80b] load more items = 0
+2014-01-29 15:20:43.179 KUTX[79216:80b] load more items = undefined
+2014-01-29 15:20:43.443 KUTX[79216:80b] source: http://pubint.ic.llnwd.net/stream/pubint_kut2
+2014-01-29 15:20:53.035 KUTX[79216:80b] hello from fetch and load
+2014-01-29 15:20:53.081 KUTX[79216:80b] fetching date 2014-01-29
+2014-01-29 15:20:53.082 KUTX[79216:80b] load more items = 0
+2014-01-29 15:20:53.082 KUTX[79216:80b] checking show 0 / 3
+2014-01-29 15:20:53.082 KUTX[79216:80b] checking show 1 / 3
+2014-01-29 15:20:53.082 KUTX[79216:80b] checking show 2 / 3
+2014-01-29 15:20:53.130 KUTX[79216:80b] load more items = undefined
+2014-01-29 15:20:53.130 KUTX[79216:80b] checking show 0 / 3
+2014-01-29 15:20:53.131 KUTX[79216:80b] checking show 1 / 3
+2014-01-29 15:20:53.131 KUTX[79216:80b] checking show 2 / 3
+2014-01-29 15:21:03.083 KUTX[79216:80b] hello from fetch and load
+2014-01-29 15:21:03.131 KUTX[79216:80b] fetching date 2014-01-29
+2014-01-29 15:21:03.131 KUTX[79216:80b] load more items = 0
+2014-01-29 15:21:03.131 KUTX[79216:80b] checking show 0 / 3
+2014-01-29 15:21:03.131 KUTX[79216:80b] checking show 1 / 3
+2014-01-29 15:21:03.131 KUTX[79216:80b] checking show 2 / 3
+2014-01-29 15:21:03.179 KUTX[79216:80b] load more items = undefined
+2014-01-29 15:21:03.180 KUTX[79216:80b] checking show 0 / 3
+2014-01-29 15:21:03.180 KUTX[79216:80b] checking show 1 / 3
+2014-01-29 15:21:03.180 KUTX[79216:80b] checking show 2 / 3

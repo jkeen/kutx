@@ -1,0 +1,70 @@
+<div id="contents">
+  <header class="container">
+      <div class="navbar navbar-inverted navbar-fixed-top" role="navigation"  ng-controller="NavBarCtrl">
+        <!-- <div class="slider-animation" ng-show="showNotification" notification-console>
+          <div class="container"> 
+            <div class="error">{{ notification }}</div>
+          </div>
+        </div> -->
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" ng-click="isCollapsed = !isCollapsed">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+
+          <button class="btn btn-navbar button-player play" ng-disabled="!canplay" ng-click="playPause()" play-pause>Listen</button>
+          
+          <span class="navbar-brand"><img src="img/kutx-logo-text-only.png" alt="KUT logo" ></span>
+        </div>
+        <div class="navbar-collapse collapse" collapse="isCollapsed">
+          <ul class="nav navbar-nav">
+            <li>
+              <a rel="external" ng-click="isCollapsed = true" target="_system" href="http://kutx.org/support-kutx">Support KUTX</a>
+            </li>
+            <li>
+              <a rel="external" ng-click="isCollapsed = true" target="_system" href="http://kutx.org/">Visit kutx.org</a>
+            </li>
+        </div>
+      </div>
+  </header>
+  <div class="text-center">
+    <div class="container" ng-controller="PlaylistCtrl">
+      <div class="playlist" when-scrolled="onScroll()">
+        
+        <div ng-hide="pagedShows.length > 0" class="loading-container">
+          <div class="loading">
+            <h2>Loading</h2>
+          </div>
+        </div>
+        <div ng-repeat="show in pagedShows" class="program">
+          <div class="show" style="background-image: url('{{ show | showBannerUrl }}');" ng-class="{onair: !!(show.program.start === onNow.start) }">
+            <div class="darken">
+              <span class="name">{{ show.program.name }}</span>
+              <div class="time">{{ show.start | amDateFormat:'dddd, M/D/YY'}}</div>
+              <div class="time">{{ show.start | amDateFormat:'h:mm a'}}-{{ show.end | amDateFormat:'h:mm a'}}</div>
+            </div>
+          </div>
+          <div class="show-playlist" ng-class="{notracks: !show.playlist}">
+            <div ng-repeat="track in show.playlist | reverse" class="track" ng-class="{hasartwork: !!track.artworkUrl60}">
+                <div class="time">{{ track._start_time | amDateFormat:'h:mm a'}}</div>
+                <div class="artwork-container">
+                  <div class="artwork" style="background-image: url({{ track.artworkUrl60 }})">
+                    <span class="initials">{{track.artistName | initials}}</span>
+                  </div>
+                </div>
+                <div class="info">
+                  <div class="name">{{track.trackName}}</div>
+                  <div class="desc">{{track.artistName}}</div>
+                  <div class="collection">{{track.collectionName}}</div>
+                </div>
+            </div>
+          </div>
+          
+        </div>
+      </div>
+    
+    </div>
+  </div>
+</div>

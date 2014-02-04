@@ -1,0 +1,1383 @@
+TKUTX
+v6
+r1
+cCheck dependencies
+cPhaseScriptExecution Copy\ www\ directory /Users/jeff/Dropbox/Projects/kutx/platforms/ios/build/KUTX.build/Debug-iphonesimulator/KUTX.build/Script-304B58A110DAC018002A0835.sh
+cCpResource KUTX/config.xml build/KUTX.app/config.xml
+cCpResource KUTX/Resources/icons/icon-72.png build/KUTX.app/icon-72.png
+cCpResource KUTX/Resources/icons/icon.png build/KUTX.app/icon.png
+cCpResource KUTX/Resources/icons/icon@2x.png build/KUTX.app/icon@2x.png
+cCpResource KUTX/Resources/Capture.bundle build/KUTX.app/Capture.bundle
+cCopyStringsFile /Users/jeff/Dropbox/Projects/kutx/platforms/ios/build/KUTX.app/en.lproj/Localizable.strings KUTX/Resources/en.lproj/Localizable.strings
+cCopyStringsFile /Users/jeff/Dropbox/Projects/kutx/platforms/ios/build/KUTX.app/es.lproj/Localizable.strings KUTX/Resources/es.lproj/Localizable.strings
+cCompileXIB /Users/jeff/Dropbox/Projects/kutx/platforms/ios/KUTX/Classes/MainViewController.xib
+cCopyStringsFile /Users/jeff/Dropbox/Projects/kutx/platforms/ios/build/KUTX.app/de.lproj/Localizable.strings KUTX/Resources/de.lproj/Localizable.strings
+cCopyStringsFile /Users/jeff/Dropbox/Projects/kutx/platforms/ios/build/KUTX.app/se.lproj/Localizable.strings KUTX/Resources/se.lproj/Localizable.strings
+cCpResource KUTX/Resources/splash/Default-Landscape@2x~ipad.png build/KUTX.app/Default-Landscape@2x~ipad.png
+cCpResource KUTX/Resources/splash/Default-Landscape~ipad.png build/KUTX.app/Default-Landscape~ipad.png
+cCpResource KUTX/Resources/splash/Default-Portrait@2x~ipad.png build/KUTX.app/Default-Portrait@2x~ipad.png
+cCpResource KUTX/Resources/splash/Default-Portrait~ipad.png build/KUTX.app/Default-Portrait~ipad.png
+cCpResource KUTX/Resources/splash/Default@2x~iphone.png build/KUTX.app/Default@2x~iphone.png
+cCpResource KUTX/Resources/splash/Default~iphone.png build/KUTX.app/Default~iphone.png
+cCpResource KUTX/Resources/splash/Default-568h@2x~iphone.png build/KUTX.app/Default-568h@2x~iphone.png
+cCpResource KUTX/Resources/icons/icon-72@2x.png build/KUTX.app/icon-72@2x.png
+cCompileAssetCatalog /Users/jeff/Dropbox/Projects/kutx/platforms/ios/build/KUTX.app /Users/jeff/Dropbox/Projects/kutx/platforms/ios/KUTX/Images.xcassets
+cProcessInfoPlistFile /Users/jeff/Dropbox/Projects/kutx/platforms/ios/build/KUTX.app/Info.plist /Users/jeff/Dropbox/Projects/kutx/platforms/ios/KUTX/KUTX-Info.plist
+cProcessPCH /var/folders/qp/7clys2g16tl49znyyfbdr_gcyrxkgv/C/com.apple.DeveloperTools/5.0.2-5A3005/Xcode/SharedPrecompiledHeaders/KUTX-Prefix-hgocmsznmgmahzdormbbbgkxqipe/KUTX-Prefix.pch.pch KUTX/KUTX-Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/KUTX.build/Debug-iphonesimulator/KUTX.build/Objects-normal/i386/main.o /Users/jeff/Dropbox/Projects/kutx/platforms/ios/KUTX/main.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/KUTX.build/Debug-iphonesimulator/KUTX.build/Objects-normal/i386/AppDelegate.o /Users/jeff/Dropbox/Projects/kutx/platforms/ios/KUTX/Classes/AppDelegate.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/KUTX.build/Debug-iphonesimulator/KUTX.build/Objects-normal/i386/MainViewController.o /Users/jeff/Dropbox/Projects/kutx/platforms/ios/KUTX/Classes/MainViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/KUTX.build/Debug-iphonesimulator/KUTX.build/Objects-normal/i386/CDVSplashScreen.o /Users/jeff/Dropbox/Projects/kutx/platforms/ios/KUTX/Plugins/org.apache.cordova.splashscreen/CDVSplashScreen.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/KUTX.build/Debug-iphonesimulator/KUTX.build/Objects-normal/i386/CDVSound.o /Users/jeff/Dropbox/Projects/kutx/platforms/ios/KUTX/Plugins/org.apache.cordova.media/CDVSound.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/KUTX.build/Debug-iphonesimulator/KUTX.build/Objects-normal/i386/CDVLogger.o /Users/jeff/Dropbox/Projects/kutx/platforms/ios/KUTX/Plugins/org.apache.cordova.console/CDVLogger.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cLd /Users/jeff/Dropbox/Projects/kutx/platforms/ios/build/KUTX.app/KUTX normal i386
+cGenerateDSYMFile /Users/jeff/Dropbox/Projects/kutx/platforms/ios/build/KUTX.app.dSYM /Users/jeff/Dropbox/Projects/kutx/platforms/ios/build/KUTX.app/KUTX
+cTouch /Users/jeff/Dropbox/Projects/kutx/platforms/ios/build/KUTX.app
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk
+c0000000052823BD90000000000000176
+t1384266713
+s374
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/SDKSettings.plist
+c00000000523DEAB700000000000003B5
+t1379789495
+s949
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/System/Library/CoreServices/SystemVersion.plist
+c0000000052688D9800000000000001A0
+t1382583704
+s416
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/System/Library/Frameworks/AVFoundation.framework/AVFoundation
+c0000000052688D99000000000047C980
+t1382583705
+s4704640
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/System/Library/Frameworks/AVFoundation.framework/libAVFAudio.dylib
+c0000000052688D980000000000098030
+t1382583704
+s622640
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/System/Library/Frameworks/AddressBook.framework/AddressBook
+c0000000052688D980000000000191F30
+t1382583704
+s1646384
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/System/Library/Frameworks/AddressBookUI.framework/AddressBookUI
+c0000000052688D9900000000004F2C70
+t1382583705
+s5188720
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/System/Library/Frameworks/AssetsLibrary.framework/AssetsLibrary
+c0000000052688D980000000000059350
+t1382583704
+s365392
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/System/Library/Frameworks/AudioToolbox.framework/AudioToolbox
+c0000000052688D9900000000009040F0
+t1382583705
+s9453808
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/System/Library/Frameworks/CFNetwork.framework/CFNetwork
+c0000000052688D9900000000005838D0
+t1382583705
+s5781712
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+c0000000052688D9900000000005B82A0
+t1382583705
+s5997216
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c0000000052688D990000000000445870
+t1382583705
+s4479088
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/System/Library/Frameworks/CoreLocation.framework/CoreLocation
+c0000000052688D9900000000000EC820
+t1382583705
+s968736
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/System/Library/Frameworks/CoreMedia.framework/CoreMedia
+c0000000052688D990000000000133B60
+t1382583705
+s1260384
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c0000000052688D9A000000000088C680
+t1382583706
+s8963712
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/System/Library/Frameworks/ImageIO.framework/ImageIO
+c0000000052688D9A0000000000666670
+t1382583706
+s6710896
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/System/Library/Frameworks/MediaPlayer.framework/MediaPlayer
+c0000000052688D9A000000000070DDC0
+t1382583706
+s7396800
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/System/Library/Frameworks/MobileCoreServices.framework/MobileCoreServices
+c0000000052688D9A00000000001BA530
+t1382583706
+s1811760
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/System/Library/Frameworks/OpenAL.framework/OpenAL
+c0000000052688D9A000000000007C070
+t1382583706
+s508016
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/System/Library/Frameworks/QuartzCore.framework/QuartzCore
+c0000000052688D9A00000000004848F0
+t1382583706
+s4737264
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/System/Library/Frameworks/SystemConfiguration.framework/SystemConfiguration
+c0000000052688D9A00000000001081B0
+t1382583706
+s1081776
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c0000000052688D9C0000000001DB9910
+t1382583708
+s31168784
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/System/Library/PrivateFrameworks/UIFoundation.framework/UIFoundation
+c0000000052688D9E00000000002B9F20
+t1382583710
+s2858784
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/lib/crt1.o
+c00000000523DEACD0000000000002338
+t1379789517
+s9016
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/lib/libSystem.dylib
+c0000000052688D9F000000000008D300
+t1382583711
+s578304
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/lib/libobjc.dylib
+c00000000523DEACE000000000038ACB0
+t1379789518
+s3714224
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/lib/system/host/libdyld.dylib
+c00000000526984E800000000000141F0
+t1382647016
+s82416
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/lib/system/libcache_sim.dylib
+c00000000523DEACE0000000000013500
+t1379789518
+s79104
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/lib/system/libcommonCrypto_sim.dylib
+c00000000523DEACE0000000000033BA0
+t1379789518
+s211872
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/lib/system/libcompiler_rt_sim.dylib
+c00000000523DEACE000000000001CFB0
+t1379789518
+s118704
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/lib/system/libcopyfile_sim.dylib
+c00000000523DEACE000000000001B2B0
+t1379789518
+s111280
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/lib/system/libdispatch.dylib
+c0000000052688D9F00000000000632B0
+t1382583711
+s406192
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/lib/system/libdyld_sim.dylib
+c00000000523DEACE0000000000008880
+t1379789518
+s34944
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/lib/system/libmacho_sim.dylib
+c0000000052688D9F0000000000015080
+t1382583711
+s86144
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/lib/system/libnotify_sim.dylib
+c00000000523DEACE00000000000230E0
+t1379789518
+s143584
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/lib/system/libremovefile_sim.dylib
+c00000000523DEACE000000000000E380
+t1379789518
+s58240
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/lib/system/libsystem_network.dylib
+c00000000523DEACE0000000000087200
+t1379789518
+s553472
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/lib/system/libsystem_override.dylib
+c00000000523DEACE00000000000171A0
+t1379789518
+s94624
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/lib/system/libsystem_sim_asl.dylib
+c00000000523DEACE0000000000039C10
+t1379789518
+s236560
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/lib/system/libsystem_sim_blocks.dylib
+c00000000523DEACE000000000000B0B0
+t1379789518
+s45232
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/lib/system/libsystem_sim_c.dylib
+c00000000523DEACE0000000000167FE0
+t1379789518
+s1474528
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/lib/system/libsystem_sim_configuration.dylib
+c0000000052688D9F00000000000106A0
+t1382583711
+s67232
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/lib/system/libsystem_sim_dnssd.dylib
+c0000000052688D9F000000000001CE40
+t1382583711
+s118336
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/lib/system/libsystem_sim_info.dylib
+c00000000523DEACE0000000000071040
+t1379789518
+s462912
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/lib/system/libsystem_sim_m.dylib
+c0000000052688D9F0000000000067A10
+t1382583711
+s424464
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/lib/system/libunwind_sim.dylib
+c00000000523DEACE000000000001BAD0
+t1379789518
+s113360
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/lib/system/libxpc.dylib
+c0000000052688D9F0000000000088BA0
+t1382583711
+s560032
+
+N/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/arc/libarclite_iphonesimulator.a
+c00000000523DEAD4000000000000B870
+t1379789524
+s47216
+
+N/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/5.0/lib/darwin/libclang_rt.ios.a
+c0000000052688DAB0000000000005004
+t1382583723
+s20484
+
+N/Users/jeff/Dropbox/Projects/kutx/platforms/ios/KUTX/Classes/AppDelegate.h
+c0000000052B734F400000000000005AD
+t1387738356
+s1453
+
+N/Users/jeff/Dropbox/Projects/kutx/platforms/ios/KUTX/Classes/AppDelegate.m
+c0000000052CB8E0E000000000000151A
+t1389071886
+s5402
+
+N/Users/jeff/Dropbox/Projects/kutx/platforms/ios/KUTX/Classes/MainViewController.h
+c0000000052DC0A4000000000000004CD
+t1390152256
+s1229
+
+N/Users/jeff/Dropbox/Projects/kutx/platforms/ios/KUTX/Classes/MainViewController.m
+c0000000052DC0AAE00000000000012E9
+t1390152366
+s4841
+
+N/Users/jeff/Dropbox/Projects/kutx/platforms/ios/KUTX/Classes/MainViewController.xib
+c0000000052B734F40000000000001759
+t1387738356
+s5977
+
+N/Users/jeff/Dropbox/Projects/kutx/platforms/ios/KUTX/Images.xcassets
+c0000000052E2DAA600000000000000CC
+t1390598822
+s204
+
+N/Users/jeff/Dropbox/Projects/kutx/platforms/ios/KUTX/KUTX-Info.plist
+c0000000052E3E661000000000000070C
+t1390667361
+s1804
+
+N/Users/jeff/Dropbox/Projects/kutx/platforms/ios/KUTX/KUTX-Prefix.pch
+c0000000052B734F400000000000003B9
+t1387738356
+s953
+
+N/Users/jeff/Dropbox/Projects/kutx/platforms/ios/KUTX/Plugins/org.apache.cordova.console/CDVLogger.h
+c0000000052DC11BF00000000000003B3
+t1390154175
+s947
+
+N/Users/jeff/Dropbox/Projects/kutx/platforms/ios/KUTX/Plugins/org.apache.cordova.console/CDVLogger.m
+c0000000052DC11BE00000000000004DC
+t1390154174
+s1244
+
+N/Users/jeff/Dropbox/Projects/kutx/platforms/ios/KUTX/Plugins/org.apache.cordova.media/CDVSound.h
+c0000000052DC13E40000000000000E14
+t1390154724
+s3604
+
+N/Users/jeff/Dropbox/Projects/kutx/platforms/ios/KUTX/Plugins/org.apache.cordova.media/CDVSound.m
+c0000000052DC13DF0000000000007C6C
+t1390154719
+s31852
+
+N/Users/jeff/Dropbox/Projects/kutx/platforms/ios/KUTX/Plugins/org.apache.cordova.splashscreen/CDVSplashScreen.m
+c0000000052DC03110000000000002331
+t1390150417
+s9009
+
+N/Users/jeff/Dropbox/Projects/kutx/platforms/ios/KUTX/Resources/Capture.bundle
+c0000000052B734F4000000000000030E
+t1387738356
+s782
+
+N/Users/jeff/Dropbox/Projects/kutx/platforms/ios/KUTX/Resources/de.lproj/Localizable.strings
+c0000000052B734F400000000000004BF
+t1387738356
+s1215
+
+N/Users/jeff/Dropbox/Projects/kutx/platforms/ios/KUTX/Resources/en.lproj/Localizable.strings
+c0000000052B734F400000000000004AA
+t1387738356
+s1194
+
+N/Users/jeff/Dropbox/Projects/kutx/platforms/ios/KUTX/Resources/es.lproj/Localizable.strings
+c0000000052B734F400000000000004B7
+t1387738356
+s1207
+
+N/Users/jeff/Dropbox/Projects/kutx/platforms/ios/KUTX/Resources/icons/icon-72.png
+c0000000052E2D1380000000000000A7A
+t1390596408
+s2682
+
+N/Users/jeff/Dropbox/Projects/kutx/platforms/ios/KUTX/Resources/icons/icon-72@2x.png
+c0000000052E2D12C00000000000018B7
+t1390596396
+s6327
+
+N/Users/jeff/Dropbox/Projects/kutx/platforms/ios/KUTX/Resources/icons/icon.png
+c0000000052E2D13600000000000007E0
+t1390596406
+s2016
+
+N/Users/jeff/Dropbox/Projects/kutx/platforms/ios/KUTX/Resources/icons/icon@2x.png
+c0000000052E2D12E00000000000012F3
+t1390596398
+s4851
+
+N/Users/jeff/Dropbox/Projects/kutx/platforms/ios/KUTX/Resources/se.lproj/Localizable.strings
+c0000000052B734F400000000000004AB
+t1387738356
+s1195
+
+N/Users/jeff/Dropbox/Projects/kutx/platforms/ios/KUTX/Resources/splash/Default-568h@2x~iphone.png
+c000000005228FAA60000000000133C89
+t1378417318
+s1260681
+
+N/Users/jeff/Dropbox/Projects/kutx/platforms/ios/KUTX/Resources/splash/Default-Landscape@2x~ipad.png
+c0000000052B734F40000000000012DF4
+t1387738356
+s77300
+
+N/Users/jeff/Dropbox/Projects/kutx/platforms/ios/KUTX/Resources/splash/Default-Landscape~ipad.png
+c0000000052B734F40000000000008877
+t1387738356
+s34935
+
+N/Users/jeff/Dropbox/Projects/kutx/platforms/ios/KUTX/Resources/splash/Default-Portrait@2x~ipad.png
+c0000000052B734F40000000000012B02
+t1387738356
+s76546
+
+N/Users/jeff/Dropbox/Projects/kutx/platforms/ios/KUTX/Resources/splash/Default-Portrait~ipad.png
+c0000000052B734F400000000000085E6
+t1387738356
+s34278
+
+N/Users/jeff/Dropbox/Projects/kutx/platforms/ios/KUTX/Resources/splash/Default@2x~iphone.png
+c000000005228FAA60000000000121B31
+t1378417318
+s1186609
+
+N/Users/jeff/Dropbox/Projects/kutx/platforms/ios/KUTX/Resources/splash/Default~iphone.png
+c000000005228FAA6000000000004D0D5
+t1378417318
+s315605
+
+N/Users/jeff/Dropbox/Projects/kutx/platforms/ios/KUTX/config.xml
+c0000000052E3E661000000000000192F
+t1390667361
+s6447
+
+N/Users/jeff/Dropbox/Projects/kutx/platforms/ios/KUTX/main.m
+c0000000052B734F40000000000000456
+t1387738356
+s1110
+
+N/Users/jeff/Dropbox/Projects/kutx/platforms/ios/build/KUTX.app
+t1390667365
+s1088
+
+N/Users/jeff/Dropbox/Projects/kutx/platforms/ios/build/KUTX.app.dSYM
+t1390666848
+s102
+
+N/Users/jeff/Dropbox/Projects/kutx/platforms/ios/build/KUTX.app/Capture.bundle
+t1390149572
+s782
+
+N/Users/jeff/Dropbox/Projects/kutx/platforms/ios/build/KUTX.app/Default-568h@2x~iphone.png
+t1390599544
+s1260681
+
+N/Users/jeff/Dropbox/Projects/kutx/platforms/ios/build/KUTX.app/Default-Landscape@2x~ipad.png
+t1390149572
+s77300
+
+N/Users/jeff/Dropbox/Projects/kutx/platforms/ios/build/KUTX.app/Default-Landscape~ipad.png
+t1390149572
+s34935
+
+N/Users/jeff/Dropbox/Projects/kutx/platforms/ios/build/KUTX.app/Default-Portrait@2x~ipad.png
+t1390149572
+s76546
+
+N/Users/jeff/Dropbox/Projects/kutx/platforms/ios/build/KUTX.app/Default-Portrait~ipad.png
+t1390149572
+s34278
+
+N/Users/jeff/Dropbox/Projects/kutx/platforms/ios/build/KUTX.app/Default@2x~iphone.png
+t1390599544
+s1186609
+
+N/Users/jeff/Dropbox/Projects/kutx/platforms/ios/build/KUTX.app/Default~iphone.png
+t1390599544
+s315605
+
+N/Users/jeff/Dropbox/Projects/kutx/platforms/ios/build/KUTX.app/Info.plist
+t1390667365
+s1468
+
+N/Users/jeff/Dropbox/Projects/kutx/platforms/ios/build/KUTX.app/KUTX
+t1390154923
+s947352
+
+N/Users/jeff/Dropbox/Projects/kutx/platforms/ios/build/KUTX.app/MainViewController.nib
+t1390149574
+s1332
+
+N/Users/jeff/Dropbox/Projects/kutx/platforms/ios/build/KUTX.app/PkgInfo
+t1390667365
+s8
+
+N/Users/jeff/Dropbox/Projects/kutx/platforms/ios/build/KUTX.app/config.xml
+t1390667365
+s6447
+
+N/Users/jeff/Dropbox/Projects/kutx/platforms/ios/build/KUTX.app/de.lproj/Localizable.strings
+t1390149572
+s280
+
+N/Users/jeff/Dropbox/Projects/kutx/platforms/ios/build/KUTX.app/en.lproj/Localizable.strings
+t1390149572
+s166
+
+N/Users/jeff/Dropbox/Projects/kutx/platforms/ios/build/KUTX.app/es.lproj/Localizable.strings
+t1390149572
+s334
+
+N/Users/jeff/Dropbox/Projects/kutx/platforms/ios/build/KUTX.app/icon-72.png
+t1390599543
+s2682
+
+N/Users/jeff/Dropbox/Projects/kutx/platforms/ios/build/KUTX.app/icon-72@2x.png
+t1390599543
+s6327
+
+N/Users/jeff/Dropbox/Projects/kutx/platforms/ios/build/KUTX.app/icon.png
+t1390599543
+s2016
+
+N/Users/jeff/Dropbox/Projects/kutx/platforms/ios/build/KUTX.app/icon@2x.png
+t1390599543
+s4851
+
+N/Users/jeff/Dropbox/Projects/kutx/platforms/ios/build/KUTX.app/se.lproj/Localizable.strings
+t1390149572
+s283
+
+N/Users/jeff/Dropbox/Projects/kutx/platforms/ios/build/KUTX.build/Debug-iphonesimulator/KUTX.build/Objects-normal/i386/AppDelegate.o
+t1390152318
+s79572
+
+N/Users/jeff/Dropbox/Projects/kutx/platforms/ios/build/KUTX.build/Debug-iphonesimulator/KUTX.build/Objects-normal/i386/CDVLogger.o
+t1390154251
+s1832
+
+N/Users/jeff/Dropbox/Projects/kutx/platforms/ios/build/KUTX.build/Debug-iphonesimulator/KUTX.build/Objects-normal/i386/CDVSound.o
+t1390154923
+s141928
+
+N/Users/jeff/Dropbox/Projects/kutx/platforms/ios/build/KUTX.build/Debug-iphonesimulator/KUTX.build/Objects-normal/i386/CDVSplashScreen.o
+t1390151277
+s1852
+
+N/Users/jeff/Dropbox/Projects/kutx/platforms/ios/build/KUTX.build/Debug-iphonesimulator/KUTX.build/Objects-normal/i386/KUTX.LinkFileList
+c0000000052DC11AD0000000000000317
+t1390154157
+s791
+
+N/Users/jeff/Dropbox/Projects/kutx/platforms/ios/build/KUTX.build/Debug-iphonesimulator/KUTX.build/Objects-normal/i386/MainViewController.o
+t1390152809
+s55160
+
+N/Users/jeff/Dropbox/Projects/kutx/platforms/ios/build/KUTX.build/Debug-iphonesimulator/KUTX.build/Objects-normal/i386/main.o
+t1390149574
+s3064
+
+N/Users/jeff/Dropbox/Projects/kutx/platforms/ios/build/KUTX.build/Debug-iphonesimulator/KUTX.build/Script-304B58A110DAC018002A0835.sh
+c0000000052DBFFC40000000000000541
+t1390149572
+s1345
+
+N/Users/jeff/Dropbox/Projects/kutx/platforms/ios/build/KUTX.build/Debug-iphonesimulator/KUTX.build/assetcatalog_dependencies.txt
+t1390599544
+s1084
+
+N/Users/jeff/Dropbox/Projects/kutx/platforms/ios/build/KUTX.build/Debug-iphonesimulator/KUTX.build/assetcatalog_generated_info.plist
+t1390599544
+s871
+
+N/Users/jeff/Dropbox/Projects/kutx/platforms/ios/build/include/Cordova/CDV.h
+c0000000052DBFFC400000000000006A3
+t1390149572
+s1699
+
+N/Users/jeff/Dropbox/Projects/kutx/platforms/ios/build/include/Cordova/CDVAccelerometer.h
+c0000000052DBFFC400000000000004A4
+t1390149572
+s1188
+
+N/Users/jeff/Dropbox/Projects/kutx/platforms/ios/build/include/Cordova/CDVAvailability.h
+c0000000052DBFFC40000000000000C29
+t1390149572
+s3113
+
+N/Users/jeff/Dropbox/Projects/kutx/platforms/ios/build/include/Cordova/CDVBattery.h
+c0000000052DBFFC4000000000000053A
+t1390149572
+s1338
+
+N/Users/jeff/Dropbox/Projects/kutx/platforms/ios/build/include/Cordova/CDVCamera.h
+c0000000052DBFFC40000000000000F74
+t1390149572
+s3956
+
+N/Users/jeff/Dropbox/Projects/kutx/platforms/ios/build/include/Cordova/CDVCapture.h
+c0000000052DBFFC4000000000000123F
+t1390149572
+s4671
+
+N/Users/jeff/Dropbox/Projects/kutx/platforms/ios/build/include/Cordova/CDVCommandDelegate.h
+c0000000052DBFFC400000000000008BA
+t1390149572
+s2234
+
+N/Users/jeff/Dropbox/Projects/kutx/platforms/ios/build/include/Cordova/CDVCommandDelegateImpl.h
+c0000000052DBFFC40000000000000473
+t1390149572
+s1139
+
+N/Users/jeff/Dropbox/Projects/kutx/platforms/ios/build/include/Cordova/CDVCommandQueue.h
+c0000000052DBFFC40000000000000501
+t1390149572
+s1281
+
+N/Users/jeff/Dropbox/Projects/kutx/platforms/ios/build/include/Cordova/CDVConnection.h
+c0000000052DBFFC4000000000000043E
+t1390149572
+s1086
+
+N/Users/jeff/Dropbox/Projects/kutx/platforms/ios/build/include/Cordova/CDVContact.h
+c0000000052DBFFC40000000000001640
+t1390149572
+s5696
+
+N/Users/jeff/Dropbox/Projects/kutx/platforms/ios/build/include/Cordova/CDVContacts.h
+c0000000052DBFFC400000000000014F1
+t1390149572
+s5361
+
+N/Users/jeff/Dropbox/Projects/kutx/platforms/ios/build/include/Cordova/CDVDebug.h
+c0000000052DBFFC40000000000000401
+t1390149572
+s1025
+
+N/Users/jeff/Dropbox/Projects/kutx/platforms/ios/build/include/Cordova/CDVDevice.h
+c0000000052DBFFC400000000000003B5
+t1390149572
+s949
+
+N/Users/jeff/Dropbox/Projects/kutx/platforms/ios/build/include/Cordova/CDVFile.h
+c0000000052DBFFC40000000000000FBC
+t1390149572
+s4028
+
+N/Users/jeff/Dropbox/Projects/kutx/platforms/ios/build/include/Cordova/CDVFileTransfer.h
+c0000000052DBFFC40000000000000C39
+t1390149572
+s3129
+
+N/Users/jeff/Dropbox/Projects/kutx/platforms/ios/build/include/Cordova/CDVInAppBrowser.h
+c0000000052DBFFC40000000000000C4C
+t1390149572
+s3148
+
+N/Users/jeff/Dropbox/Projects/kutx/platforms/ios/build/include/Cordova/CDVInvokedUrlCommand.h
+c0000000052DBFFC40000000000000906
+t1390149572
+s2310
+
+N/Users/jeff/Dropbox/Projects/kutx/platforms/ios/build/include/Cordova/CDVJSON.h
+c0000000052DBFFC400000000000003DA
+t1390149572
+s986
+
+N/Users/jeff/Dropbox/Projects/kutx/platforms/ios/build/include/Cordova/CDVLocalStorage.h
+c0000000052DBFFC400000000000006CF
+t1390149572
+s1743
+
+N/Users/jeff/Dropbox/Projects/kutx/platforms/ios/build/include/Cordova/CDVLocation.h
+c0000000052DBFFC40000000000000E25
+t1390149572
+s3621
+
+N/Users/jeff/Dropbox/Projects/kutx/platforms/ios/build/include/Cordova/CDVNotification.h
+c0000000052DBFFC400000000000004E4
+t1390149572
+s1252
+
+N/Users/jeff/Dropbox/Projects/kutx/platforms/ios/build/include/Cordova/CDVPlugin.h
+c0000000052DBFFC40000000000000892
+t1390149572
+s2194
+
+N/Users/jeff/Dropbox/Projects/kutx/platforms/ios/build/include/Cordova/CDVPluginResult.h
+c0000000052DBFFC40000000000000C13
+t1390149572
+s3091
+
+N/Users/jeff/Dropbox/Projects/kutx/platforms/ios/build/include/Cordova/CDVReachability.h
+c0000000052DBFFC40000000000000FF4
+t1390149572
+s4084
+
+N/Users/jeff/Dropbox/Projects/kutx/platforms/ios/build/include/Cordova/CDVScreenOrientationDelegate.h
+c0000000052DBFFC40000000000000408
+t1390149572
+s1032
+
+N/Users/jeff/Dropbox/Projects/kutx/platforms/ios/build/include/Cordova/CDVSound.h
+c0000000052DBFFC40000000000000E0C
+t1390149572
+s3596
+
+N/Users/jeff/Dropbox/Projects/kutx/platforms/ios/build/include/Cordova/CDVSplashScreen.h
+c0000000052DBFFC40000000000000445
+t1390149572
+s1093
+
+N/Users/jeff/Dropbox/Projects/kutx/platforms/ios/build/include/Cordova/CDVTimer.h
+c0000000052DBFFC4000000000000038D
+t1390149572
+s909
+
+N/Users/jeff/Dropbox/Projects/kutx/platforms/ios/build/include/Cordova/CDVURLProtocol.h
+c0000000052DBFFC4000000000000041C
+t1390149572
+s1052
+
+N/Users/jeff/Dropbox/Projects/kutx/platforms/ios/build/include/Cordova/CDVViewController.h
+c0000000052DBFFC40000000000000B67
+t1390149572
+s2919
+
+N/Users/jeff/Dropbox/Projects/kutx/platforms/ios/build/include/Cordova/CDVWebViewDelegate.h
+c0000000052DBFFC4000000000000053A
+t1390149572
+s1338
+
+N/Users/jeff/Dropbox/Projects/kutx/platforms/ios/build/include/Cordova/CDVWhitelist.h
+c0000000052DBFFC400000000000004B4
+t1390149572
+s1204
+
+N/Users/jeff/Dropbox/Projects/kutx/platforms/ios/build/include/Cordova/NSArray+Comparisons.h
+c0000000052DBFFC40000000000000392
+t1390149572
+s914
+
+N/Users/jeff/Dropbox/Projects/kutx/platforms/ios/build/include/Cordova/NSData+Base64.h
+c0000000052DBFFC4000000000000037D
+t1390149572
+s893
+
+N/Users/jeff/Dropbox/Projects/kutx/platforms/ios/build/include/Cordova/NSDictionary+Extensions.h
+c0000000052DBFFC400000000000005DA
+t1390149572
+s1498
+
+N/Users/jeff/Dropbox/Projects/kutx/platforms/ios/build/include/Cordova/NSMutableArray+QueueAdditions.h
+c0000000052DBFFC400000000000003A0
+t1390149572
+s928
+
+N/Users/jeff/Dropbox/Projects/kutx/platforms/ios/build/include/Cordova/UIDevice+Extensions.h
+c0000000052DBFFC40000000000000476
+t1390149572
+s1142
+
+N/Users/jeff/Dropbox/Projects/kutx/platforms/ios/build/libCordova.a
+c0000000052DC14AA00000000002A9998
+t1390154922
+s2791832
+
+N/usr/lib/libSystem.B.dylib
+c00000000526984DB000000000000E6D0
+t1382647003
+s59088
+
+N/usr/lib/system/libcache.dylib
+c00000000526984E80000000000012A00
+t1382647016
+s76288
+
+N/usr/lib/system/libcommonCrypto.dylib
+c00000000526984CF000000000002E320
+t1382646991
+s189216
+
+N/usr/lib/system/libcompiler_rt.dylib
+c00000000526984DB0000000000021860
+t1382647003
+s137312
+
+N/usr/lib/system/libcopyfile.dylib
+c00000000526984E7000000000001B620
+t1382647015
+s112160
+
+N/usr/lib/system/libcorecrypto.dylib
+c00000000526984E700000000000BD920
+t1382647015
+s776480
+
+N/usr/lib/system/libdyld.dylib
+c00000000526984E800000000000141F0
+t1382647016
+s82416
+
+N/usr/lib/system/libkeymgr.dylib
+c00000000526984E8000000000000A120
+t1382647016
+s41248
+
+N/usr/lib/system/liblaunch.dylib
+c00000000526984E8000000000001D550
+t1382647016
+s120144
+
+N/usr/lib/system/libmacho.dylib
+c00000000526984E70000000000014EE0
+t1382647015
+s85728
+
+N/usr/lib/system/libquarantine.dylib
+c00000000526984E90000000000010380
+t1382647017
+s66432
+
+N/usr/lib/system/libremovefile.dylib
+c00000000526984E9000000000000C4C0
+t1382647017
+s50368
+
+N/usr/lib/system/libsystem_asl.dylib
+c00000000526984E800000000000357A0
+t1382647016
+s219040
+
+N/usr/lib/system/libsystem_blocks.dylib
+c00000000526984E8000000000000C070
+t1382647016
+s49264
+
+N/usr/lib/system/libsystem_c.dylib
+c00000000526984DB0000000000168C00
+t1382647003
+s1477632
+
+N/usr/lib/system/libsystem_configuration.dylib
+c00000000526984E70000000000010630
+t1382647015
+s67120
+
+N/usr/lib/system/libsystem_dnssd.dylib
+c00000000526984E9000000000001DF10
+t1382647017
+s122640
+
+N/usr/lib/system/libsystem_info.dylib
+c00000000526984DB0000000000075B00
+t1382647003
+s482048
+
+N/usr/lib/system/libsystem_kernel.dylib
+c00000000526984DB000000000007CC70
+t1382647003
+s511088
+
+N/usr/lib/system/libsystem_m.dylib
+c00000000526984DB00000000000766C0
+t1382647003
+s485056
+
+N/usr/lib/system/libsystem_malloc.dylib
+c00000000526984E80000000000044DC0
+t1382647016
+s282048
+
+N/usr/lib/system/libsystem_notify.dylib
+c00000000526984DB0000000000021FA0
+t1382647003
+s139168
+
+N/usr/lib/system/libsystem_platform.dylib
+c00000000526984E8000000000002D900
+t1382647016
+s186624
+
+N/usr/lib/system/libsystem_pthread.dylib
+c00000000526984E8000000000001E570
+t1382647016
+s124272
+
+N/usr/lib/system/libsystem_sandbox.dylib
+c00000000526984E1000000000000CC70
+t1382647009
+s52336
+
+N/usr/lib/system/libunc.dylib
+c00000000526984E3000000000000C3F0
+t1382647011
+s50160
+
+N/usr/lib/system/libunwind.dylib
+c00000000526984E800000000000199F0
+t1382647016
+s104944
+
+N/var/folders/qp/7clys2g16tl49znyyfbdr_gcyrxkgv/C/com.apple.DeveloperTools/5.0.2-5A3005/Xcode/SharedPrecompiledHeaders/KUTX-Prefix-hgocmsznmgmahzdormbbbgkxqipe/KUTX-Prefix.pch.pch
+t1390146793
+s5342136
+
+CCheck dependencies
+r0
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies18"Check dependencies942fe8e41d94b841^7e18e9e41d94b841^---0#1#1#--18"Check dependencies36"91C9D8BB-EADF-43EE-AA1A-B3D92C280383-
+
+CCompileAssetCatalog /Users/jeff/Dropbox/Projects/kutx/platforms/ios/build/KUTX.app /Users/jeff/Dropbox/Projects/kutx/platforms/ios/KUTX/Images.xcassets
+s412292343.417341
+e412292344.328904
+r1
+xCompileAssetCatalog
+x/Users/jeff/Dropbox/Projects/kutx/platforms/ios/build/KUTX.app
+x/Users/jeff/Dropbox/Projects/kutx/platforms/ios/KUTX/Images.xcassets
+o/* com.apple.actool.compilation-results */
+o/Users/jeff/Dropbox/Projects/kutx/platforms/ios/build/KUTX.app/AppIcon29x29.png
+o/Users/jeff/Dropbox/Projects/kutx/platforms/ios/build/KUTX.app/AppIcon29x29@2x.png
+o/Users/jeff/Dropbox/Projects/kutx/platforms/ios/build/KUTX.app/AppIcon40x40@2x.png
+o/Users/jeff/Dropbox/Projects/kutx/platforms/ios/build/KUTX.app/AppIcon57x57.png
+o/Users/jeff/Dropbox/Projects/kutx/platforms/ios/build/KUTX.app/AppIcon57x57@2x.png
+o/Users/jeff/Dropbox/Projects/kutx/platforms/ios/build/KUTX.app/AppIcon60x60@2x.png
+o/Users/jeff/Dropbox/Projects/kutx/platforms/ios/build/KUTX.app/LaunchImage-700-568h@2x.png
+o/Users/jeff/Dropbox/Projects/kutx/platforms/ios/build/KUTX.app/LaunchImage-568h@2x.png
+o/Users/jeff/Dropbox/Projects/kutx/platforms/ios/build/KUTX.app/Default~iphone.png
+o/Users/jeff/Dropbox/Projects/kutx/platforms/ios/build/KUTX.app/Default@2x~iphone.png
+o/Users/jeff/Dropbox/Projects/kutx/platforms/ios/build/KUTX.app/Default-568h@2x~iphone.png
+o/Users/jeff/Dropbox/Projects/kutx/platforms/ios/build/KUTX.build/Debug-iphonesimulator/KUTX.build/assetcatalog_generated_info.plist
+o
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection55"CompileAssetCatalog build/KUTX.app KUTX/Images.xcassets55"CompileAssetCatalog build/KUTX.app KUTX/Images.xcassets6af86af71493b841^1e3354f81493b841^-1103"/* com.apple.actool.compilation-results *//Users/jeff/Dropbox/Projects/kutx/platforms/ios/build/KUTX.app/AppIcon29x29.png/Users/jeff/Dropbox/Projects/kutx/platforms/ios/build/KUTX.app/AppIcon29x29@2x.png/Users/jeff/Dropbox/Projects/kutx/platforms/ios/build/KUTX.app/AppIcon40x40@2x.png/Users/jeff/Dropbox/Projects/kutx/platforms/ios/build/KUTX.app/AppIcon57x57.png/Users/jeff/Dropbox/Projects/kutx/platforms/ios/build/KUTX.app/AppIcon57x57@2x.png/Users/jeff/Dropbox/Projects/kutx/platforms/ios/build/KUTX.app/AppIcon60x60@2x.png/Users/jeff/Dropbox/Projects/kutx/platforms/ios/build/KUTX.app/LaunchImage-700-568h@2x.png/Users/jeff/Dropbox/Projects/kutx/platforms/ios/build/KUTX.app/LaunchImage-568h@2x.png/Users/jeff/Dropbox/Projects/kutx/platforms/ios/build/KUTX.app/Default~iphone.png/Users/jeff/Dropbox/Projects/kutx/platforms/ios/build/KUTX.app/Default@2x~iphone.png/Users/jeff/Dropbox/Projects/kutx/platforms/ios/build/KUTX.app/Default-568h@2x~iphone.png/Users/jeff/Dropbox/Projects/kutx/platforms/ios/build/KUTX.build/Debug-iphonesimulator/KUTX.build/assetcatalog_generated_info.plist-0#0#1#-19%DVTDocumentLocation2@76"file:///Users/jeff/Dropbox/Projects/kutx/platforms/ios/KUTX/Images.xcassets/0000000000000000^1395"CompileAssetCatalog build/KUTX.app KUTX/Images.xcassets    cd /Users/jeff/Dropbox/Projects/kutx/platforms/ios    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/jeff/.rvm/gems/ruby-1.9.3-p194/bin:/Users/jeff/.rvm/gems/ruby-1.9.3-p194@global/bin:/Users/jeff/.rvm/rubies/ruby-1.9.3-p194/bin:/Users/jeff/.rvm/bin:/Users/jeff/bin/play:/usr/local/sbin:/usr/local/bin:/opt/local/sbin:/opt/local/bin:/usr/local/share:/Users/jeff/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/usr/local/share/npm/bin:"    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/actool --output-format human-readable-text --notices --warnings --export-dependency-info /Users/jeff/Dropbox/Projects/kutx/platforms/ios/build/KUTX.build/Debug-iphonesimulator/KUTX.build/assetcatalog_dependencies.txt --output-partial-info-plist /Users/jeff/Dropbox/Projects/kutx/platforms/ios/build/KUTX.build/Debug-iphonesimulator/KUTX.build/assetcatalog_generated_info.plist --app-icon AppIcon --launch-image LaunchImage --platform iphonesimulator --minimum-deployment-target 5.1 --target-device iphone --compress-pngs --compile /Users/jeff/Dropbox/Projects/kutx/platforms/ios/build/KUTX.app /Users/jeff/Dropbox/Projects/kutx/platforms/ios/KUTX/Images.xcassets36"405EA2A3-CC28-4E0C-B92B-9BB12E544C1B-
+bFD0AA45C-46E7-4D41-8688-102D5A777543
+
+CCompileC build/KUTX.build/Debug-iphonesimulator/KUTX.build/Objects-normal/i386/AppDelegate.o /Users/jeff/Dropbox/Projects/kutx/platforms/ios/KUTX/Classes/AppDelegate.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s411845117.760418
+e411845118.033172
+r1
+xCompileC
+xbuild/KUTX.build/Debug-iphonesimulator/KUTX.build/Objects-normal/i386/AppDelegate.o
+x/Users/jeff/Dropbox/Projects/kutx/platforms/ios/KUTX/Classes/AppDelegate.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/jeff/Dropbox/Projects/kutx/platforms/ios/KUTX/Classes/AppDelegate.m
+d/Users/jeff/Dropbox/Projects/kutx/platforms/ios/KUTX/Classes/AppDelegate.h
+d/Users/jeff/Dropbox/Projects/kutx/platforms/ios/build/include/Cordova/CDVViewController.h
+d/Users/jeff/Dropbox/Projects/kutx/platforms/ios/build/include/Cordova/CDVAvailability.h
+d/Users/jeff/Dropbox/Projects/kutx/platforms/ios/build/include/Cordova/CDVInvokedUrlCommand.h
+d/Users/jeff/Dropbox/Projects/kutx/platforms/ios/build/include/Cordova/CDVCommandDelegate.h
+d/Users/jeff/Dropbox/Projects/kutx/platforms/ios/build/include/Cordova/CDVCommandQueue.h
+d/Users/jeff/Dropbox/Projects/kutx/platforms/ios/build/include/Cordova/CDVWhitelist.h
+d/Users/jeff/Dropbox/Projects/kutx/platforms/ios/build/include/Cordova/CDVScreenOrientationDelegate.h
+d/Users/jeff/Dropbox/Projects/kutx/platforms/ios/build/include/Cordova/CDVPlugin.h
+d/Users/jeff/Dropbox/Projects/kutx/platforms/ios/build/include/Cordova/CDVPluginResult.h
+d/Users/jeff/Dropbox/Projects/kutx/platforms/ios/build/include/Cordova/NSMutableArray+QueueAdditions.h
+d/Users/jeff/Dropbox/Projects/kutx/platforms/ios/KUTX/Classes/MainViewController.h
+d/Users/jeff/Dropbox/Projects/kutx/platforms/ios/build/include/Cordova/CDVCommandDelegateImpl.h
+o/Users/jeff/Dropbox/Projects/kutx/platforms/ios/KUTX/Classes/AppDelegate.m:89:25: warning: 'useSplashScreen' is deprecated: Deprecated in Cordova 2.5. Add/Remove the SplashScreen plugin instead of setting this property. [-Wdeprecated-declarations]
+o    self.viewController.useSplashScreen = YES;
+o                        ^
+oIn file included from /Users/jeff/Dropbox/Projects/kutx/platforms/ios/KUTX/Classes/AppDelegate.m:28:
+oIn file included from /Users/jeff/Dropbox/Projects/kutx/platforms/ios/KUTX/Classes/AppDelegate.h:30:
+o/Users/jeff/Dropbox/Projects/kutx/platforms/ios/build/include/Cordova/CDVViewController.h:46:47: note: 'useSplashScreen' declared here
+o@property (nonatomic, readwrite, assign) BOOL useSplashScreen CDV_DEPRECATED(2.5, "Add/Remove the SplashScreen plugin instead of setting this property.");
+o                                              ^
+o1 warning generated.
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection82"Compile /Users/jeff/Dropbox/Projects/kutx/platforms/ios/KUTX/Classes/AppDelegate.m187"CompileC build/KUTX.build/Debug-iphonesimulator/KUTX.build/Objects-normal/i386/AppDelegate.o KUTX/Classes/AppDelegate.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compilercbd6c2fd418cb841^bea108fe418cb841^-882"/Users/jeff/Dropbox/Projects/kutx/platforms/ios/KUTX/Classes/AppDelegate.m:89:25: warning: 'useSplashScreen' is deprecated: Deprecated in Cordova 2.5. Add/Remove the SplashScreen plugin instead of setting this property. [-Wdeprecated-declarations]    self.viewController.useSplashScreen = YES;                        ^In file included from /Users/jeff/Dropbox/Projects/kutx/platforms/ios/KUTX/Classes/AppDelegate.m:28:In file included from /Users/jeff/Dropbox/Projects/kutx/platforms/ios/KUTX/Classes/AppDelegate.h:30:/Users/jeff/Dropbox/Projects/kutx/platforms/ios/build/include/Cordova/CDVViewController.h:46:47: note: 'useSplashScreen' declared here@property (nonatomic, readwrite, assign) BOOL useSplashScreen CDV_DEPRECATED(2.5, "Add/Remove the SplashScreen plugin instead of setting this property.");                                              ^1 warning generated.1(36%IDEClangDiagnosticActivityLogMessage2@128"'useSplashScreen' is deprecated: Deprecated in Cordova 2.5. Add/Remove the SplashScreen plugin instead of setting this property.-411845118#18446744073709551615#0#1(2@31"'useSplashScreen' declared here-411845118#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic23%DVTTextDocumentLocation3@93"file:///Users/jeff/Dropbox/Projects/kutx/platforms/ios/CordovaLib/Classes/CDVViewController.h0000000000000000^45#46#45#46#1826#0#14"Semantic Issue--1#27"com.apple.dt.IDE.diagnostic3@81"file:///Users/jeff/Dropbox/Projects/kutx/platforms/ios/KUTX/Classes/AppDelegate.m0000000000000000^88#24#88#24#3021#0#12"Deprecations--0#0#1#-19%DVTDocumentLocation4@81"file:///Users/jeff/Dropbox/Projects/kutx/platforms/ios/KUTX/Classes/AppDelegate.m0000000000000000^3814"CompileC build/KUTX.build/Debug-iphonesimulator/KUTX.build/Objects-normal/i386/AppDelegate.o KUTX/Classes/AppDelegate.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/jeff/Dropbox/Projects/kutx/platforms/ios    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/jeff/.rvm/gems/ruby-1.9.3-p194/bin:/Users/jeff/.rvm/gems/ruby-1.9.3-p194@global/bin:/Users/jeff/.rvm/rubies/ruby-1.9.3-p194/bin:/Users/jeff/.rvm/bin:/Users/jeff/bin/play:/usr/local/sbin:/usr/local/bin:/opt/local/sbin:/opt/local/bin:/usr/local/share:/Users/jeff/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/usr/local/share/npm/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=c99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -fvisibility=hidden -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=5.1 -iquote /Users/jeff/Dropbox/Projects/kutx/platforms/ios/build/KUTX.build/Debug-iphonesimulator/KUTX.build/KUTX-generated-files.hmap -I/Users/jeff/Dropbox/Projects/kutx/platforms/ios/build/KUTX.build/Debug-iphonesimulator/KUTX.build/KUTX-own-target-headers.hmap -I/Users/jeff/Dropbox/Projects/kutx/platforms/ios/build/KUTX.build/Debug-iphonesimulator/KUTX.build/KUTX-all-target-headers.hmap -iquote /Users/jeff/Dropbox/Projects/kutx/platforms/ios/build/KUTX.build/Debug-iphonesimulator/KUTX.build/KUTX-project-headers.hmap -I/Users/jeff/Dropbox/Projects/kutx/platforms/ios/build/include -I/Users/jeff/Dropbox/Projects/kutx/platforms/ios/build/usr/local/lib/include -I/Users/jeff/Dropbox/Projects/kutx/platforms/ios/build/UninstalledProducts/include -I/Users/jeff/Dropbox/Projects/kutx/platforms/ios/build -I/Users/jeff/Dropbox/Projects/kutx/platforms/ios/build/KUTX.build/Debug-iphonesimulator/KUTX.build/DerivedSources/i386 -I/Users/jeff/Dropbox/Projects/kutx/platforms/ios/build/KUTX.build/Debug-iphonesimulator/KUTX.build/DerivedSources -F/Users/jeff/Dropbox/Projects/kutx/platforms/ios/build -include /var/folders/qp/7clys2g16tl49znyyfbdr_gcyrxkgv/C/com.apple.DeveloperTools/5.0.2-5A3005/Xcode/SharedPrecompiledHeaders/KUTX-Prefix-hgocmsznmgmahzdormbbbgkxqipe/KUTX-Prefix.pch -MMD -MT dependencies -MF /Users/jeff/Dropbox/Projects/kutx/platforms/ios/build/KUTX.build/Debug-iphonesimulator/KUTX.build/Objects-normal/i386/AppDelegate.d --serialize-diagnostics /Users/jeff/Dropbox/Projects/kutx/platforms/ios/build/KUTX.build/Debug-iphonesimulator/KUTX.build/Objects-normal/i386/AppDelegate.dia -c /Users/jeff/Dropbox/Projects/kutx/platforms/ios/KUTX/Classes/AppDelegate.m -o /Users/jeff/Dropbox/Projects/kutx/platforms/ios/build/KUTX.build/Debug-iphonesimulator/KUTX.build/Objects-normal/i386/AppDelegate.o36"4DCB28B6-1078-46F6-AB83-A6A0FB8D5E03-
+b6D9BBBA0-48AF-4088-AD87-7574661ED9BF
+
+CCompileC build/KUTX.build/Debug-iphonesimulator/KUTX.build/Objects-normal/i386/CDVLogger.o /Users/jeff/Dropbox/Projects/kutx/platforms/ios/KUTX/Plugins/org.apache.cordova.console/CDVLogger.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s411847051.563504
+e411847051.689405
+r1
+xCompileC
+xbuild/KUTX.build/Debug-iphonesimulator/KUTX.build/Objects-normal/i386/CDVLogger.o
+x/Users/jeff/Dropbox/Projects/kutx/platforms/ios/KUTX/Plugins/org.apache.cordova.console/CDVLogger.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/jeff/Dropbox/Projects/kutx/platforms/ios/KUTX/Plugins/org.apache.cordova.console/CDVLogger.m
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection107"Compile /Users/jeff/Dropbox/Projects/kutx/platforms/ios/KUTX/Plugins/org.apache.cordova.console/CDVLogger.m210"CompileC build/KUTX.build/Debug-iphonesimulator/KUTX.build/Objects-normal/i386/CDVLogger.o KUTX/Plugins/org.apache.cordova.console/CDVLogger.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler575c908b498cb841^027fb08b498cb841^---0#0#1#-19%DVTDocumentLocation2@106"file:///Users/jeff/Dropbox/Projects/kutx/platforms/ios/KUTX/Plugins/org.apache.cordova.console/CDVLogger.m0000000000000000^3856"CompileC build/KUTX.build/Debug-iphonesimulator/KUTX.build/Objects-normal/i386/CDVLogger.o KUTX/Plugins/org.apache.cordova.console/CDVLogger.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/jeff/Dropbox/Projects/kutx/platforms/ios    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/jeff/.rvm/gems/ruby-1.9.3-p194/bin:/Users/jeff/.rvm/gems/ruby-1.9.3-p194@global/bin:/Users/jeff/.rvm/rubies/ruby-1.9.3-p194/bin:/Users/jeff/.rvm/bin:/Users/jeff/bin/play:/usr/local/sbin:/usr/local/bin:/opt/local/sbin:/opt/local/bin:/usr/local/share:/Users/jeff/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/usr/local/share/npm/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=c99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -fvisibility=hidden -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=5.1 -iquote /Users/jeff/Dropbox/Projects/kutx/platforms/ios/build/KUTX.build/Debug-iphonesimulator/KUTX.build/KUTX-generated-files.hmap -I/Users/jeff/Dropbox/Projects/kutx/platforms/ios/build/KUTX.build/Debug-iphonesimulator/KUTX.build/KUTX-own-target-headers.hmap -I/Users/jeff/Dropbox/Projects/kutx/platforms/ios/build/KUTX.build/Debug-iphonesimulator/KUTX.build/KUTX-all-target-headers.hmap -iquote /Users/jeff/Dropbox/Projects/kutx/platforms/ios/build/KUTX.build/Debug-iphonesimulator/KUTX.build/KUTX-project-headers.hmap -I/Users/jeff/Dropbox/Projects/kutx/platforms/ios/build/include -I/Users/jeff/Dropbox/Projects/kutx/platforms/ios/build/usr/local/lib/include -I/Users/jeff/Dropbox/Projects/kutx/platforms/ios/build/UninstalledProducts/include -I/Users/jeff/Dropbox/Projects/kutx/platforms/ios/build -I/Users/jeff/Dropbox/Projects/kutx/platforms/ios/build/KUTX.build/Debug-iphonesimulator/KUTX.build/DerivedSources/i386 -I/Users/jeff/Dropbox/Projects/kutx/platforms/ios/build/KUTX.build/Debug-iphonesimulator/KUTX.build/DerivedSources -F/Users/jeff/Dropbox/Projects/kutx/platforms/ios/build -include /var/folders/qp/7clys2g16tl49znyyfbdr_gcyrxkgv/C/com.apple.DeveloperTools/5.0.2-5A3005/Xcode/SharedPrecompiledHeaders/KUTX-Prefix-hgocmsznmgmahzdormbbbgkxqipe/KUTX-Prefix.pch -MMD -MT dependencies -MF /Users/jeff/Dropbox/Projects/kutx/platforms/ios/build/KUTX.build/Debug-iphonesimulator/KUTX.build/Objects-normal/i386/CDVLogger.d --serialize-diagnostics /Users/jeff/Dropbox/Projects/kutx/platforms/ios/build/KUTX.build/Debug-iphonesimulator/KUTX.build/Objects-normal/i386/CDVLogger.dia -c /Users/jeff/Dropbox/Projects/kutx/platforms/ios/KUTX/Plugins/org.apache.cordova.console/CDVLogger.m -o /Users/jeff/Dropbox/Projects/kutx/platforms/ios/build/KUTX.build/Debug-iphonesimulator/KUTX.build/Objects-normal/i386/CDVLogger.o36"B1143C05-E9CF-428D-92B9-06FDF90DE490-
+b826D3AA4-7ECC-4527-94AD-66C6719E20B6
+
+CCompileC build/KUTX.build/Debug-iphonesimulator/KUTX.build/Objects-normal/i386/CDVSound.o /Users/jeff/Dropbox/Projects/kutx/platforms/ios/KUTX/Plugins/org.apache.cordova.media/CDVSound.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s411847723.451729
+e411847723.708582
+r1
+xCompileC
+xbuild/KUTX.build/Debug-iphonesimulator/KUTX.build/Objects-normal/i386/CDVSound.o
+x/Users/jeff/Dropbox/Projects/kutx/platforms/ios/KUTX/Plugins/org.apache.cordova.media/CDVSound.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/jeff/Dropbox/Projects/kutx/platforms/ios/KUTX/Plugins/org.apache.cordova.media/CDVSound.m
+d/Users/jeff/Dropbox/Projects/kutx/platforms/ios/KUTX/Plugins/org.apache.cordova.media/CDVSound.h
+d/Users/jeff/Dropbox/Projects/kutx/platforms/ios/build/include/Cordova/CDVPlugin.h
+d/Users/jeff/Dropbox/Projects/kutx/platforms/ios/build/include/Cordova/CDVPluginResult.h
+d/Users/jeff/Dropbox/Projects/kutx/platforms/ios/build/include/Cordova/NSMutableArray+QueueAdditions.h
+d/Users/jeff/Dropbox/Projects/kutx/platforms/ios/build/include/Cordova/CDVCommandDelegate.h
+d/Users/jeff/Dropbox/Projects/kutx/platforms/ios/build/include/Cordova/CDVAvailability.h
+d/Users/jeff/Dropbox/Projects/kutx/platforms/ios/build/include/Cordova/CDVInvokedUrlCommand.h
+d/Users/jeff/Dropbox/Projects/kutx/platforms/ios/build/include/Cordova/NSArray+Comparisons.h
+d/Users/jeff/Dropbox/Projects/kutx/platforms/ios/build/include/Cordova/CDVJSON.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection104"Compile /Users/jeff/Dropbox/Projects/kutx/platforms/ios/KUTX/Plugins/org.apache.cordova.media/CDVSound.m206"CompileC build/KUTX.build/Debug-iphonesimulator/KUTX.build/Objects-normal/i386/CDVSound.o KUTX/Plugins/org.apache.cordova.media/CDVSound.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler96ce732b4c8cb841^dc67b52b4c8cb841^---0#0#1#-19%DVTDocumentLocation2@103"file:///Users/jeff/Dropbox/Projects/kutx/platforms/ios/KUTX/Plugins/org.apache.cordova.media/CDVSound.m0000000000000000^3846"CompileC build/KUTX.build/Debug-iphonesimulator/KUTX.build/Objects-normal/i386/CDVSound.o KUTX/Plugins/org.apache.cordova.media/CDVSound.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/jeff/Dropbox/Projects/kutx/platforms/ios    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/jeff/.rvm/gems/ruby-1.9.3-p194/bin:/Users/jeff/.rvm/gems/ruby-1.9.3-p194@global/bin:/Users/jeff/.rvm/rubies/ruby-1.9.3-p194/bin:/Users/jeff/.rvm/bin:/Users/jeff/bin/play:/usr/local/sbin:/usr/local/bin:/opt/local/sbin:/opt/local/bin:/usr/local/share:/Users/jeff/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/usr/local/share/npm/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=c99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -fvisibility=hidden -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=5.1 -iquote /Users/jeff/Dropbox/Projects/kutx/platforms/ios/build/KUTX.build/Debug-iphonesimulator/KUTX.build/KUTX-generated-files.hmap -I/Users/jeff/Dropbox/Projects/kutx/platforms/ios/build/KUTX.build/Debug-iphonesimulator/KUTX.build/KUTX-own-target-headers.hmap -I/Users/jeff/Dropbox/Projects/kutx/platforms/ios/build/KUTX.build/Debug-iphonesimulator/KUTX.build/KUTX-all-target-headers.hmap -iquote /Users/jeff/Dropbox/Projects/kutx/platforms/ios/build/KUTX.build/Debug-iphonesimulator/KUTX.build/KUTX-project-headers.hmap -I/Users/jeff/Dropbox/Projects/kutx/platforms/ios/build/include -I/Users/jeff/Dropbox/Projects/kutx/platforms/ios/build/usr/local/lib/include -I/Users/jeff/Dropbox/Projects/kutx/platforms/ios/build/UninstalledProducts/include -I/Users/jeff/Dropbox/Projects/kutx/platforms/ios/build -I/Users/jeff/Dropbox/Projects/kutx/platforms/ios/build/KUTX.build/Debug-iphonesimulator/KUTX.build/DerivedSources/i386 -I/Users/jeff/Dropbox/Projects/kutx/platforms/ios/build/KUTX.build/Debug-iphonesimulator/KUTX.build/DerivedSources -F/Users/jeff/Dropbox/Projects/kutx/platforms/ios/build -include /var/folders/qp/7clys2g16tl49znyyfbdr_gcyrxkgv/C/com.apple.DeveloperTools/5.0.2-5A3005/Xcode/SharedPrecompiledHeaders/KUTX-Prefix-hgocmsznmgmahzdormbbbgkxqipe/KUTX-Prefix.pch -MMD -MT dependencies -MF /Users/jeff/Dropbox/Projects/kutx/platforms/ios/build/KUTX.build/Debug-iphonesimulator/KUTX.build/Objects-normal/i386/CDVSound.d --serialize-diagnostics /Users/jeff/Dropbox/Projects/kutx/platforms/ios/build/KUTX.build/Debug-iphonesimulator/KUTX.build/Objects-normal/i386/CDVSound.dia -c /Users/jeff/Dropbox/Projects/kutx/platforms/ios/KUTX/Plugins/org.apache.cordova.media/CDVSound.m -o /Users/jeff/Dropbox/Projects/kutx/platforms/ios/build/KUTX.build/Debug-iphonesimulator/KUTX.build/Objects-normal/i386/CDVSound.o36"42EA9F23-80A4-4116-AA46-D0E029FC07B1-
+b725D37B3-D334-4185-9853-46E91BF80EF2
+
+CCompileC build/KUTX.build/Debug-iphonesimulator/KUTX.build/Objects-normal/i386/CDVSplashScreen.o /Users/jeff/Dropbox/Projects/kutx/platforms/ios/KUTX/Plugins/org.apache.cordova.splashscreen/CDVSplashScreen.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s411844077.511022
+e411844077.614013
+r1
+xCompileC
+xbuild/KUTX.build/Debug-iphonesimulator/KUTX.build/Objects-normal/i386/CDVSplashScreen.o
+x/Users/jeff/Dropbox/Projects/kutx/platforms/ios/KUTX/Plugins/org.apache.cordova.splashscreen/CDVSplashScreen.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/jeff/Dropbox/Projects/kutx/platforms/ios/KUTX/Plugins/org.apache.cordova.splashscreen/CDVSplashScreen.m
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection118"Compile /Users/jeff/Dropbox/Projects/kutx/platforms/ios/KUTX/Plugins/org.apache.cordova.splashscreen/CDVSplashScreen.m227"CompileC build/KUTX.build/Debug-iphonesimulator/KUTX.build/Objects-normal/i386/CDVSplashScreen.o KUTX/Plugins/org.apache.cordova.splashscreen/CDVSplashScreen.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler61fa82ed3d8cb841^452d9ded3d8cb841^---0#0#1#-19%DVTDocumentLocation2@117"file:///Users/jeff/Dropbox/Projects/kutx/platforms/ios/KUTX/Plugins/org.apache.cordova.splashscreen/CDVSplashScreen.m0000000000000000^3903"CompileC build/KUTX.build/Debug-iphonesimulator/KUTX.build/Objects-normal/i386/CDVSplashScreen.o KUTX/Plugins/org.apache.cordova.splashscreen/CDVSplashScreen.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/jeff/Dropbox/Projects/kutx/platforms/ios    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/jeff/.rvm/gems/ruby-1.9.3-p194/bin:/Users/jeff/.rvm/gems/ruby-1.9.3-p194@global/bin:/Users/jeff/.rvm/rubies/ruby-1.9.3-p194/bin:/Users/jeff/.rvm/bin:/Users/jeff/bin/play:/usr/local/sbin:/usr/local/bin:/opt/local/sbin:/opt/local/bin:/usr/local/share:/Users/jeff/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/usr/local/share/npm/bin:"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=c99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -fvisibility=hidden -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=5.1 -iquote /Users/jeff/Dropbox/Projects/kutx/platforms/ios/build/KUTX.build/Debug-iphonesimulator/KUTX.build/KUTX-generated-files.hmap -I/Users/jeff/Dropbox/Projects/kutx/platforms/ios/build/KUTX.build/Debug-iphonesimulator/KUTX.build/KUTX-own-target-headers.hmap -I/Users/jeff/Dropbox/Projects/kutx/platforms/ios/build/KUTX.build/Debug-iphonesimulator/KUTX.build/KUTX-all-target-headers.hmap -iquote /Users/jeff/Dropbox/Projects/kutx/platforms/ios/build/KUTX.build/Debug-iphonesimulator/KUTX.build/KUTX-project-headers.hmap -I/Users/jeff/Dropbox/Projects/kutx/platforms/ios/build/include -I/Users/jeff/Dropbox/Projects/kutx/platforms/ios/build/usr/local/lib/include -I/Users/jeff/Dropbox/Projects/kutx/platforms/ios/build/UninstalledProducts/include -I/Users/jeff/Dropbox/Projects/kutx/platforms/ios/build -I/Users/jeff/Dropbox/Projects/kutx/platforms/ios/build/KUTX.build/Debug-iphonesimulator/KUTX.build/DerivedSources/i386 -I/Users/jeff/Dropbox/Projects/kutx/platforms/ios/build/KUTX.build/Debug-iphonesimulator/KUTX.build/DerivedSources -F/Users/jeff/Dropbox/Projects/kutx/platforms/ios/build -include /var/folders/qp/7clys2g16tl49znyyfbdr_gcyrxkgv/C/com.apple.DeveloperTools/5.0.2-5A3005/Xcode/SharedPrecompiledHeaders/KUTX-Prefix-hgocmsznmgmahzdormbbbgkxqipe/KUTX-Prefix.pch -MMD -MT dependencies -MF /Users/jeff/Dropbox/Projects/kutx/platforms/ios/build/KUTX.build/Debug-iphonesimulator/KUTX.build/Objects-normal/i386/CDVSplashScreen.d --serialize-diagnostics /Users/jeff/Dropbox/Projects/kutx/platforms/ios/build/KUTX.build/Debug-iphonesimulator/KUTX.build/Objects-normal/i386/CDVSplashScreen.dia -c /Users/jeff/Dropbox/Projects/kutx/platforms/ios/KUTX/Plugins/org.apache.cordova.splashscreen/CDVSplashScreen.m -o /Users/jeff/Dropbox/Projects/kutx/platforms/ios/build/KUTX.build/Debug-iphonesimulator/KUTX.build/Objects-normal/i386/CDVSplashScreen.o36"16B94726-AA26-442D-BAA1-BAC5F650C8F6-
+b1686FCCE-4443-44A6-AA84-614454CCEE71
+
+CCompileC build/KUTX.build/Debug-iphonesimulator/KUTX.build/Objects-normal/i386/MainViewController.o /Users/jeff/Dropbox/Projects/kutx/platforms/ios/KUTX/Classes/MainViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s411845608.725236
+e411845609.440327
+r1
+xCompileC
+xbuild/KUTX.build/Debug-iphonesimulator/KUTX.build/Objects-normal/i386/MainViewController.o
+x/Users/jeff/Dropbox/Projects/kutx/platforms/ios/KUTX/Classes/MainViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/jeff/Dropbox/Projects/kutx/platforms/ios/KUTX/Classes/MainViewController.m
+d/Users/jeff/Dropbox/Projects/kutx/platforms/ios/KUTX/Classes/MainViewController.h
+d/Users/jeff/Dropbox/Projects/kutx/platforms/ios/build/include/Cordova/CDVViewController.h
+d/Users/jeff/Dropbox/Projects/kutx/platforms/ios/build/include/Cordova/CDVAvailability.h
+d/Users/jeff/Dropbox/Projects/kutx/platforms/ios/build/include/Cordova/CDVInvokedUrlCommand.h
+d/Users/jeff/Dropbox/Projects/kutx/platforms/ios/build/include/Cordova/CDVCommandDelegate.h
+d/Users/jeff/Dropbox/Projects/kutx/platforms/ios/build/include/Cordova/CDVCommandQueue.h
+d/Users/jeff/Dropbox/Projects/kutx/platforms/ios/build/include/Cordova/CDVWhitelist.h
+d/Users/jeff/Dropbox/Projects/kutx/platforms/ios/build/include/Cordova/CDVScreenOrientationDelegate.h
+d/Users/jeff/Dropbox/Projects/kutx/platforms/ios/build/include/Cordova/CDVPlugin.h
+d/Users/jeff/Dropbox/Projects/kutx/platforms/ios/build/include/Cordova/CDVPluginResult.h
+d/Users/jeff/Dropbox/Projects/kutx/platforms/ios/build/include/Cordova/NSMutableArray+QueueAdditions.h
+d/Users/jeff/Dropbox/Projects/kutx/platforms/ios/build/include/Cordova/CDVCommandDelegateImpl.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection89"Compile /Users/jeff/Dropbox/Projects/kutx/platforms/ios/KUTX/Classes/MainViewController.m201"CompileC build/KUTX.build/Debug-iphonesimulator/KUTX.build/Objects-normal/i386/MainViewController.o KUTX/Classes/MainViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler5ed5b9e8438cb841^4dbb70e9438cb841^---0#0#1#-19%DVTDocumentLocation2@88"file:///Users/jeff/Dropbox/Projects/kutx/platforms/ios/KUTX/Classes/MainViewController.m0000000000000000^3856"CompileC build/KUTX.build/Debug-iphonesimulator/KUTX.build/Objects-normal/i386/MainViewController.o KUTX/Classes/MainViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/jeff/Dropbox/Projects/kutx/platforms/ios    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/jeff/.rvm/gems/ruby-1.9.3-p194/bin:/Users/jeff/.rvm/gems/ruby-1.9.3-p194@global/bin:/Users/jeff/.rvm/rubies/ruby-1.9.3-p194/bin:/Users/jeff/.rvm/bin:/Users/jeff/bin/play:/usr/local/sbin:/usr/local/bin:/opt/local/sbin:/opt/local/bin:/usr/local/share:/Users/jeff/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/usr/local/share/npm/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=c99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -fvisibility=hidden -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=5.1 -iquote /Users/jeff/Dropbox/Projects/kutx/platforms/ios/build/KUTX.build/Debug-iphonesimulator/KUTX.build/KUTX-generated-files.hmap -I/Users/jeff/Dropbox/Projects/kutx/platforms/ios/build/KUTX.build/Debug-iphonesimulator/KUTX.build/KUTX-own-target-headers.hmap -I/Users/jeff/Dropbox/Projects/kutx/platforms/ios/build/KUTX.build/Debug-iphonesimulator/KUTX.build/KUTX-all-target-headers.hmap -iquote /Users/jeff/Dropbox/Projects/kutx/platforms/ios/build/KUTX.build/Debug-iphonesimulator/KUTX.build/KUTX-project-headers.hmap -I/Users/jeff/Dropbox/Projects/kutx/platforms/ios/build/include -I/Users/jeff/Dropbox/Projects/kutx/platforms/ios/build/usr/local/lib/include -I/Users/jeff/Dropbox/Projects/kutx/platforms/ios/build/UninstalledProducts/include -I/Users/jeff/Dropbox/Projects/kutx/platforms/ios/build -I/Users/jeff/Dropbox/Projects/kutx/platforms/ios/build/KUTX.build/Debug-iphonesimulator/KUTX.build/DerivedSources/i386 -I/Users/jeff/Dropbox/Projects/kutx/platforms/ios/build/KUTX.build/Debug-iphonesimulator/KUTX.build/DerivedSources -F/Users/jeff/Dropbox/Projects/kutx/platforms/ios/build -include /var/folders/qp/7clys2g16tl49znyyfbdr_gcyrxkgv/C/com.apple.DeveloperTools/5.0.2-5A3005/Xcode/SharedPrecompiledHeaders/KUTX-Prefix-hgocmsznmgmahzdormbbbgkxqipe/KUTX-Prefix.pch -MMD -MT dependencies -MF /Users/jeff/Dropbox/Projects/kutx/platforms/ios/build/KUTX.build/Debug-iphonesimulator/KUTX.build/Objects-normal/i386/MainViewController.d --serialize-diagnostics /Users/jeff/Dropbox/Projects/kutx/platforms/ios/build/KUTX.build/Debug-iphonesimulator/KUTX.build/Objects-normal/i386/MainViewController.dia -c /Users/jeff/Dropbox/Projects/kutx/platforms/ios/KUTX/Classes/MainViewController.m -o /Users/jeff/Dropbox/Projects/kutx/platforms/ios/build/KUTX.build/Debug-iphonesimulator/KUTX.build/Objects-normal/i386/MainViewController.o36"1730A1E7-0182-4722-BEBA-D7BBCBE6F29E-
+bF4D26E3F-B1F1-4B43-A2C0-BC5C070D647B
+
+CCompileC build/KUTX.build/Debug-iphonesimulator/KUTX.build/Objects-normal/i386/main.o /Users/jeff/Dropbox/Projects/kutx/platforms/ios/KUTX/main.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s411842374.905377
+e411842374.941119
+r1
+xCompileC
+xbuild/KUTX.build/Debug-iphonesimulator/KUTX.build/Objects-normal/i386/main.o
+x/Users/jeff/Dropbox/Projects/kutx/platforms/ios/KUTX/main.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/jeff/Dropbox/Projects/kutx/platforms/ios/KUTX/main.m
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection67"Compile /Users/jeff/Dropbox/Projects/kutx/platforms/ios/KUTX/main.m165"CompileC build/KUTX.build/Debug-iphonesimulator/KUTX.build/Objects-normal/i386/main.o KUTX/main.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler14ece746378cb841^3eedf046378cb841^---0#0#1#-19%DVTDocumentLocation2@66"file:///Users/jeff/Dropbox/Projects/kutx/platforms/ios/KUTX/main.m0000000000000000^3757"CompileC build/KUTX.build/Debug-iphonesimulator/KUTX.build/Objects-normal/i386/main.o KUTX/main.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/jeff/Dropbox/Projects/kutx/platforms/ios    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/jeff/.rvm/gems/ruby-1.9.3-p194/bin:/Users/jeff/.rvm/gems/ruby-1.9.3-p194@global/bin:/Users/jeff/.rvm/rubies/ruby-1.9.3-p194/bin:/Users/jeff/.rvm/bin:/Users/jeff/bin/play:/usr/local/sbin:/usr/local/bin:/opt/local/sbin:/opt/local/bin:/usr/local/share:/Users/jeff/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/usr/local/share/npm/bin:"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=c99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -fvisibility=hidden -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=5.1 -iquote /Users/jeff/Dropbox/Projects/kutx/platforms/ios/build/KUTX.build/Debug-iphonesimulator/KUTX.build/KUTX-generated-files.hmap -I/Users/jeff/Dropbox/Projects/kutx/platforms/ios/build/KUTX.build/Debug-iphonesimulator/KUTX.build/KUTX-own-target-headers.hmap -I/Users/jeff/Dropbox/Projects/kutx/platforms/ios/build/KUTX.build/Debug-iphonesimulator/KUTX.build/KUTX-all-target-headers.hmap -iquote /Users/jeff/Dropbox/Projects/kutx/platforms/ios/build/KUTX.build/Debug-iphonesimulator/KUTX.build/KUTX-project-headers.hmap -I/Users/jeff/Dropbox/Projects/kutx/platforms/ios/build/include -I/Users/jeff/Dropbox/Projects/kutx/platforms/ios/build/usr/local/lib/include -I/Users/jeff/Dropbox/Projects/kutx/platforms/ios/build/UninstalledProducts/include -I/Users/jeff/Dropbox/Projects/kutx/platforms/ios/build -I/Users/jeff/Dropbox/Projects/kutx/platforms/ios/build/KUTX.build/Debug-iphonesimulator/KUTX.build/DerivedSources/i386 -I/Users/jeff/Dropbox/Projects/kutx/platforms/ios/build/KUTX.build/Debug-iphonesimulator/KUTX.build/DerivedSources -F/Users/jeff/Dropbox/Projects/kutx/platforms/ios/build -include /var/folders/qp/7clys2g16tl49znyyfbdr_gcyrxkgv/C/com.apple.DeveloperTools/5.0.2-5A3005/Xcode/SharedPrecompiledHeaders/KUTX-Prefix-hgocmsznmgmahzdormbbbgkxqipe/KUTX-Prefix.pch -MMD -MT dependencies -MF /Users/jeff/Dropbox/Projects/kutx/platforms/ios/build/KUTX.build/Debug-iphonesimulator/KUTX.build/Objects-normal/i386/main.d --serialize-diagnostics /Users/jeff/Dropbox/Projects/kutx/platforms/ios/build/KUTX.build/Debug-iphonesimulator/KUTX.build/Objects-normal/i386/main.dia -c /Users/jeff/Dropbox/Projects/kutx/platforms/ios/KUTX/main.m -o /Users/jeff/Dropbox/Projects/kutx/platforms/ios/build/KUTX.build/Debug-iphonesimulator/KUTX.build/Objects-normal/i386/main.o36"B8EB7E4D-7494-42E1-9587-DA18FB0F5DE6-
+bC9A2322C-47F4-4790-9F70-FC3F8FDBBC7B
+
+CCompileXIB /Users/jeff/Dropbox/Projects/kutx/platforms/ios/KUTX/Classes/MainViewController.xib
+s411842372.878633
+e411842374.904298
+r1
+xCompileXIB
+x/Users/jeff/Dropbox/Projects/kutx/platforms/ios/KUTX/Classes/MainViewController.xib
+o2014-01-19 10:39:34.425 Interface Builder Cocoa Touch Tool[2186:303] CFPreferences: user home directory at file:///Users/jeff/Library/Application%20Support/iPhone%20Simulator/User/ is unavailable. User domains will be volatile.
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection93"Compiling /Users/jeff/Dropbox/Projects/kutx/platforms/ios/KUTX/Classes/MainViewController.xib46"CompileXIB KUTX/Classes/MainViewController.xib6a34e144378cb841^4d82e746378cb841^-228"2014-01-19 10:39:34.425 Interface Builder Cocoa Touch Tool[2186:303] CFPreferences: user home directory at file:///Users/jeff/Library/Application%20Support/iPhone%20Simulator/User/ is unavailable. User domains will be volatile.-0#0#1#-19%DVTDocumentLocation2@90"file:///Users/jeff/Dropbox/Projects/kutx/platforms/ios/KUTX/Classes/MainViewController.xib0000000000000000^1098"CompileXIB KUTX/Classes/MainViewController.xib    cd /Users/jeff/Dropbox/Projects/kutx/platforms/ios    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/jeff/.rvm/gems/ruby-1.9.3-p194/bin:/Users/jeff/.rvm/gems/ruby-1.9.3-p194@global/bin:/Users/jeff/.rvm/rubies/ruby-1.9.3-p194/bin:/Users/jeff/.rvm/bin:/Users/jeff/bin/play:/usr/local/sbin:/usr/local/bin:/opt/local/sbin:/opt/local/bin:/usr/local/share:/Users/jeff/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/usr/local/share/npm/bin:"    setenv XCODE_DEVELOPER_USR_PATH /Applications/Xcode.app/Contents/Developer/usr/bin/..    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/ibtool --errors --warnings --notices --minimum-deployment-target 5.1 --output-format human-readable-text --compile /Users/jeff/Dropbox/Projects/kutx/platforms/ios/build/KUTX.app/MainViewController.nib /Users/jeff/Dropbox/Projects/kutx/platforms/ios/KUTX/Classes/MainViewController.xib36"E5038A57-0110-4C43-A731-7A68017983D0-
+bC9A2322C-47F4-4790-9F70-FC3F8FDBBC7B
+
+CCopyStringsFile /Users/jeff/Dropbox/Projects/kutx/platforms/ios/build/KUTX.app/de.lproj/Localizable.strings KUTX/Resources/de.lproj/Localizable.strings
+s411842372.881480
+e411842372.888454
+r1
+xCopyStringsFile
+x/Users/jeff/Dropbox/Projects/kutx/platforms/ios/build/KUTX.app/de.lproj/Localizable.strings
+xKUTX/Resources/de.lproj/Localizable.strings
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection48"Copy KUTX/Resources/de.lproj/Localizable.strings103"CopyStringsFile build/KUTX.app/de.lproj/Localizable.strings KUTX/Resources/de.lproj/Localizable.strings2d5ce244378cb841^8ac9e344378cb841^---0#0#1#-19%DVTDocumentLocation2@98"file:///Users/jeff/Dropbox/Projects/kutx/platforms/ios/KUTX/Resources/de.lproj/Localizable.strings0000000000000000^889"CopyStringsFile build/KUTX.app/de.lproj/Localizable.strings KUTX/Resources/de.lproj/Localizable.strings    cd /Users/jeff/Dropbox/Projects/kutx/platforms/ios    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/jeff/.rvm/gems/ruby-1.9.3-p194/bin:/Users/jeff/.rvm/gems/ruby-1.9.3-p194@global/bin:/Users/jeff/.rvm/rubies/ruby-1.9.3-p194/bin:/Users/jeff/.rvm/bin:/Users/jeff/bin/play:/usr/local/sbin:/usr/local/bin:/opt/local/sbin:/opt/local/bin:/usr/local/share:/Users/jeff/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/usr/local/share/npm/bin:"    builtin-copyStrings --validate --inputencoding utf-8 --outputencoding binary --outdir /Users/jeff/Dropbox/Projects/kutx/platforms/ios/build/KUTX.app/de.lproj -- KUTX/Resources/de.lproj/Localizable.strings36"49FF3641-627F-4F62-BB1D-545B49916BF4-
+bC9A2322C-47F4-4790-9F70-FC3F8FDBBC7B
+
+CCopyStringsFile /Users/jeff/Dropbox/Projects/kutx/platforms/ios/build/KUTX.app/en.lproj/Localizable.strings KUTX/Resources/en.lproj/Localizable.strings
+s411842372.878438
+e411842372.882218
+r1
+xCopyStringsFile
+x/Users/jeff/Dropbox/Projects/kutx/platforms/ios/build/KUTX.app/en.lproj/Localizable.strings
+xKUTX/Resources/en.lproj/Localizable.strings
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection48"Copy KUTX/Resources/en.lproj/Localizable.strings103"CopyStringsFile build/KUTX.app/en.lproj/Localizable.strings KUTX/Resources/en.lproj/Localizable.strings9300e144378cb841^c5e4e144378cb841^---0#0#1#-19%DVTDocumentLocation2@98"file:///Users/jeff/Dropbox/Projects/kutx/platforms/ios/KUTX/Resources/en.lproj/Localizable.strings0000000000000000^889"CopyStringsFile build/KUTX.app/en.lproj/Localizable.strings KUTX/Resources/en.lproj/Localizable.strings    cd /Users/jeff/Dropbox/Projects/kutx/platforms/ios    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/jeff/.rvm/gems/ruby-1.9.3-p194/bin:/Users/jeff/.rvm/gems/ruby-1.9.3-p194@global/bin:/Users/jeff/.rvm/rubies/ruby-1.9.3-p194/bin:/Users/jeff/.rvm/bin:/Users/jeff/bin/play:/usr/local/sbin:/usr/local/bin:/opt/local/sbin:/opt/local/bin:/usr/local/share:/Users/jeff/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/usr/local/share/npm/bin:"    builtin-copyStrings --validate --inputencoding utf-8 --outputencoding binary --outdir /Users/jeff/Dropbox/Projects/kutx/platforms/ios/build/KUTX.app/en.lproj -- KUTX/Resources/en.lproj/Localizable.strings36"2304A29F-8457-454F-B182-8AB33B44BB73-
+bC9A2322C-47F4-4790-9F70-FC3F8FDBBC7B
+
+CCopyStringsFile /Users/jeff/Dropbox/Projects/kutx/platforms/ios/build/KUTX.app/es.lproj/Localizable.strings KUTX/Resources/es.lproj/Localizable.strings
+s411842372.878584
+e411842372.884412
+r1
+xCopyStringsFile
+x/Users/jeff/Dropbox/Projects/kutx/platforms/ios/build/KUTX.app/es.lproj/Localizable.strings
+xKUTX/Resources/es.lproj/Localizable.strings
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection48"Copy KUTX/Resources/es.lproj/Localizable.strings103"CopyStringsFile build/KUTX.app/es.lproj/Localizable.strings KUTX/Resources/es.lproj/Localizable.stringsc005e144378cb841^89b3e244378cb841^---0#0#1#-19%DVTDocumentLocation2@98"file:///Users/jeff/Dropbox/Projects/kutx/platforms/ios/KUTX/Resources/es.lproj/Localizable.strings0000000000000000^889"CopyStringsFile build/KUTX.app/es.lproj/Localizable.strings KUTX/Resources/es.lproj/Localizable.strings    cd /Users/jeff/Dropbox/Projects/kutx/platforms/ios    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/jeff/.rvm/gems/ruby-1.9.3-p194/bin:/Users/jeff/.rvm/gems/ruby-1.9.3-p194@global/bin:/Users/jeff/.rvm/rubies/ruby-1.9.3-p194/bin:/Users/jeff/.rvm/bin:/Users/jeff/bin/play:/usr/local/sbin:/usr/local/bin:/opt/local/sbin:/opt/local/bin:/usr/local/share:/Users/jeff/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/usr/local/share/npm/bin:"    builtin-copyStrings --validate --inputencoding utf-8 --outputencoding binary --outdir /Users/jeff/Dropbox/Projects/kutx/platforms/ios/build/KUTX.app/es.lproj -- KUTX/Resources/es.lproj/Localizable.strings36"09E66C1C-2B00-4F93-8B44-069C2E1507CA-
+bC9A2322C-47F4-4790-9F70-FC3F8FDBBC7B
+
+CCopyStringsFile /Users/jeff/Dropbox/Projects/kutx/platforms/ios/build/KUTX.app/se.lproj/Localizable.strings KUTX/Resources/se.lproj/Localizable.strings
+s411842372.882554
+e411842372.886466
+r1
+xCopyStringsFile
+x/Users/jeff/Dropbox/Projects/kutx/platforms/ios/build/KUTX.app/se.lproj/Localizable.strings
+xKUTX/Resources/se.lproj/Localizable.strings
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection48"Copy KUTX/Resources/se.lproj/Localizable.strings103"CopyStringsFile build/KUTX.app/se.lproj/Localizable.strings KUTX/Resources/se.lproj/Localizable.strings2d0be244378cb841^de04e344378cb841^---0#0#1#-19%DVTDocumentLocation2@98"file:///Users/jeff/Dropbox/Projects/kutx/platforms/ios/KUTX/Resources/se.lproj/Localizable.strings0000000000000000^889"CopyStringsFile build/KUTX.app/se.lproj/Localizable.strings KUTX/Resources/se.lproj/Localizable.strings    cd /Users/jeff/Dropbox/Projects/kutx/platforms/ios    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/jeff/.rvm/gems/ruby-1.9.3-p194/bin:/Users/jeff/.rvm/gems/ruby-1.9.3-p194@global/bin:/Users/jeff/.rvm/rubies/ruby-1.9.3-p194/bin:/Users/jeff/.rvm/bin:/Users/jeff/bin/play:/usr/local/sbin:/usr/local/bin:/opt/local/sbin:/opt/local/bin:/usr/local/share:/Users/jeff/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/usr/local/share/npm/bin:"    builtin-copyStrings --validate --inputencoding utf-8 --outputencoding binary --outdir /Users/jeff/Dropbox/Projects/kutx/platforms/ios/build/KUTX.app/se.lproj -- KUTX/Resources/se.lproj/Localizable.strings36"5ABE4756-421E-414A-B861-B4FA0088E4AA-
+bC9A2322C-47F4-4790-9F70-FC3F8FDBBC7B
+
+CCpResource KUTX/Resources/Capture.bundle build/KUTX.app/Capture.bundle
+s411842372.877782
+e411842372.892780
+r1
+xCpResource
+xKUTX/Resources/Capture.bundle
+xbuild/KUTX.app/Capture.bundle
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection34"Copy build/KUTX.app/Capture.bundle70"CpResource KUTX/Resources/Capture.bundle build/KUTX.app/Capture.bundle6e52e144378cb841^2995e444378cb841^---0#0#1#-19%DVTDocumentLocation2@84"file:///Users/jeff/Dropbox/Projects/kutx/platforms/ios/build/KUTX.app/Capture.bundle003424cdddffdf42^900"CpResource KUTX/Resources/Capture.bundle build/KUTX.app/Capture.bundle    cd /Users/jeff/Dropbox/Projects/kutx/platforms/ios    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/jeff/.rvm/gems/ruby-1.9.3-p194/bin:/Users/jeff/.rvm/gems/ruby-1.9.3-p194@global/bin:/Users/jeff/.rvm/rubies/ruby-1.9.3-p194/bin:/Users/jeff/.rvm/bin:/Users/jeff/bin/play:/usr/local/sbin:/usr/local/bin:/opt/local/sbin:/opt/local/bin:/usr/local/share:/Users/jeff/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/usr/local/share/npm/bin:"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/jeff/Dropbox/Projects/kutx/platforms/ios/KUTX/Resources/Capture.bundle /Users/jeff/Dropbox/Projects/kutx/platforms/ios/build/KUTX.app36"19323F7A-0FF6-4FA6-AFBB-BDC97910EA16-
+bC9A2322C-47F4-4790-9F70-FC3F8FDBBC7B
+
+CCpResource KUTX/Resources/icons/icon-72.png build/KUTX.app/icon-72.png
+s412292343.412034
+e412292343.414578
+r1
+xCpResource
+xKUTX/Resources/icons/icon-72.png
+xbuild/KUTX.app/icon-72.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection31"Copy build/KUTX.app/icon-72.png70"CpResource KUTX/Resources/icons/icon-72.png build/KUTX.app/icon-72.pngf29869f71493b841^48526af71493b841^---0#0#1#-19%DVTDocumentLocation2@81"file:///Users/jeff/Dropbox/Projects/kutx/platforms/ios/build/KUTX.app/icon-72.png0000000000000000^903"CpResource KUTX/Resources/icons/icon-72.png build/KUTX.app/icon-72.png    cd /Users/jeff/Dropbox/Projects/kutx/platforms/ios    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/jeff/.rvm/gems/ruby-1.9.3-p194/bin:/Users/jeff/.rvm/gems/ruby-1.9.3-p194@global/bin:/Users/jeff/.rvm/rubies/ruby-1.9.3-p194/bin:/Users/jeff/.rvm/bin:/Users/jeff/bin/play:/usr/local/sbin:/usr/local/bin:/opt/local/sbin:/opt/local/bin:/usr/local/share:/Users/jeff/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/usr/local/share/npm/bin:"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/jeff/Dropbox/Projects/kutx/platforms/ios/KUTX/Resources/icons/icon-72.png /Users/jeff/Dropbox/Projects/kutx/platforms/ios/build/KUTX.app36"9772E919-5F33-48E1-9ED9-CB76AF839A26-
+bFD0AA45C-46E7-4D41-8688-102D5A777543
+
+CCpResource KUTX/Resources/icons/icon-72@2x.png build/KUTX.app/icon-72@2x.png
+s412292343.416713
+e412292343.418843
+r1
+xCpResource
+xKUTX/Resources/icons/icon-72@2x.png
+xbuild/KUTX.app/icon-72@2x.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection34"Copy build/KUTX.app/icon-72@2x.png76"CpResource KUTX/Resources/icons/icon-72@2x.png build/KUTX.app/icon-72@2x.png83c06af71493b841^c3486bf71493b841^---0#0#1#-19%DVTDocumentLocation2@84"file:///Users/jeff/Dropbox/Projects/kutx/platforms/ios/build/KUTX.app/icon-72@2x.png0000000000000000^912"CpResource KUTX/Resources/icons/icon-72@2x.png build/KUTX.app/icon-72@2x.png    cd /Users/jeff/Dropbox/Projects/kutx/platforms/ios    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/jeff/.rvm/gems/ruby-1.9.3-p194/bin:/Users/jeff/.rvm/gems/ruby-1.9.3-p194@global/bin:/Users/jeff/.rvm/rubies/ruby-1.9.3-p194/bin:/Users/jeff/.rvm/bin:/Users/jeff/bin/play:/usr/local/sbin:/usr/local/bin:/opt/local/sbin:/opt/local/bin:/usr/local/share:/Users/jeff/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/usr/local/share/npm/bin:"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/jeff/Dropbox/Projects/kutx/platforms/ios/KUTX/Resources/icons/icon-72@2x.png /Users/jeff/Dropbox/Projects/kutx/platforms/ios/build/KUTX.app36"983660AA-605F-4E4F-B090-1E933749632C-
+bFD0AA45C-46E7-4D41-8688-102D5A777543
+
+CCpResource KUTX/Resources/icons/icon.png build/KUTX.app/icon.png
+s412292343.412213
+e412292343.415000
+r1
+xCpResource
+xKUTX/Resources/icons/icon.png
+xbuild/KUTX.app/icon.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection28"Copy build/KUTX.app/icon.png64"CpResource KUTX/Resources/icons/icon.png build/KUTX.app/icon.pnga7ad69f71493b841^c85f6af71493b841^---0#0#1#-19%DVTDocumentLocation2@78"file:///Users/jeff/Dropbox/Projects/kutx/platforms/ios/build/KUTX.app/icon.png0000000000000000^894"CpResource KUTX/Resources/icons/icon.png build/KUTX.app/icon.png    cd /Users/jeff/Dropbox/Projects/kutx/platforms/ios    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/jeff/.rvm/gems/ruby-1.9.3-p194/bin:/Users/jeff/.rvm/gems/ruby-1.9.3-p194@global/bin:/Users/jeff/.rvm/rubies/ruby-1.9.3-p194/bin:/Users/jeff/.rvm/bin:/Users/jeff/bin/play:/usr/local/sbin:/usr/local/bin:/opt/local/sbin:/opt/local/bin:/usr/local/share:/Users/jeff/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/usr/local/share/npm/bin:"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/jeff/Dropbox/Projects/kutx/platforms/ios/KUTX/Resources/icons/icon.png /Users/jeff/Dropbox/Projects/kutx/platforms/ios/build/KUTX.app36"BF5E951F-4798-470A-9753-E458A994DC89-
+bFD0AA45C-46E7-4D41-8688-102D5A777543
+
+CCpResource KUTX/Resources/icons/icon@2x.png build/KUTX.app/icon@2x.png
+s412292343.412742
+e412292343.415341
+r1
+xCpResource
+xKUTX/Resources/icons/icon@2x.png
+xbuild/KUTX.app/icon@2x.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection31"Copy build/KUTX.app/icon@2x.png70"CpResource KUTX/Resources/icons/icon@2x.png build/KUTX.app/icon@2x.png62dc69f71493b841^bf656af71493b841^---0#0#1#-19%DVTDocumentLocation2@81"file:///Users/jeff/Dropbox/Projects/kutx/platforms/ios/build/KUTX.app/icon@2x.png0000000000000000^903"CpResource KUTX/Resources/icons/icon@2x.png build/KUTX.app/icon@2x.png    cd /Users/jeff/Dropbox/Projects/kutx/platforms/ios    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/jeff/.rvm/gems/ruby-1.9.3-p194/bin:/Users/jeff/.rvm/gems/ruby-1.9.3-p194@global/bin:/Users/jeff/.rvm/rubies/ruby-1.9.3-p194/bin:/Users/jeff/.rvm/bin:/Users/jeff/bin/play:/usr/local/sbin:/usr/local/bin:/opt/local/sbin:/opt/local/bin:/usr/local/share:/Users/jeff/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/usr/local/share/npm/bin:"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/jeff/Dropbox/Projects/kutx/platforms/ios/KUTX/Resources/icons/icon@2x.png /Users/jeff/Dropbox/Projects/kutx/platforms/ios/build/KUTX.app36"106DBEA4-D4B5-4830-88EE-060C7B1D4AB5-
+bFD0AA45C-46E7-4D41-8688-102D5A777543
+
+CCpResource KUTX/Resources/splash/Default-568h@2x~iphone.png build/KUTX.app/Default-568h@2x~iphone.png
+s411842372.899132
+e411842372.902914
+r1
+xCpResource
+xKUTX/Resources/splash/Default-568h@2x~iphone.png
+xbuild/KUTX.app/Default-568h@2x~iphone.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection46"Copy build/KUTX.app/Default-568h@2x~iphone.png101"CpResource KUTX/Resources/splash/Default-568h@2x~iphone.png build/KUTX.app/Default-568h@2x~iphone.png8b8ce644378cb841^8b32e744378cb841^---0#0#1#-19%DVTDocumentLocation2@96"file:///Users/jeff/Dropbox/Projects/kutx/platforms/ios/build/KUTX.app/Default-568h@2x~iphone.png003424cdddffdf42^950"CpResource KUTX/Resources/splash/Default-568h@2x~iphone.png build/KUTX.app/Default-568h@2x~iphone.png    cd /Users/jeff/Dropbox/Projects/kutx/platforms/ios    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/jeff/.rvm/gems/ruby-1.9.3-p194/bin:/Users/jeff/.rvm/gems/ruby-1.9.3-p194@global/bin:/Users/jeff/.rvm/rubies/ruby-1.9.3-p194/bin:/Users/jeff/.rvm/bin:/Users/jeff/bin/play:/usr/local/sbin:/usr/local/bin:/opt/local/sbin:/opt/local/bin:/usr/local/share:/Users/jeff/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/usr/local/share/npm/bin:"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/jeff/Dropbox/Projects/kutx/platforms/ios/KUTX/Resources/splash/Default-568h@2x~iphone.png /Users/jeff/Dropbox/Projects/kutx/platforms/ios/build/KUTX.app36"93CC80E9-F5D8-467D-AB13-DCB0E06D8B38-
+bC9A2322C-47F4-4790-9F70-FC3F8FDBBC7B
+
+CCpResource KUTX/Resources/splash/Default-Landscape@2x~ipad.png build/KUTX.app/Default-Landscape@2x~ipad.png
+s411842372.884124
+e411842372.890301
+r1
+xCpResource
+xKUTX/Resources/splash/Default-Landscape@2x~ipad.png
+xbuild/KUTX.app/Default-Landscape@2x~ipad.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection49"Copy build/KUTX.app/Default-Landscape@2x~ipad.png107"CpResource KUTX/Resources/splash/Default-Landscape@2x~ipad.png build/KUTX.app/Default-Landscape@2x~ipad.pnga20ee344378cb841^46ece344378cb841^---0#0#1#-19%DVTDocumentLocation2@99"file:///Users/jeff/Dropbox/Projects/kutx/platforms/ios/build/KUTX.app/Default-Landscape@2x~ipad.png003424cdddffdf42^959"CpResource KUTX/Resources/splash/Default-Landscape@2x~ipad.png build/KUTX.app/Default-Landscape@2x~ipad.png    cd /Users/jeff/Dropbox/Projects/kutx/platforms/ios    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/jeff/.rvm/gems/ruby-1.9.3-p194/bin:/Users/jeff/.rvm/gems/ruby-1.9.3-p194@global/bin:/Users/jeff/.rvm/rubies/ruby-1.9.3-p194/bin:/Users/jeff/.rvm/bin:/Users/jeff/bin/play:/usr/local/sbin:/usr/local/bin:/opt/local/sbin:/opt/local/bin:/usr/local/share:/Users/jeff/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/usr/local/share/npm/bin:"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/jeff/Dropbox/Projects/kutx/platforms/ios/KUTX/Resources/splash/Default-Landscape@2x~ipad.png /Users/jeff/Dropbox/Projects/kutx/platforms/ios/build/KUTX.app36"F6346490-CBA3-404A-8C84-E476E36E7860-
+bC9A2322C-47F4-4790-9F70-FC3F8FDBBC7B
+
+CCpResource KUTX/Resources/splash/Default-Landscape~ipad.png build/KUTX.app/Default-Landscape~ipad.png
+s411842372.889253
+e411842372.895035
+r1
+xCpResource
+xKUTX/Resources/splash/Default-Landscape~ipad.png
+xbuild/KUTX.app/Default-Landscape~ipad.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection46"Copy build/KUTX.app/Default-Landscape~ipad.png101"CpResource KUTX/Resources/splash/Default-Landscape~ipad.png build/KUTX.app/Default-Landscape~ipad.png5d34e444378cb841^0d36e544378cb841^---0#0#1#-19%DVTDocumentLocation2@96"file:///Users/jeff/Dropbox/Projects/kutx/platforms/ios/build/KUTX.app/Default-Landscape~ipad.png003424cdddffdf42^950"CpResource KUTX/Resources/splash/Default-Landscape~ipad.png build/KUTX.app/Default-Landscape~ipad.png    cd /Users/jeff/Dropbox/Projects/kutx/platforms/ios    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/jeff/.rvm/gems/ruby-1.9.3-p194/bin:/Users/jeff/.rvm/gems/ruby-1.9.3-p194@global/bin:/Users/jeff/.rvm/rubies/ruby-1.9.3-p194/bin:/Users/jeff/.rvm/bin:/Users/jeff/bin/play:/usr/local/sbin:/usr/local/bin:/opt/local/sbin:/opt/local/bin:/usr/local/share:/Users/jeff/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/usr/local/share/npm/bin:"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/jeff/Dropbox/Projects/kutx/platforms/ios/KUTX/Resources/splash/Default-Landscape~ipad.png /Users/jeff/Dropbox/Projects/kutx/platforms/ios/build/KUTX.app36"34D01C0A-A695-4E3A-999E-31241C556CCD-
+bC9A2322C-47F4-4790-9F70-FC3F8FDBBC7B
+
+CCpResource KUTX/Resources/splash/Default-Portrait@2x~ipad.png build/KUTX.app/Default-Portrait@2x~ipad.png
+s411842372.889813
+e411842372.892177
+r1
+xCpResource
+xKUTX/Resources/splash/Default-Portrait@2x~ipad.png
+xbuild/KUTX.app/Default-Portrait@2x~ipad.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection48"Copy build/KUTX.app/Default-Portrait@2x~ipad.png105"CpResource KUTX/Resources/splash/Default-Portrait@2x~ipad.png build/KUTX.app/Default-Portrait@2x~ipad.png08e7e344378cb841^a166e444378cb841^---0#0#1#-19%DVTDocumentLocation2@98"file:///Users/jeff/Dropbox/Projects/kutx/platforms/ios/build/KUTX.app/Default-Portrait@2x~ipad.png003424cdddffdf42^956"CpResource KUTX/Resources/splash/Default-Portrait@2x~ipad.png build/KUTX.app/Default-Portrait@2x~ipad.png    cd /Users/jeff/Dropbox/Projects/kutx/platforms/ios    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/jeff/.rvm/gems/ruby-1.9.3-p194/bin:/Users/jeff/.rvm/gems/ruby-1.9.3-p194@global/bin:/Users/jeff/.rvm/rubies/ruby-1.9.3-p194/bin:/Users/jeff/.rvm/bin:/Users/jeff/bin/play:/usr/local/sbin:/usr/local/bin:/opt/local/sbin:/opt/local/bin:/usr/local/share:/Users/jeff/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/usr/local/share/npm/bin:"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/jeff/Dropbox/Projects/kutx/platforms/ios/KUTX/Resources/splash/Default-Portrait@2x~ipad.png /Users/jeff/Dropbox/Projects/kutx/platforms/ios/build/KUTX.app36"49F94E25-2A17-4F89-AE8A-F0351D0C05D6-
+bC9A2322C-47F4-4790-9F70-FC3F8FDBBC7B
+
+CCpResource KUTX/Resources/splash/Default-Portrait~ipad.png build/KUTX.app/Default-Portrait~ipad.png
+s411842372.893607
+e411842372.896462
+r1
+xCpResource
+xKUTX/Resources/splash/Default-Portrait~ipad.png
+xbuild/KUTX.app/Default-Portrait~ipad.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection45"Copy build/KUTX.app/Default-Portrait~ipad.png99"CpResource KUTX/Resources/splash/Default-Portrait~ipad.png build/KUTX.app/Default-Portrait~ipad.png61e1e444378cb841^5e84e544378cb841^---0#0#1#-19%DVTDocumentLocation2@95"file:///Users/jeff/Dropbox/Projects/kutx/platforms/ios/build/KUTX.app/Default-Portrait~ipad.png003424cdddffdf42^947"CpResource KUTX/Resources/splash/Default-Portrait~ipad.png build/KUTX.app/Default-Portrait~ipad.png    cd /Users/jeff/Dropbox/Projects/kutx/platforms/ios    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/jeff/.rvm/gems/ruby-1.9.3-p194/bin:/Users/jeff/.rvm/gems/ruby-1.9.3-p194@global/bin:/Users/jeff/.rvm/rubies/ruby-1.9.3-p194/bin:/Users/jeff/.rvm/bin:/Users/jeff/bin/play:/usr/local/sbin:/usr/local/bin:/opt/local/sbin:/opt/local/bin:/usr/local/share:/Users/jeff/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/usr/local/share/npm/bin:"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/jeff/Dropbox/Projects/kutx/platforms/ios/KUTX/Resources/splash/Default-Portrait~ipad.png /Users/jeff/Dropbox/Projects/kutx/platforms/ios/build/KUTX.app36"27D8E4DA-05D2-422B-9C70-A3349CE50975-
+bC9A2322C-47F4-4790-9F70-FC3F8FDBBC7B
+
+CCpResource KUTX/Resources/splash/Default@2x~iphone.png build/KUTX.app/Default@2x~iphone.png
+s411842372.895305
+e411842372.900679
+r1
+xCpResource
+xKUTX/Resources/splash/Default@2x~iphone.png
+xbuild/KUTX.app/Default@2x~iphone.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection41"Copy build/KUTX.app/Default@2x~iphone.png91"CpResource KUTX/Resources/splash/Default@2x~iphone.png build/KUTX.app/Default@2x~iphone.png022ce644378cb841^2671e644378cb841^---0#0#1#-19%DVTDocumentLocation2@91"file:///Users/jeff/Dropbox/Projects/kutx/platforms/ios/build/KUTX.app/Default@2x~iphone.png003424cdddffdf42^935"CpResource KUTX/Resources/splash/Default@2x~iphone.png build/KUTX.app/Default@2x~iphone.png    cd /Users/jeff/Dropbox/Projects/kutx/platforms/ios    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/jeff/.rvm/gems/ruby-1.9.3-p194/bin:/Users/jeff/.rvm/gems/ruby-1.9.3-p194@global/bin:/Users/jeff/.rvm/rubies/ruby-1.9.3-p194/bin:/Users/jeff/.rvm/bin:/Users/jeff/bin/play:/usr/local/sbin:/usr/local/bin:/opt/local/sbin:/opt/local/bin:/usr/local/share:/Users/jeff/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/usr/local/share/npm/bin:"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/jeff/Dropbox/Projects/kutx/platforms/ios/KUTX/Resources/splash/Default@2x~iphone.png /Users/jeff/Dropbox/Projects/kutx/platforms/ios/build/KUTX.app36"350CE49A-A698-44DE-ADA8-494553AF99A3-
+bC9A2322C-47F4-4790-9F70-FC3F8FDBBC7B
+
+CCpResource KUTX/Resources/splash/Default~iphone.png build/KUTX.app/Default~iphone.png
+s411842372.897877
+e411842372.900080
+r1
+xCpResource
+xKUTX/Resources/splash/Default~iphone.png
+xbuild/KUTX.app/Default~iphone.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection38"Copy build/KUTX.app/Default~iphone.png85"CpResource KUTX/Resources/splash/Default~iphone.png build/KUTX.app/Default~iphone.png77f6e544378cb841^226ee644378cb841^---0#0#1#-19%DVTDocumentLocation2@88"file:///Users/jeff/Dropbox/Projects/kutx/platforms/ios/build/KUTX.app/Default~iphone.png003424cdddffdf42^926"CpResource KUTX/Resources/splash/Default~iphone.png build/KUTX.app/Default~iphone.png    cd /Users/jeff/Dropbox/Projects/kutx/platforms/ios    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/jeff/.rvm/gems/ruby-1.9.3-p194/bin:/Users/jeff/.rvm/gems/ruby-1.9.3-p194@global/bin:/Users/jeff/.rvm/rubies/ruby-1.9.3-p194/bin:/Users/jeff/.rvm/bin:/Users/jeff/bin/play:/usr/local/sbin:/usr/local/bin:/opt/local/sbin:/opt/local/bin:/usr/local/share:/Users/jeff/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/usr/local/share/npm/bin:"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/jeff/Dropbox/Projects/kutx/platforms/ios/KUTX/Resources/splash/Default~iphone.png /Users/jeff/Dropbox/Projects/kutx/platforms/ios/build/KUTX.app36"AB114003-723C-4B4F-B85B-161B83DE8F8E-
+bC9A2322C-47F4-4790-9F70-FC3F8FDBBC7B
+
+CCpResource KUTX/config.xml build/KUTX.app/config.xml
+s412360165.430185
+e412360165.431796
+r1
+xCpResource
+xKUTX/config.xml
+xbuild/KUTX.app/config.xml
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection30"Copy build/KUTX.app/config.xml52"CpResource KUTX/config.xml build/KUTX.app/config.xml2c456ee51d94b841^c68a6ee51d94b841^---0#0#1#-19%DVTDocumentLocation2@80"file:///Users/jeff/Dropbox/Projects/kutx/platforms/ios/build/KUTX.app/config.xml0000000000000000^867"CpResource KUTX/config.xml build/KUTX.app/config.xml    cd /Users/jeff/Dropbox/Projects/kutx/platforms/ios    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/jeff/.rvm/gems/ruby-1.9.3-p194/bin:/Users/jeff/.rvm/gems/ruby-1.9.3-p194@global/bin:/Users/jeff/.rvm/rubies/ruby-1.9.3-p194/bin:/Users/jeff/.rvm/bin:/Users/jeff/bin/play:/usr/local/sbin:/usr/local/bin:/opt/local/sbin:/opt/local/bin:/usr/local/share:/Users/jeff/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/usr/local/share/npm/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/jeff/Dropbox/Projects/kutx/platforms/ios/KUTX/config.xml /Users/jeff/Dropbox/Projects/kutx/platforms/ios/build/KUTX.app36"10AC1DDA-6B59-4099-8510-126C3199157D-
+b084B74CE-46C0-4F17-B790-3069F977022F
+
+CGenerateDSYMFile /Users/jeff/Dropbox/Projects/kutx/platforms/ios/build/KUTX.app.dSYM /Users/jeff/Dropbox/Projects/kutx/platforms/ios/build/KUTX.app/KUTX
+s412360165.453089
+e412360165.583252
+r1
+xGenerateDSYMFile
+x/Users/jeff/Dropbox/Projects/kutx/platforms/ios/build/KUTX.app.dSYM
+x/Users/jeff/Dropbox/Projects/kutx/platforms/ios/build/KUTX.app/KUTX
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection76"Generate /Users/jeff/Dropbox/Projects/kutx/platforms/ios/build/KUTX.app.dSYM56"GenerateDSYMFile build/KUTX.app.dSYM build/KUTX.app/KUTX861b74e51d94b841^125095e51d94b841^---0#0#1#-19%DVTDocumentLocation2@75"file:///Users/jeff/Dropbox/Projects/kutx/platforms/ios/build/KUTX.app.dSYM/0000000000000000^871"GenerateDSYMFile build/KUTX.app.dSYM build/KUTX.app/KUTX    cd /Users/jeff/Dropbox/Projects/kutx/platforms/ios    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/jeff/.rvm/gems/ruby-1.9.3-p194/bin:/Users/jeff/.rvm/gems/ruby-1.9.3-p194@global/bin:/Users/jeff/.rvm/rubies/ruby-1.9.3-p194/bin:/Users/jeff/.rvm/bin:/Users/jeff/bin/play:/usr/local/sbin:/usr/local/bin:/opt/local/sbin:/opt/local/bin:/usr/local/share:/Users/jeff/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/usr/local/share/npm/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/dsymutil /Users/jeff/Dropbox/Projects/kutx/platforms/ios/build/KUTX.app/KUTX -o /Users/jeff/Dropbox/Projects/kutx/platforms/ios/build/KUTX.app.dSYM36"833ACBD7-A702-48E7-A70B-C5EEA3065A01-
+b084B74CE-46C0-4F17-B790-3069F977022F
+
+CLd /Users/jeff/Dropbox/Projects/kutx/platforms/ios/build/KUTX.app/KUTX normal i386
+s411847723.720998
+e411847723.865272
+r1
+xLd
+x/Users/jeff/Dropbox/Projects/kutx/platforms/ios/build/KUTX.app/KUTX
+xnormal
+xi386
+d/Users/jeff/Dropbox/Projects/kutx/platforms/ios/build/KUTX.build/Debug-iphonesimulator/KUTX.build/Objects-normal/i386/KUTX.LinkFileList
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/lib/crt1.o
+d/Users/jeff/Dropbox/Projects/kutx/platforms/ios/build/KUTX.build/Debug-iphonesimulator/KUTX.build/Objects-normal/i386/main.o
+d/Users/jeff/Dropbox/Projects/kutx/platforms/ios/build/KUTX.build/Debug-iphonesimulator/KUTX.build/Objects-normal/i386/AppDelegate.o
+d/Users/jeff/Dropbox/Projects/kutx/platforms/ios/build/KUTX.build/Debug-iphonesimulator/KUTX.build/Objects-normal/i386/MainViewController.o
+d/Users/jeff/Dropbox/Projects/kutx/platforms/ios/build/KUTX.build/Debug-iphonesimulator/KUTX.build/Objects-normal/i386/CDVSplashScreen.o
+d/Users/jeff/Dropbox/Projects/kutx/platforms/ios/build/KUTX.build/Debug-iphonesimulator/KUTX.build/Objects-normal/i386/CDVSound.o
+d/Users/jeff/Dropbox/Projects/kutx/platforms/ios/build/KUTX.build/Debug-iphonesimulator/KUTX.build/Objects-normal/i386/CDVLogger.o
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/System/Library/Frameworks/AVFoundation.framework/AVFoundation
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/System/Library/Frameworks/CoreMedia.framework/CoreMedia
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/lib/libSystem.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/System/Library/Frameworks/CoreLocation.framework/CoreLocation
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/System/Library/Frameworks/ImageIO.framework/ImageIO
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/System/Library/Frameworks/OpenAL.framework/OpenAL
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/System/Library/Frameworks/AssetsLibrary.framework/AssetsLibrary
+d/Users/jeff/Dropbox/Projects/kutx/platforms/ios/build/libCordova.a
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/System/Library/Frameworks/AddressBook.framework/AddressBook
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/System/Library/Frameworks/AddressBookUI.framework/AddressBookUI
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/System/Library/Frameworks/AudioToolbox.framework/AudioToolbox
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/System/Library/Frameworks/CFNetwork.framework/CFNetwork
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/System/Library/Frameworks/MediaPlayer.framework/MediaPlayer
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/System/Library/Frameworks/QuartzCore.framework/QuartzCore
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/System/Library/Frameworks/SystemConfiguration.framework/SystemConfiguration
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/System/Library/Frameworks/MobileCoreServices.framework/MobileCoreServices
+d/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/arc/libarclite_iphonesimulator.a
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/lib/libobjc.dylib
+d/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/5.0/lib/darwin/libclang_rt.ios.a
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/System/Library/Frameworks/AVFoundation.framework/libAVFAudio.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/System/Library/PrivateFrameworks/UIFoundation.framework/UIFoundation
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/lib/system/libsystem_override.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/lib/system/libcache_sim.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/lib/system/libcommonCrypto_sim.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/lib/system/libcompiler_rt_sim.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/lib/system/libcopyfile_sim.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/lib/system/libdispatch.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/lib/system/libdyld_sim.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/lib/system/libmacho_sim.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/lib/system/libnotify_sim.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/lib/system/libremovefile_sim.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/lib/system/libsystem_sim_blocks.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/lib/system/libsystem_sim_c.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/lib/system/libsystem_sim_dnssd.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/lib/system/libsystem_sim_info.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/lib/system/libsystem_sim_m.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/lib/system/libsystem_network.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/lib/system/libunwind_sim.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/lib/system/libxpc.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/lib/system/libsystem_sim_configuration.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/lib/system/libsystem_sim_asl.dylib
+d/usr/lib/libSystem.B.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/lib/system/host/libdyld.dylib
+d/usr/lib/system/libcache.dylib
+d/usr/lib/system/libcommonCrypto.dylib
+d/usr/lib/system/libcompiler_rt.dylib
+d/usr/lib/system/libcopyfile.dylib
+d/usr/lib/system/libcorecrypto.dylib
+d/usr/lib/system/libkeymgr.dylib
+d/usr/lib/system/liblaunch.dylib
+d/usr/lib/system/libmacho.dylib
+d/usr/lib/system/libquarantine.dylib
+d/usr/lib/system/libremovefile.dylib
+d/usr/lib/system/libsystem_asl.dylib
+d/usr/lib/system/libsystem_blocks.dylib
+d/usr/lib/system/libsystem_c.dylib
+d/usr/lib/system/libsystem_configuration.dylib
+d/usr/lib/system/libsystem_dnssd.dylib
+d/usr/lib/system/libsystem_info.dylib
+d/usr/lib/system/libsystem_kernel.dylib
+d/usr/lib/system/libsystem_m.dylib
+d/usr/lib/system/libsystem_malloc.dylib
+d/usr/lib/system/libsystem_notify.dylib
+d/usr/lib/system/libsystem_platform.dylib
+d/usr/lib/system/libsystem_pthread.dylib
+d/usr/lib/system/libsystem_sandbox.dylib
+d/usr/lib/system/libunc.dylib
+d/usr/lib/system/libunwind.dylib
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection72"Link /Users/jeff/Dropbox/Projects/kutx/platforms/ios/build/KUTX.app/KUTX34"Ld build/KUTX.app/KUTX normal i386e4bbb82b4c8cb841^cb82dd2b4c8cb841^---0#0#1#--2137"Ld build/KUTX.app/KUTX normal i386    cd /Users/jeff/Dropbox/Projects/kutx/platforms/ios    setenv IPHONEOS_DEPLOYMENT_TARGET 5.1    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/jeff/.rvm/gems/ruby-1.9.3-p194/bin:/Users/jeff/.rvm/gems/ruby-1.9.3-p194@global/bin:/Users/jeff/.rvm/rubies/ruby-1.9.3-p194/bin:/Users/jeff/.rvm/bin:/Users/jeff/bin/play:/usr/local/sbin:/usr/local/bin:/opt/local/sbin:/opt/local/bin:/usr/local/share:/Users/jeff/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/usr/local/share/npm/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -arch i386 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk -L/Users/jeff/Dropbox/Projects/kutx/platforms/ios/build -F/Users/jeff/Dropbox/Projects/kutx/platforms/ios/build -filelist /Users/jeff/Dropbox/Projects/kutx/platforms/ios/build/KUTX.build/Debug-iphonesimulator/KUTX.build/Objects-normal/i386/KUTX.LinkFileList -Xlinker -objc_abi_version -Xlinker 2 -weak_framework CoreFoundation -weak_framework UIKit -weak_framework AVFoundation -weak_framework CoreMedia -weak-lSystem -all_load -Obj-C -fobjc-arc -fobjc-link-runtime -Xlinker -no_implicit_dylibs -mios-simulator-version-min=5.1 -framework CoreLocation -framework ImageIO -framework OpenAL -framework AssetsLibrary /Users/jeff/Dropbox/Projects/kutx/platforms/ios/build/libCordova.a -framework Foundation -weak_framework UIKit -framework CoreGraphics -framework AddressBook -framework AddressBookUI -framework AudioToolbox -weak_framework AVFoundation -framework CFNetwork -framework MediaPlayer -framework QuartzCore -framework SystemConfiguration -framework MobileCoreServices -weak_framework CoreMedia -Xlinker -dependency_info -Xlinker /Users/jeff/Dropbox/Projects/kutx/platforms/ios/build/KUTX.build/Debug-iphonesimulator/KUTX.build/Objects-normal/i386/KUTX_dependency_info.dat -o /Users/jeff/Dropbox/Projects/kutx/platforms/ios/build/KUTX.app/KUTX36"333FFB87-73CD-4D98-A098-D55D367ABC1B-
+b725D37B3-D334-4185-9853-46E91BF80EF2
+
+CPhaseScriptExecution Copy\ www\ directory /Users/jeff/Dropbox/Projects/kutx/platforms/ios/build/KUTX.build/Debug-iphonesimulator/KUTX.build/Script-304B58A110DAC018002A0835.sh
+s412360164.911801
+e412360165.429665
+r1
+xPhaseScriptExecution
+xCopy www directory
+x/Users/jeff/Dropbox/Projects/kutx/platforms/ios/build/KUTX.build/Debug-iphonesimulator/KUTX.build/Script-304B58A110DAC018002A0835.sh
+oCopying www/ -> /Users/jeff/Dropbox/Projects/kutx/platforms/ios/build/KUTX.app/www
+o
+oreal	0m0.499s
+ouser	0m0.163s
+osys	0m0.284s
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection44"Run custom shell script 'Copy www directory'126"PhaseScriptExecution Copy\ www\ directory build/KUTX.build/Debug-iphonesimulator/KUTX.build/Script-304B58A110DAC018002A0835.shd716eae41d94b841^65fe6de51d94b841^-125"Copying www/ -> /Users/jeff/Dropbox/Projects/kutx/platforms/ios/build/KUTX.app/wwwreal	0m0.499suser	0m0.163ssys	0m0.284s4(21%IDEActivityLogMessage2@83"Copying www/ -> /Users/jeff/Dropbox/Projects/kutx/platforms/ios/build/KUTX.app/www-412360164#0#83#-0#-----2@14"real	0m0.499s-412360165#84#14#-0#-----2@14"user	0m0.163s-412360165#98#14#-0#-----2@13"sys	0m0.284s-412360165#112#13#-0#-----0#0#1#--22031"PhaseScriptExecution Copy\ www\ directory build/KUTX.build/Debug-iphonesimulator/KUTX.build/Script-304B58A110DAC018002A0835.sh    cd /Users/jeff/Dropbox/Projects/kutx/platforms/ios    setenv ACTION build    setenv AD_HOC_CODE_SIGNING_ALLOWED NO    setenv ALTERNATE_GROUP 1153898196    setenv ALTERNATE_MODE u+w,go-w,a+rX    setenv ALTERNATE_OWNER jeff    setenv ALWAYS_SEARCH_USER_PATHS NO    setenv ALWAYS_USE_SEPARATE_HEADERMAPS YES    setenv APPLE_INTERNAL_DEVELOPER_DIR /AppleInternal/Developer    setenv APPLE_INTERNAL_DIR /AppleInternal    setenv APPLE_INTERNAL_DOCUMENTATION_DIR /AppleInternal/Documentation    setenv APPLE_INTERNAL_LIBRARY_DIR /AppleInternal/Library    setenv APPLE_INTERNAL_TOOLS /AppleInternal/Developer/Tools    setenv APPLY_RULES_IN_COPY_FILES NO    setenv ARCHS i386    setenv ARCHS_STANDARD i386    setenv ARCHS_STANDARD_32_64_BIT i386    setenv ARCHS_STANDARD_32_BIT i386    setenv ARCHS_STANDARD_64_BIT x86_64    setenv ARCHS_STANDARD_INCLUDING_64_BIT "i386 x86_64"    setenv ASSETCATALOG_COMPILER_APPICON_NAME AppIcon    setenv ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME LaunchImage    setenv AVAILABLE_PLATFORMS "iphonesimulator macosx iphoneos"    setenv BUILD_COMPONENTS "headers build"    setenv BUILD_DIR /Users/jeff/Dropbox/Projects/kutx/platforms/ios/build    setenv BUILD_ROOT /Users/jeff/Dropbox/Projects/kutx/platforms/ios/build    setenv BUILD_STYLE     setenv BUILD_VARIANTS normal    setenv BUILT_PRODUCTS_DIR /Users/jeff/Dropbox/Projects/kutx/platforms/ios/build    setenv CACHE_ROOT /var/folders/qp/7clys2g16tl49znyyfbdr_gcyrxkgv/C/com.apple.DeveloperTools/5.0.2-5A3005/Xcode    setenv CCHROOT /var/folders/qp/7clys2g16tl49znyyfbdr_gcyrxkgv/C/com.apple.DeveloperTools/5.0.2-5A3005/Xcode    setenv CHMOD /bin/chmod    setenv CHOWN /usr/sbin/chown    setenv CLANG_ENABLE_OBJC_ARC YES    setenv CLANG_WARN_BOOL_CONVERSION YES    setenv CLANG_WARN_CONSTANT_CONVERSION YES    setenv CLANG_WARN_EMPTY_BODY YES    setenv CLANG_WARN_ENUM_CONVERSION YES    setenv CLANG_WARN_INT_CONVERSION YES    setenv CLANG_WARN__DUPLICATE_METHOD_MATCH YES    setenv CLASS_FILE_DIR /Users/jeff/Dropbox/Projects/kutx/platforms/ios/build/KUTX.build/Debug-iphonesimulator/KUTX.build/JavaClasses    setenv CLEAN_PRECOMPS YES    setenv CLONE_HEADERS NO    setenv CODESIGNING_FOLDER_PATH /Users/jeff/Dropbox/Projects/kutx/platforms/ios/build/KUTX.app    setenv CODE_SIGNING_ALLOWED NO    setenv CODE_SIGN_CONTEXT_CLASS XCiPhoneSimulatorCodeSignContext    setenv CODE_SIGN_IDENTITY "iPhone Developer"    setenv COLOR_DIAGNOSTICS NO    setenv COMBINE_HIDPI_IMAGES NO    setenv COMMAND_MODE legacy    setenv COMPOSITE_SDK_DIRS /var/folders/qp/7clys2g16tl49znyyfbdr_gcyrxkgv/C/com.apple.DeveloperTools/5.0.2-5A3005/Xcode/CompositeSDKs    setenv COMPRESS_PNG_FILES YES    setenv CONFIGURATION Debug    setenv CONFIGURATION_BUILD_DIR /Users/jeff/Dropbox/Projects/kutx/platforms/ios/build    setenv CONFIGURATION_TEMP_DIR /Users/jeff/Dropbox/Projects/kutx/platforms/ios/build/KUTX.build/Debug-iphonesimulator    setenv CONTENTS_FOLDER_PATH KUTX.app    setenv COPYING_PRESERVES_HFS_DATA NO    setenv COPY_PHASE_STRIP NO    setenv COPY_RESOURCES_FROM_STATIC_FRAMEWORKS YES    setenv CP /bin/cp    setenv CREATE_INFOPLIST_SECTION_IN_BINARY NO    setenv CURRENT_ARCH i386    setenv CURRENT_VARIANT normal    setenv DEAD_CODE_STRIPPING NO    setenv DEBUGGING_SYMBOLS YES    setenv DEBUG_INFORMATION_FORMAT dwarf-with-dsym    setenv DEFAULT_COMPILER com.apple.compilers.llvm.clang.1_0    setenv DEFAULT_KEXT_INSTALL_PATH /System/Library/Extensions    setenv DEPLOYMENT_LOCATION NO    setenv DEPLOYMENT_POSTPROCESSING NO    setenv DERIVED_FILES_DIR /Users/jeff/Dropbox/Projects/kutx/platforms/ios/build/KUTX.build/Debug-iphonesimulator/KUTX.build/DerivedSources    setenv DERIVED_FILE_DIR /Users/jeff/Dropbox/Projects/kutx/platforms/ios/build/KUTX.build/Debug-iphonesimulator/KUTX.build/DerivedSources    setenv DERIVED_SOURCES_DIR /Users/jeff/Dropbox/Projects/kutx/platforms/ios/build/KUTX.build/Debug-iphonesimulator/KUTX.build/DerivedSources    setenv DEVELOPER_APPLICATIONS_DIR /Applications/Xcode.app/Contents/Developer/Applications    setenv DEVELOPER_BIN_DIR /Applications/Xcode.app/Contents/Developer/usr/bin    setenv DEVELOPER_DIR /Applications/Xcode.app/Contents/Developer    setenv DEVELOPER_FRAMEWORKS_DIR /Applications/Xcode.app/Contents/Developer/Library/Frameworks    setenv DEVELOPER_FRAMEWORKS_DIR_QUOTED /Applications/Xcode.app/Contents/Developer/Library/Frameworks    setenv DEVELOPER_LIBRARY_DIR /Applications/Xcode.app/Contents/Developer/Library    setenv DEVELOPER_SDK_DIR /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs    setenv DEVELOPER_TOOLS_DIR /Applications/Xcode.app/Contents/Developer/Tools    setenv DEVELOPER_USR_DIR /Applications/Xcode.app/Contents/Developer/usr    setenv DEVELOPMENT_LANGUAGE English    setenv DOCUMENTATION_FOLDER_PATH KUTX.app/English.lproj/Documentation    setenv DO_HEADER_SCANNING_IN_JAM NO    setenv DSTROOT /tmp/KUTX.dst    setenv DT_TOOLCHAIN_DIR /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain    setenv DWARF_DSYM_FILE_NAME KUTX.app.dSYM    setenv DWARF_DSYM_FILE_SHOULD_ACCOMPANY_PRODUCT NO    setenv DWARF_DSYM_FOLDER_PATH /Users/jeff/Dropbox/Projects/kutx/platforms/ios/build    setenv EFFECTIVE_PLATFORM_NAME -iphonesimulator    setenv ENABLE_HEADER_DEPENDENCIES YES    setenv EXCLUDED_INSTALLSRC_SUBDIRECTORY_PATTERNS ".DS_Store .svn .git .hg CVS"    setenv EXCLUDED_RECURSIVE_SEARCH_PATH_SUBDIRECTORIES "*.nib *.lproj *.framework *.gch (*) .DS_Store CVS .svn .git .hg *.xcodeproj *.xcode *.pbproj *.pbxproj"    setenv EXECUTABLES_FOLDER_PATH KUTX.app/Executables    setenv EXECUTABLE_FOLDER_PATH KUTX.app    setenv EXECUTABLE_NAME KUTX    setenv EXECUTABLE_PATH KUTX.app/KUTX    setenv FILE_LIST /Users/jeff/Dropbox/Projects/kutx/platforms/ios/build/KUTX.build/Debug-iphonesimulator/KUTX.build/Objects/LinkFileList    setenv FIXED_FILES_DIR /Users/jeff/Dropbox/Projects/kutx/platforms/ios/build/KUTX.build/Debug-iphonesimulator/KUTX.build/FixedFiles    setenv FRAMEWORKS_FOLDER_PATH KUTX.app/Frameworks    setenv FRAMEWORK_FLAG_PREFIX -framework    setenv FRAMEWORK_SEARCH_PATHS "/Users/jeff/Dropbox/Projects/kutx/platforms/ios/build "    setenv FRAMEWORK_VERSION A    setenv FULL_PRODUCT_NAME KUTX.app    setenv GCC3_VERSION 3.3    setenv GCC_C_LANGUAGE_STANDARD c99    setenv GCC_DYNAMIC_NO_PIC NO    setenv GCC_INLINES_ARE_PRIVATE_EXTERN YES    setenv GCC_OBJC_LEGACY_DISPATCH YES    setenv GCC_OPTIMIZATION_LEVEL 0    setenv GCC_PFE_FILE_C_DIALECTS "c objective-c c++ objective-c++"    setenv GCC_PRECOMPILE_PREFIX_HEADER YES    setenv GCC_PREFIX_HEADER KUTX/KUTX-Prefix.pch    setenv GCC_SYMBOLS_PRIVATE_EXTERN YES    setenv GCC_THUMB_SUPPORT NO    setenv GCC_TREAT_WARNINGS_AS_ERRORS NO    setenv GCC_VERSION com.apple.compilers.llvm.clang.1_0    setenv GCC_VERSION_IDENTIFIER com_apple_compilers_llvm_clang_1_0    setenv GCC_WARN_64_TO_32_BIT_CONVERSION YES    setenv GCC_WARN_ABOUT_RETURN_TYPE YES    setenv GCC_WARN_UNDECLARED_SELECTOR YES    setenv GCC_WARN_UNINITIALIZED_AUTOS YES    setenv GCC_WARN_UNUSED_FUNCTION YES    setenv GCC_WARN_UNUSED_VARIABLE YES    setenv GENERATE_MASTER_OBJECT_FILE NO    setenv GENERATE_PKGINFO_FILE YES    setenv GENERATE_PROFILING_CODE NO    setenv GID 1153898196    setenv GROUP 1153898196    setenv HEADERMAP_INCLUDES_FLAT_ENTRIES_FOR_TARGET_BEING_BUILT YES    setenv HEADERMAP_INCLUDES_FRAMEWORK_ENTRIES_FOR_ALL_PRODUCT_TYPES YES    setenv HEADERMAP_INCLUDES_NONPUBLIC_NONPRIVATE_HEADERS YES    setenv HEADERMAP_INCLUDES_PROJECT_HEADERS YES    setenv HEADER_SEARCH_PATHS "/Users/jeff/Dropbox/Projects/kutx/platforms/ios/build/include \"/Users/jeff/Dropbox/Projects/kutx/platforms/ios/build/usr/local/lib/include\" \"/Users/jeff/Dropbox/Projects/kutx/platforms/ios/build/UninstalledProducts/include\" \"/Users/jeff/Dropbox/Projects/kutx/platforms/ios/build\""    setenv ICONV /usr/bin/iconv    setenv INFOPLIST_EXPAND_BUILD_SETTINGS YES    setenv INFOPLIST_FILE KUTX/KUTX-Info.plist    setenv INFOPLIST_OUTPUT_FORMAT binary    setenv INFOPLIST_PATH KUTX.app/Info.plist    setenv INFOPLIST_PREPROCESS NO    setenv INFOSTRINGS_PATH KUTX.app/English.lproj/InfoPlist.strings    setenv INSTALL_DIR /tmp/KUTX.dst/Applications    setenv INSTALL_GROUP 1153898196    setenv INSTALL_MODE_FLAG u+w,go-w,a+rX    setenv INSTALL_OWNER jeff    setenv INSTALL_PATH /Applications    setenv INSTALL_ROOT /tmp/KUTX.dst    setenv IPHONEOS_DEPLOYMENT_TARGET 5.1    setenv JAVAC_DEFAULT_FLAGS "-J-Xms64m -J-XX:NewSize=4M -J-Dfile.encoding=UTF8"    setenv JAVA_APP_STUB /System/Library/Frameworks/JavaVM.framework/Resources/MacOS/JavaApplicationStub    setenv JAVA_ARCHIVE_CLASSES YES    setenv JAVA_ARCHIVE_TYPE JAR    setenv JAVA_COMPILER /usr/bin/javac    setenv JAVA_FOLDER_PATH KUTX.app/Java    setenv JAVA_FRAMEWORK_RESOURCES_DIRS Resources    setenv JAVA_JAR_FLAGS cv    setenv JAVA_SOURCE_SUBDIR .    setenv JAVA_USE_DEPENDENCIES YES    setenv JAVA_ZIP_FLAGS -urg    setenv JIKES_DEFAULT_FLAGS "+E +OLDCSO"    setenv KEEP_PRIVATE_EXTERNS NO    setenv LD_DEPENDENCY_INFO_FILE /Users/jeff/Dropbox/Projects/kutx/platforms/ios/build/KUTX.build/Debug-iphonesimulator/KUTX.build/Objects-normal/i386/KUTX_dependency_info.dat    setenv LD_GENERATE_MAP_FILE NO    setenv LD_MAP_FILE_PATH /Users/jeff/Dropbox/Projects/kutx/platforms/ios/build/KUTX.build/Debug-iphonesimulator/KUTX.build/KUTX-LinkMap-normal-i386.txt    setenv LD_NO_PIE NO    setenv LD_QUOTE_LINKER_ARGUMENTS_FOR_COMPILER_DRIVER YES    setenv LEGACY_DEVELOPER_DIR /Applications/Xcode.app/Contents/PlugIns/Xcode3Core.ideplugin/Contents/SharedSupport/Developer    setenv LEX lex    setenv LIBRARY_FLAG_NOSPACE YES    setenv LIBRARY_FLAG_PREFIX -l    setenv LIBRARY_KEXT_INSTALL_PATH /Library/Extensions    setenv LIBRARY_SEARCH_PATHS "/Users/jeff/Dropbox/Projects/kutx/platforms/ios/build "    setenv LINKER_DISPLAYS_MANGLED_NAMES NO    setenv LINK_FILE_LIST_normal_i386 /Users/jeff/Dropbox/Projects/kutx/platforms/ios/build/KUTX.build/Debug-iphonesimulator/KUTX.build/Objects-normal/i386/KUTX.LinkFileList    setenv LINK_WITH_STANDARD_LIBRARIES YES    setenv LOCALIZED_RESOURCES_FOLDER_PATH KUTX.app/English.lproj    setenv LOCAL_ADMIN_APPS_DIR /Applications/Utilities    setenv LOCAL_APPS_DIR /Applications    setenv LOCAL_DEVELOPER_DIR /Library/Developer    setenv LOCAL_LIBRARY_DIR /Library    setenv MACH_O_TYPE mh_execute    setenv MACOSX_DEPLOYMENT_TARGET 10.6    setenv MAC_OS_X_PRODUCT_BUILD_VERSION 13B42    setenv MAC_OS_X_VERSION_ACTUAL 1091    setenv MAC_OS_X_VERSION_MAJOR 1090    setenv MAC_OS_X_VERSION_MINOR 0901    setenv MODULE_CACHE_DIR /var/folders/qp/7clys2g16tl49znyyfbdr_gcyrxkgv/C/com.apple.DeveloperTools/5.0.2-5A3005/Xcode/ModuleCache    setenv NATIVE_ARCH i386    setenv NATIVE_ARCH_32_BIT i386    setenv NATIVE_ARCH_64_BIT x86_64    setenv NATIVE_ARCH_ACTUAL x86_64    setenv NO_COMMON YES    setenv OBJC_ABI_VERSION 2    setenv OBJECT_FILE_DIR /Users/jeff/Dropbox/Projects/kutx/platforms/ios/build/KUTX.build/Debug-iphonesimulator/KUTX.build/Objects    setenv OBJECT_FILE_DIR_normal /Users/jeff/Dropbox/Projects/kutx/platforms/ios/build/KUTX.build/Debug-iphonesimulator/KUTX.build/Objects-normal    setenv OBJROOT /Users/jeff/Dropbox/Projects/kutx/platforms/ios/build    setenv ONLY_ACTIVE_ARCH NO    setenv OPTIMIZATION_LEVEL 0    setenv OS MACOS    setenv OSAC /usr/bin/osacompile    setenv OTHER_LDFLAGS "-weak_framework CoreFoundation -weak_framework UIKit -weak_framework AVFoundation -weak_framework CoreMedia -weak-lSystem -all_load -Obj-C"    setenv PACKAGE_TYPE com.apple.package-type.wrapper.application    setenv PASCAL_STRINGS YES    setenv PATH "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin:/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/libexec:/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/local/bin:/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/usr/bin:/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/usr/local/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/local/bin:/Applications/Xcode.app/Contents/Developer/Tools:/Users/jeff/.rvm/gems/ruby-1.9.3-p194/bin:/Users/jeff/.rvm/gems/ruby-1.9.3-p194@global/bin:/Users/jeff/.rvm/rubies/ruby-1.9.3-p194/bin:/Users/jeff/.rvm/bin:/Users/jeff/bin/play:/usr/local/sbin:/usr/local/bin:/opt/local/sbin:/opt/local/bin:/usr/local/share:/Users/jeff/bin:/usr/bin:/bin:/usr/sbin:/sbin:/opt/X11/bin:/usr/local/share/npm/bin"    setenv PATH_PREFIXES_EXCLUDED_FROM_HEADER_DEPENDENCIES "/usr/include /usr/local/include /System/Library/Frameworks /System/Library/PrivateFrameworks /Applications/Xcode.app/Contents/Developer/Headers /Applications/Xcode.app/Contents/Developer/SDKs /Applications/Xcode.app/Contents/Developer/Platforms"    setenv PBDEVELOPMENTPLIST_PATH KUTX.app/pbdevelopment.plist    setenv PFE_FILE_C_DIALECTS objective-c    setenv PKGINFO_FILE_PATH /Users/jeff/Dropbox/Projects/kutx/platforms/ios/build/KUTX.build/Debug-iphonesimulator/KUTX.build/PkgInfo    setenv PKGINFO_PATH KUTX.app/PkgInfo    setenv PLATFORM_DEVELOPER_APPLICATIONS_DIR /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Applications    setenv PLATFORM_DEVELOPER_BIN_DIR /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin    setenv PLATFORM_DEVELOPER_LIBRARY_DIR /Applications/Xcode.app/Contents/PlugIns/Xcode3Core.ideplugin/Contents/SharedSupport/Developer/Library    setenv PLATFORM_DEVELOPER_SDK_DIR /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs    setenv PLATFORM_DEVELOPER_TOOLS_DIR /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Tools    setenv PLATFORM_DEVELOPER_USR_DIR /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr    setenv PLATFORM_DIR /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform    setenv PLATFORM_NAME iphonesimulator    setenv PLATFORM_PREFERRED_ARCH i386    setenv PLATFORM_PRODUCT_BUILD_VERSION 11B508    setenv PLATFORM_VERSION_AVAILABILITY_H_FORMAT 70000    setenv PLIST_FILE_OUTPUT_FORMAT binary    setenv PLUGINS_FOLDER_PATH KUTX.app/PlugIns    setenv PRECOMPS_INCLUDE_HEADERS_FROM_BUILT_PRODUCTS_DIR YES    setenv PRECOMP_DESTINATION_DIR /Users/jeff/Dropbox/Projects/kutx/platforms/ios/build/KUTX.build/Debug-iphonesimulator/KUTX.build/PrefixHeaders    setenv PRESERVE_DEAD_CODE_INITS_AND_TERMS NO    setenv PRIVATE_HEADERS_FOLDER_PATH KUTX.app/PrivateHeaders    setenv PRODUCT_NAME KUTX    setenv PRODUCT_SETTINGS_PATH /Users/jeff/Dropbox/Projects/kutx/platforms/ios/KUTX/KUTX-Info.plist    setenv PRODUCT_TYPE com.apple.product-type.application    setenv PROFILING_CODE NO    setenv PROJECT KUTX    setenv PROJECT_DERIVED_FILE_DIR /Users/jeff/Dropbox/Projects/kutx/platforms/ios/build/KUTX.build/DerivedSources    setenv PROJECT_DIR /Users/jeff/Dropbox/Projects/kutx/platforms/ios    setenv PROJECT_FILE_PATH /Users/jeff/Dropbox/Projects/kutx/platforms/ios/KUTX.xcodeproj    setenv PROJECT_NAME KUTX    setenv PROJECT_TEMP_DIR /Users/jeff/Dropbox/Projects/kutx/platforms/ios/build/KUTX.build    setenv PROJECT_TEMP_ROOT /Users/jeff/Dropbox/Projects/kutx/platforms/ios/build    setenv PROVISIONING_PROFILE 0A79FB1E-C306-454B-B5C6-57AAC6863FBE    setenv PUBLIC_HEADERS_FOLDER_PATH KUTX.app/Headers    setenv RECURSIVE_SEARCH_PATHS_FOLLOW_SYMLINKS YES    setenv REMOVE_CVS_FROM_RESOURCES YES    setenv REMOVE_GIT_FROM_RESOURCES YES    setenv REMOVE_HG_FROM_RESOURCES YES    setenv REMOVE_SVN_FROM_RESOURCES YES    setenv REZ_COLLECTOR_DIR /Users/jeff/Dropbox/Projects/kutx/platforms/ios/build/KUTX.build/Debug-iphonesimulator/KUTX.build/ResourceManagerResources    setenv REZ_OBJECTS_DIR /Users/jeff/Dropbox/Projects/kutx/platforms/ios/build/KUTX.build/Debug-iphonesimulator/KUTX.build/ResourceManagerResources/Objects    setenv REZ_SEARCH_PATHS "/Users/jeff/Dropbox/Projects/kutx/platforms/ios/build "    setenv SCAN_ALL_SOURCE_FILES_FOR_INCLUDES NO    setenv SCRIPTS_FOLDER_PATH KUTX.app/Scripts    setenv SCRIPT_INPUT_FILE_COUNT 0    setenv SCRIPT_OUTPUT_FILE_COUNT 0    setenv SDKROOT /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk    setenv SDK_DIR /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk    setenv SDK_NAME iphonesimulator7.0    setenv SDK_PRODUCT_BUILD_VERSION 11B508    setenv SED /usr/bin/sed    setenv SEPARATE_STRIP NO    setenv SEPARATE_SYMBOL_EDIT NO    setenv SET_DIR_MODE_OWNER_GROUP YES    setenv SET_FILE_MODE_OWNER_GROUP NO    setenv SHALLOW_BUNDLE YES    setenv SHARED_DERIVED_FILE_DIR /Users/jeff/Dropbox/Projects/kutx/platforms/ios/build/DerivedSources    setenv SHARED_FRAMEWORKS_FOLDER_PATH KUTX.app/SharedFrameworks    setenv SHARED_PRECOMPS_DIR /var/folders/qp/7clys2g16tl49znyyfbdr_gcyrxkgv/C/com.apple.DeveloperTools/5.0.2-5A3005/Xcode/SharedPrecompiledHeaders    setenv SHARED_SUPPORT_FOLDER_PATH KUTX.app/SharedSupport    setenv SKIP_INSTALL NO    setenv SOURCE_ROOT /Users/jeff/Dropbox/Projects/kutx/platforms/ios    setenv SRCROOT /Users/jeff/Dropbox/Projects/kutx/platforms/ios    setenv STRINGS_FILE_OUTPUT_ENCODING binary    setenv STRIP_INSTALLED_PRODUCT YES    setenv STRIP_STYLE all    setenv SUPPORTED_DEVICE_FAMILIES "1 2"    setenv SUPPORTED_PLATFORMS "iphonesimulator iphoneos"    setenv SYMROOT /Users/jeff/Dropbox/Projects/kutx/platforms/ios/build    setenv SYSTEM_ADMIN_APPS_DIR /Applications/Utilities    setenv SYSTEM_APPS_DIR /Applications    setenv SYSTEM_CORE_SERVICES_DIR /System/Library/CoreServices    setenv SYSTEM_DEMOS_DIR /Applications/Extras    setenv SYSTEM_DEVELOPER_APPS_DIR /Applications/Xcode.app/Contents/Developer/Applications    setenv SYSTEM_DEVELOPER_BIN_DIR /Applications/Xcode.app/Contents/Developer/usr/bin    setenv SYSTEM_DEVELOPER_DEMOS_DIR "/Applications/Xcode.app/Contents/Developer/Applications/Utilities/Built Examples"    setenv SYSTEM_DEVELOPER_DIR /Applications/Xcode.app/Contents/Developer    setenv SYSTEM_DEVELOPER_DOC_DIR "/Applications/Xcode.app/Contents/Developer/ADC Reference Library"    setenv SYSTEM_DEVELOPER_GRAPHICS_TOOLS_DIR "/Applications/Xcode.app/Contents/Developer/Applications/Graphics Tools"    setenv SYSTEM_DEVELOPER_JAVA_TOOLS_DIR "/Applications/Xcode.app/Contents/Developer/Applications/Java Tools"    setenv SYSTEM_DEVELOPER_PERFORMANCE_TOOLS_DIR "/Applications/Xcode.app/Contents/Developer/Applications/Performance Tools"    setenv SYSTEM_DEVELOPER_RELEASENOTES_DIR "/Applications/Xcode.app/Contents/Developer/ADC Reference Library/releasenotes"    setenv SYSTEM_DEVELOPER_TOOLS /Applications/Xcode.app/Contents/Developer/Tools    setenv SYSTEM_DEVELOPER_TOOLS_DOC_DIR "/Applications/Xcode.app/Contents/Developer/ADC Reference Library/documentation/DeveloperTools"    setenv SYSTEM_DEVELOPER_TOOLS_RELEASENOTES_DIR "/Applications/Xcode.app/Contents/Developer/ADC Reference Library/releasenotes/DeveloperTools"    setenv SYSTEM_DEVELOPER_USR_DIR /Applications/Xcode.app/Contents/Developer/usr    setenv SYSTEM_DEVELOPER_UTILITIES_DIR /Applications/Xcode.app/Contents/Developer/Applications/Utilities    setenv SYSTEM_DOCUMENTATION_DIR /Library/Documentation    setenv SYSTEM_KEXT_INSTALL_PATH /System/Library/Extensions    setenv SYSTEM_LIBRARY_DIR /System/Library    setenv TARGETED_DEVICE_FAMILY 1    setenv TARGETNAME KUTX    setenv TARGET_BUILD_DIR /Users/jeff/Dropbox/Projects/kutx/platforms/ios/build    setenv TARGET_NAME KUTX    setenv TARGET_TEMP_DIR /Users/jeff/Dropbox/Projects/kutx/platforms/ios/build/KUTX.build/Debug-iphonesimulator/KUTX.build    setenv TEMP_DIR /Users/jeff/Dropbox/Projects/kutx/platforms/ios/build/KUTX.build/Debug-iphonesimulator/KUTX.build    setenv TEMP_FILES_DIR /Users/jeff/Dropbox/Projects/kutx/platforms/ios/build/KUTX.build/Debug-iphonesimulator/KUTX.build    setenv TEMP_FILE_DIR /Users/jeff/Dropbox/Projects/kutx/platforms/ios/build/KUTX.build/Debug-iphonesimulator/KUTX.build    setenv TEMP_ROOT /Users/jeff/Dropbox/Projects/kutx/platforms/ios/build    setenv TOOLCHAINS com.apple.dt.toolchain.XcodeDefault    setenv UID 1032767995    setenv UNLOCALIZED_RESOURCES_FOLDER_PATH KUTX.app    setenv UNSTRIPPED_PRODUCT NO    setenv USER jeff    setenv USER_APPS_DIR /Users/jeff/Applications    setenv USER_LIBRARY_DIR /Users/jeff/Library    setenv USE_DYNAMIC_NO_PIC YES    setenv USE_HEADERMAP YES    setenv USE_HEADER_SYMLINKS NO    setenv VALIDATE_PRODUCT NO    setenv VALID_ARCHS i386    setenv VERBOSE_PBXCP NO    setenv VERSIONPLIST_PATH KUTX.app/version.plist    setenv VERSION_INFO_BUILDER jeff    setenv VERSION_INFO_FILE KUTX_vers.c    setenv VERSION_INFO_STRING "\"@(#)PROGRAM:KUTX  PROJECT:KUTX-\""    setenv WRAPPER_EXTENSION app    setenv WRAPPER_NAME KUTX.app    setenv WRAPPER_SUFFIX .app    setenv XCODE_APP_SUPPORT_DIR /Applications/Xcode.app/Contents/Developer/Library/Xcode    setenv XCODE_PRODUCT_BUILD_VERSION 5A3005    setenv XCODE_VERSION_ACTUAL 0502    setenv XCODE_VERSION_MAJOR 0500    setenv XCODE_VERSION_MINOR 0500    setenv XPCSERVICES_FOLDER_PATH KUTX.app/XPCServices    setenv YACC yacc    setenv arch i386    setenv variant normal    /bin/sh -c /Users/jeff/Dropbox/Projects/kutx/platforms/ios/build/KUTX.build/Debug-iphonesimulator/KUTX.build/Script-304B58A110DAC018002A0835.sh36"6E2AD9D8-9D4A-4053-842C-85415F5DF77E-
+b084B74CE-46C0-4F17-B790-3069F977022F
+
+CProcessInfoPlistFile /Users/jeff/Dropbox/Projects/kutx/platforms/ios/build/KUTX.app/Info.plist /Users/jeff/Dropbox/Projects/kutx/platforms/ios/KUTX/KUTX-Info.plist
+s412360165.433396
+e412360165.435741
+r1
+xProcessInfoPlistFile
+x/Users/jeff/Dropbox/Projects/kutx/platforms/ios/build/KUTX.app/Info.plist
+x/Users/jeff/Dropbox/Projects/kutx/platforms/ios/KUTX/KUTX-Info.plist
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection76"Process /Users/jeff/Dropbox/Projects/kutx/platforms/ios/KUTX/KUTX-Info.plist67"ProcessInfoPlistFile build/KUTX.app/Info.plist KUTX/KUTX-Info.plist34146fe51d94b841^2e8d6fe51d94b841^---0#0#1#-19%DVTDocumentLocation2@75"file:///Users/jeff/Dropbox/Projects/kutx/platforms/ios/KUTX/KUTX-Info.plist0000000000000000^1118"ProcessInfoPlistFile build/KUTX.app/Info.plist KUTX/KUTX-Info.plist    cd /Users/jeff/Dropbox/Projects/kutx/platforms/ios    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/jeff/.rvm/gems/ruby-1.9.3-p194/bin:/Users/jeff/.rvm/gems/ruby-1.9.3-p194@global/bin:/Users/jeff/.rvm/rubies/ruby-1.9.3-p194/bin:/Users/jeff/.rvm/bin:/Users/jeff/bin/play:/usr/local/sbin:/usr/local/bin:/opt/local/sbin:/opt/local/bin:/usr/local/share:/Users/jeff/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/usr/local/share/npm/bin"    builtin-infoPlistUtility /Users/jeff/Dropbox/Projects/kutx/platforms/ios/KUTX/KUTX-Info.plist -genpkginfo /Users/jeff/Dropbox/Projects/kutx/platforms/ios/build/KUTX.app/PkgInfo -expandbuildsettings -format binary -platform iphonesimulator -additionalcontentfile /Users/jeff/Dropbox/Projects/kutx/platforms/ios/build/KUTX.build/Debug-iphonesimulator/KUTX.build/assetcatalog_generated_info.plist -o /Users/jeff/Dropbox/Projects/kutx/platforms/ios/build/KUTX.app/Info.plist36"DDC5134C-8538-432C-8417-A9CAC8BAF284-
+b084B74CE-46C0-4F17-B790-3069F977022F
+
+CProcessPCH /var/folders/qp/7clys2g16tl49znyyfbdr_gcyrxkgv/C/com.apple.DeveloperTools/5.0.2-5A3005/Xcode/SharedPrecompiledHeaders/KUTX-Prefix-hgocmsznmgmahzdormbbbgkxqipe/KUTX-Prefix.pch.pch KUTX/KUTX-Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CTouch /Users/jeff/Dropbox/Projects/kutx/platforms/ios/build/KUTX.app
+s412287680.660944
+e412287680.666730
+r1
+xTouch
+x/Users/jeff/Dropbox/Projects/kutx/platforms/ios/build/KUTX.app
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection68"Touch /Users/jeff/Dropbox/Projects/kutx/platforms/ios/build/KUTX.app20"Touch build/KUTX.app6a4ba9c00293b841^9bafaac00293b841^---0#0#1#--682"Touch build/KUTX.app    cd /Users/jeff/Dropbox/Projects/kutx/platforms/ios    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/jeff/.rvm/gems/ruby-1.9.3-p194/bin:/Users/jeff/.rvm/gems/ruby-1.9.3-p194@global/bin:/Users/jeff/.rvm/rubies/ruby-1.9.3-p194/bin:/Users/jeff/.rvm/bin:/Users/jeff/bin/play:/usr/local/sbin:/usr/local/bin:/opt/local/sbin:/opt/local/bin:/usr/local/share:/Users/jeff/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/usr/local/share/npm/bin:"    /usr/bin/touch -c /Users/jeff/Dropbox/Projects/kutx/platforms/ios/build/KUTX.app36"AB4FD33D-0362-4D85-9D4C-3EC82ED6F4E5-
+b252048AF-403B-4276-8221-E71C7B727496
+

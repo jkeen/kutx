@@ -1,0 +1,128 @@
+<?xml version='1.0' encoding='utf-8'?>
+<widget id="com.keen.kutx" version="2.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+    <name>Hello Cordova</name>
+    <description>
+        A sample Apache Cordova application that responds to the deviceready event.
+    </description>
+    <content src="index.html" />
+    <feature name="Geolocation">
+        <param name="ios-package" value="CDVLocation" />
+    </feature>
+    <feature name="Device">
+        <param name="ios-package" value="CDVDevice" />
+    </feature>
+    <feature name="Accelerometer">
+        <param name="ios-package" value="CDVAccelerometer" />
+    </feature>
+    <feature name="Compass">
+        <param name="ios-package" value="CDVLocation" />
+    </feature>
+    <feature name="Camera">
+        <param name="ios-package" value="CDVCamera" />
+    </feature>
+    <feature name="Contacts">
+        <param name="ios-package" value="CDVContacts" />
+    </feature>
+    <feature name="File">
+        <param name="ios-package" value="CDVFile" />
+    </feature>
+    <feature name="NetworkStatus">
+        <param name="ios-package" value="CDVConnection" />
+    </feature>
+    <feature name="Notification">
+        <param name="ios-package" value="CDVNotification" />
+    </feature>
+    <feature name="Media">
+        <param name="ios-package" value="CDVSound" />
+    </feature>
+    <feature name="FileTransfer">
+        <param name="ios-package" value="CDVFileTransfer" />
+    </feature>
+    <feature name="Capture">
+        <param name="ios-package" value="CDVCapture" />
+    </feature>
+    <feature name="Battery">
+        <param name="ios-package" value="CDVBattery" />
+    </feature>
+    <feature name="SplashScreen">
+        <param name="ios-package" value="CDVSplashScreen" />
+    </feature>
+    <feature name="Echo">
+        <param name="ios-package" value="CDVEcho" />
+    </feature>
+    <feature name="Globalization">
+        <param name="ios-package" value="CDVGlobalization" />
+    </feature>
+    <feature name="InAppBrowser">
+        <param name="ios-package" value="CDVInAppBrowser" />
+    </feature>
+    <feature name="Logger">
+        <param name="ios-package" value="CDVLogger" />
+    </feature>
+    <feature name="LocalStorage">
+        <param name="ios-package" value="CDVLocalStorage" />
+    </feature>
+    <plugins>
+    </plugins>
+    <plugins>
+    </plugins>
+    <feature name="Media">
+        <param name="ios-package" value="CDVSound" />
+    </feature>
+    <preference name="KeyboardDisplayRequiresUserAction" value="true" />
+    <preference name="SuppressesIncrementalRendering" value="false" />
+    <preference name="UIWebViewBounce" value="false" />
+    <preference name="TopActivityIndicator" value="gray" />
+    <preference name="EnableLocation" value="false" />
+    <preference name="EnableViewportScale" value="false" />
+    <preference name="AutoHideSplashScreen" value="true" />
+    <preference name="ShowSplashScreenSpinner" value="true" />
+    <preference name="MediaPlaybackRequiresUserAction" value="false" />
+    <preference name="AllowInlineMediaPlayback" value="false" />
+    <preference name="OpenAllWhitelistURLsInWebView" value="false" />
+    <preference name="BackupWebStorage" value="cloud" />
+    <preference name="DisallowOverscroll" value="true" />
+    <feature name="Console">
+        <param name="ios-package" value="CDVLogger" />
+    </feature>
+    <feature name="SplashScreen">
+        <param name="ios-package" value="CDVSplashScreen" />
+        <param name="onload" value="true" />
+    </feature>
+    <name>KUTX</name>
+    <description>
+      KUTX
+    </description>
+    <author email="jeff@keen.me" href="http://keen.me">
+        Apache Cordova Team
+    </author>
+    <icon height="512" src="res/icon/cordova_512.png" width="512" />
+    <icon cdv:platform="android" height="96" src="res/icon/cordova_android_96.png" width="96" />
+    <icon cdv:platform="blackberry" height="80" src="res/icon/cordova_bb_80.png" width="80" />
+    <icon cdv:platform="ios" height="144" src="res/icon/cordova_ios_144.png" width="144" />
+    <cdv:splash cdv:platform="android" height="480" src="res/screen/android_hdpi_landscape.png" width="800" />
+    <cdv:splash cdv:platform="android" height="800" src="res/screen/android_hdpi_portrait.png" width="480" />
+    <cdv:splash cdv:platform="android" height="200" src="res/screen/android_ldpi_landscape.png" width="320" />
+    <cdv:splash cdv:platform="android" height="320" src="res/screen/android_ldpi_portrait.png" width="200" />
+    <cdv:splash cdv:platform="android" height="320" src="res/screen/android_mdpi_landscape.png" width="480" />
+    <cdv:splash cdv:platform="android" height="480" src="res/screen/android_mdpi_portrait.png" width="320" />
+    <cdv:splash cdv:platform="android" height="720" src="res/screen/android_xhdpi_landscape.png" width="1280" />
+    <cdv:splash cdv:platform="android" height="1280" src="res/screen/android_xhdpi_portrait.png" width="720" />
+    <cdv:splash cdv:platform="blackberry" height="300" src="res/screen/blackberry_transparent_300.png" width="300" />
+    <cdv:splash cdv:platform="blackberry" height="200" src="res/screen/blackberry_transparent_400.png" width="200" />
+    <cdv:splash cdv:platform="ios" height="748" src="res/screen/ipad_landscape.png" width="1024" />
+    <cdv:splash cdv:platform="ios" height="1004" src="res/screen/ipad_portrait.png" width="768" />
+    <cdv:splash cdv:platform="ios" height="1496" src="res/screen/ipad_retina_landscape.png" width="2048" />
+    <cdv:splash cdv:platform="ios" height="2008" src="res/screen/ipad_retina_portrait.png" width="1536" />
+    <cdv:splash cdv:platform="ios" height="320" src="res/screen/iphone_landscape.png" width="480" />
+    <cdv:splash cdv:platform="ios" height="480" src="res/screen/iphone_portrait.png" width="320" />
+    <cdv:splash cdv:platform="ios" height="640" src="res/screen/iphone_retina_landscape.png" width="960" />
+    <cdv:splash cdv:platform="ios" height="960" src="res/screen/iphone_retina_portrait.png" width="640" />
+    <cdv:splash cdv:platform="winphone" height="800" src="res/screen/windows_phone_portrait.jpg" width="480" />
+    <feature name="http://api.phonegap.com/1.0/device" />
+    <preference name="phonegap-version" value="1.9.0" />
+    <preference name="orientation" value="default" />
+    <preference name="target-device" value="universal" />
+    <preference name="fullscreen" value="true" />
+    <access origin="*" />
+</widget>
