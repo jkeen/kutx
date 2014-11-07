@@ -1,11 +1,11 @@
 <div id="contents">
   <header class="container">
       <div class="navbar navbar-inverted navbar-fixed-top" role="navigation"  ng-controller="NavBarCtrl">
-        <div class="slider-animation" ng-show="showNotification" notification-console>
+        <!-- <div class="slider-animation" ng-show="showNotification" notification-console>
           <div class="container"> 
             <div class="error">{{ notification }}</div>
           </div>
-        </div>
+        </div> -->
         <div class="navbar-header">
           <button type="button" class="navbar-toggle" ng-click="isCollapsed = !isCollapsed">
             <span class="sr-only">Toggle navigation</span>
@@ -39,15 +39,15 @@
           </div>
         </div>
         <div ng-repeat="show in pagedShows" class="program">
-          <div class="show" style="background-image: url('{{ show | showBannerUrl }}');" ng-class="{onair: !!(show.program.start === onNow.start) }">
+          <div class="show" style="background-image: url('{{ show | showBannerUrl }}');" ng-class="{onair: !!(show.program.start_utc === onNow.start_utc) }">
             <div class="darken">
               <span class="name">{{ show.program.name }}</span>
-              <div class="time">{{ show.start | amDateFormat:'dddd, M/D/YY'}}</div>
-              <div class="time">{{ show.start | amDateFormat:'h:mm a'}}-{{ show.end | amDateFormat:'h:mm a'}}</div>
+              <div class="time">{{ (show.date + " " + show.start_time) | amDateFormat:'dddd, M/D/YY'}}</div>
+              <div class="time">{{ (show.date + " " + show.start_time) | amDateFormat:'h:mm a'}}-{{ (show.date + " " + show.end_time) | amDateFormat:'h:mm a'}}</div>
             </div>
           </div>
           <div class="show-playlist" ng-class="{notracks: !show.playlist}">
-            <div ng-repeat="track in show.playlist | reverse" class="track" ng-class="{hasartwork: !!track.artworkUrl60}">
+            <div ng-repeat="track in show.playlist | reverse" class="track" ng-class="{hasartwork: !!track.artworkUrl60}" ng-hide="track.trackName == 'Talk' && track.artistName == ''">
                 <div class="time">{{ track._start_time | amDateFormat:'h:mm a'}}</div>
                 <div class="artwork-container">
                   <div class="artwork" style="background-image: url({{ track.artworkUrl60 }})">

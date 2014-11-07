@@ -28,6 +28,8 @@ header a:hover, header a:focus {
 }
 /* Header
 ---------------------------------------------------------- */
+
+
 header .navbar{
 	background:#2f2f30;
 	border-bottom:1px solid #363636;
@@ -253,6 +255,7 @@ header .button-player {
   color: #FFF;
   text-shadow: 0 0px 1px #CCC;
   font-weight: bold;
+  width:50px;
   text-transform:uppercase;
 }
 

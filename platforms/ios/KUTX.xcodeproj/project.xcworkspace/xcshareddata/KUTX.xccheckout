@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>E5F3B0C7-7E1E-40AA-942F-804B90E56517</string>
+	<key>IDESourceControlProjectName</key>
+	<string>KUTX</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>91E79D21-9C36-4908-9CAC-A4416F88F2AB</key>
+		<string>ssh://github.com/jkeen/kutx.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>platforms/ios/KUTX.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>91E79D21-9C36-4908-9CAC-A4416F88F2AB</key>
+		<string>../../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>ssh://github.com/jkeen/kutx.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>91E79D21-9C36-4908-9CAC-A4416F88F2AB</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>91E79D21-9C36-4908-9CAC-A4416F88F2AB</string>
+			<key>IDESourceControlWCCName</key>
+			<string>app</string>
+		</dict>
+	</array>
+</dict>
+</plist>

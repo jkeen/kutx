@@ -69,6 +69,7 @@ angular.module('kutPlayer.services', []).
           shows = shows.concat(today);
         });
         
+        console.log(shows)
         var sorted = _.sortBy(shows, function(show) { return new Date(show.start_utc); }).reverse();
         var combined = [];
         

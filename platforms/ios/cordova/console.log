@@ -470,3 +470,51 @@
 2014-01-29 15:21:03.180 KUTX[79216:80b] checking show 0 / 3
 2014-01-29 15:21:03.180 KUTX[79216:80b] checking show 1 / 3
 2014-01-29 15:21:03.180 KUTX[79216:80b] checking show 2 / 3
+2014-11-06 17:57:36.589 KUTX[20652:151646] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/jeff/Library/Developer/CoreSimulator/Devices/837BC73A-8A0E-4582-B502-2004E59615D7/data/Containers/Data/Application/1D86983C-4FD5-4439-AB8B-A002C76888C7/Library/Cookies/Cookies.binarycookies
+2014-11-06 17:57:36.682 KUTX[20652:151646] Multi-tasking -> Device: YES, App: YES
+2014-11-06 17:57:37.688 KUTX[20652:151646] WARNING: The splashscreen image named LaunchImage was not found
+2014-11-06 17:57:37.689 KUTX[20652:151646] [CDVTimer][splashscreen] 166.394055ms
+2014-11-06 17:57:37.689 KUTX[20652:151646] [CDVTimer][TotalPluginStartup] 166.509986ms
+2014-11-06 17:57:37.800 KUTX[20652:151646] WARNING: The splashscreen image named LaunchImage was not found
+2014-11-06 17:57:37.804 KUTX[20652:151646] WARNING: The splashscreen image named LaunchImage was not found
+2014-11-06 17:57:37.805 KUTX[20652:151646] WARNING: The splashscreen image named LaunchImage was not found
+2014-11-06 17:57:38.204 KUTX[20652:151646] Resetting plugins due to page load.
+2014-11-06 17:57:38.460 KUTX[20652:151646] Finished load of: file:///Users/jeff/Library/Developer/CoreSimulator/Devices/837BC73A-8A0E-4582-B502-2004E59615D7/data/Containers/Bundle/Application/98C1EA78-8B09-45E3-BAD0-7B53F4DFEDAF/KUTX.app/www/index.html#/splash
+2014-11-06 17:57:39.428 KUTX[20652:151646] hello from fetch and load
+2014-11-06 17:57:39.433 KUTX[20652:151646] online
+2014-11-06 17:57:39.518 KUTX[20652:151646] source: http://pubint.ic.llnwd.net/stream/pubint_kut2
+2014-11-06 17:57:39.930 KUTX[20652:151646] fetching date 2014-11-06
+2014-11-06 17:57:39.930 KUTX[20652:151646] load more items = 0
+2014-11-06 17:57:40.101 KUTX[20652:151646] load more items = undefined
+2014-11-06 17:57:55.087 KUTX[20809:152979] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/jeff/Library/Developer/CoreSimulator/Devices/837BC73A-8A0E-4582-B502-2004E59615D7/data/Containers/Data/Application/B46A2E34-2319-40CF-8F67-20019157F0FF/Library/Cookies/Cookies.binarycookies
+2014-11-06 17:57:55.141 KUTX[20809:152979] Multi-tasking -> Device: YES, App: YES
+2014-11-06 17:57:55.272 KUTX[20809:152979] WARNING: The splashscreen image named LaunchImage was not found
+2014-11-06 17:57:55.272 KUTX[20809:152979] [CDVTimer][splashscreen] 9.833038ms
+2014-11-06 17:57:55.272 KUTX[20809:152979] [CDVTimer][TotalPluginStartup] 9.932995ms
+2014-11-06 17:57:55.275 KUTX[20809:152979] WARNING: The splashscreen image named LaunchImage was not found
+2014-11-06 17:57:55.279 KUTX[20809:152979] WARNING: The splashscreen image named LaunchImage was not found
+2014-11-06 17:57:55.279 KUTX[20809:152979] WARNING: The splashscreen image named LaunchImage was not found
+2014-11-06 17:57:55.340 KUTX[20809:152979] Resetting plugins due to page load.
+2014-11-06 17:57:55.468 KUTX[20809:152979] Finished load of: file:///Users/jeff/Library/Developer/CoreSimulator/Devices/837BC73A-8A0E-4582-B502-2004E59615D7/data/Containers/Bundle/Application/6C362C46-E61C-4142-B70F-384231E6E5C8/KUTX.app/www/index.html#/splash
+2014-11-06 17:57:56.476 KUTX[20809:152979] hello from fetch and load
+2014-11-06 17:57:56.482 KUTX[20809:152979] online
+2014-11-06 17:57:56.584 KUTX[20809:152979] source: http://pubint.ic.llnwd.net/stream/pubint_kut2
+2014-11-06 17:57:56.752 KUTX[20809:152979] fetching date 2014-11-06
+2014-11-06 17:57:56.752 KUTX[20809:152979] load more items = 0
+2014-11-06 17:57:56.863 KUTX[20809:152979] load more items = undefined
+2014-11-06 18:03:43.693 KUTX[21111:157370] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/jeff/Library/Developer/CoreSimulator/Devices/837BC73A-8A0E-4582-B502-2004E59615D7/data/Containers/Data/Application/6E31AED5-5F3B-463D-90EB-0A85FF4F885A/Library/Cookies/Cookies.binarycookies
+2014-11-06 18:03:43.753 KUTX[21111:157370] Multi-tasking -> Device: YES, App: YES
+2014-11-06 18:03:43.883 KUTX[21111:157370] WARNING: The splashscreen image named LaunchImage was not found
+2014-11-06 18:03:43.883 KUTX[21111:157370] [CDVTimer][splashscreen] 9.825945ms
+2014-11-06 18:03:43.883 KUTX[21111:157370] [CDVTimer][TotalPluginStartup] 9.932041ms
+2014-11-06 18:03:43.885 KUTX[21111:157370] WARNING: The splashscreen image named LaunchImage was not found
+2014-11-06 18:03:43.890 KUTX[21111:157370] WARNING: The splashscreen image named LaunchImage was not found
+2014-11-06 18:03:43.890 KUTX[21111:157370] WARNING: The splashscreen image named LaunchImage was not found
+2014-11-06 18:03:43.939 KUTX[21111:157370] Resetting plugins due to page load.
+2014-11-06 18:03:44.099 KUTX[21111:157370] Finished load of: file:///Users/jeff/Library/Developer/CoreSimulator/Devices/837BC73A-8A0E-4582-B502-2004E59615D7/data/Containers/Bundle/Application/332E996E-7AE7-4690-B72C-7507B5DFD6F8/KUTX.app/www/index.html#/splash
+2014-11-06 18:03:45.072 KUTX[21111:157370] hello from fetch and load
+2014-11-06 18:03:45.077 KUTX[21111:157370] online
+2014-11-06 18:03:45.181 KUTX[21111:157370] source: http://pubint.ic.llnwd.net/stream/pubint_kut2
+2014-11-06 18:03:45.329 KUTX[21111:157370] fetching date 2014-11-06
+2014-11-06 18:03:45.329 KUTX[21111:157370] load more items = 0
+2014-11-06 18:03:45.510 KUTX[21111:157370] load more items = undefined

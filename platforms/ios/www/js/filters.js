@@ -233,12 +233,7 @@ angular.module('kutPlayer.filters', []).
 				return '';
 			}
 
-			if (!isNaN(parseFloat(value)) && isFinite(value)) {
-				// Milliseconds since the epoch
-				value = new Date(parseInt(value, 10));
-			}
-			// else assume the given value is already a date
-			return $window.moment(Date.parse(value.replace(/-/g, '/'))).format(format);
+      return $window.moment(value).format(format);
 		};
 	}])
 	.filter('amDurationFormat', ['$window', function ($window) {

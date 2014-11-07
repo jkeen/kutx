@@ -82,12 +82,12 @@
     <preference name="OpenAllWhitelistURLsInWebView" value="false" />
     <preference name="BackupWebStorage" value="cloud" />
     <preference name="DisallowOverscroll" value="true" />
-    <feature name="Console">
-        <param name="ios-package" value="CDVLogger" />
-    </feature>
     <feature name="SplashScreen">
         <param name="ios-package" value="CDVSplashScreen" />
         <param name="onload" value="true" />
+    </feature>
+    <feature name="Console">
+        <param name="ios-package" value="CDVLogger" />
     </feature>
     <name>KUTX</name>
     <description>
@@ -119,7 +119,6 @@
     <cdv:splash cdv:platform="ios" height="640" src="res/screen/iphone_retina_landscape.png" width="960" />
     <cdv:splash cdv:platform="ios" height="960" src="res/screen/iphone_retina_portrait.png" width="640" />
     <cdv:splash cdv:platform="winphone" height="800" src="res/screen/windows_phone_portrait.jpg" width="480" />
-    <feature name="http://api.phonegap.com/1.0/device" />
     <preference name="phonegap-version" value="1.9.0" />
     <preference name="orientation" value="default" />
     <preference name="target-device" value="universal" />
